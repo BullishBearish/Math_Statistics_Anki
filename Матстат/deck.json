@@ -63,7 +63,6 @@
                     ],
                     "flags": 0,
                     "guid": "A9s~j3O!s@",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -76,7 +75,6 @@
                     ],
                     "flags": 0,
                     "guid": "ppCqCod=7#",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -89,33 +87,6 @@
                     ],
                     "flags": 0,
                     "guid": "OoPYDKN-i%",
-                    "newlyAdded": false,
-                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "фафыва",
-                        "фвыафывафагууууууууууууууууууууууу"
-                    ],
-                    "flags": 0,
-                    "guid": "KV%qKtsln",
-                    "newlyAdded": false,
-                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "фыавыва",
-                        "2222222222222222222"
-                    ],
-                    "flags": 0,
-                    "guid": "m9UseIaE%W",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -128,7 +99,42 @@
                     ],
                     "flags": 0,
                     "guid": "lFuJ5.Z)gL",
-                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "фафыва",
+                        "фвыафывафагууууууууууууууууууууууу"
+                    ],
+                    "flags": 0,
+                    "guid": "KV%qKtsln",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "фыавыва",
+                        "2222222222222222222"
+                    ],
+                    "flags": 0,
+                    "guid": "m9UseIaE%W",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "опгп",
+                        "иопри"
+                    ],
+                    "flags": 0,
+                    "guid": "p,lPAU7`]u",
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
