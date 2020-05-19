@@ -13,7 +13,73 @@
             "media_files": [],
             "mid": "1578240762825",
             "name": "Гипотезы А",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "$$ \\frac{4}5 $$",
+                        "fff"
+                    ],
+                    "flags": 0,
+                    "guid": "^&i{y4tuK",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "$$ \\frac{int}{in2}$$ opisanie $$slovo v texe$$",
+                        "ans"
+                    ],
+                    "flags": 0,
+                    "guid": "ibi#yJ/#LR",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "поставим дело ребром $$ \\frac{3}{int$$&nbsp;",
+                        "ответ"
+                    ],
+                    "flags": 0,
+                    "guid": "ptG9,#%IB[",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "тест в 16:00 19 мая",
+                        "1"
+                    ],
+                    "flags": 0,
+                    "guid": "ep*zad!/Hv",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "тест в 16:00 19 мая 2",
+                        "2"
+                    ],
+                    "flags": 0,
+                    "guid": "iRU.}84VQR",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -24,7 +90,10 @@
             "dyn": 0,
             "extendNew": 10,
             "extendRev": 50,
-            "media_files": [],
+            "media_files": [
+                "latex-9db526203e5d2727026476b141b960867837f9fd.png",
+                "latex-eb946338365d9781f7d2e9ec692c26702d0ae3a7.png"
+            ],
             "mid": "1589816686489",
             "name": "Гипотезы П",
             "notes": [
@@ -36,7 +105,46 @@
                     ],
                     "flags": 0,
                     "guid": "IcNYFps<Gt",
+                    "newlyAdded": false,
                     "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Демешев {{c1::крутой}}"
+                    ],
+                    "flags": 0,
+                    "guid": "rRF/VQxUg8",
+                    "newlyAdded": false,
+                    "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[latex]\\frac{1}{2}[/latex] = ?",
+                        "0.5"
+                    ],
+                    "flags": 0,
+                    "guid": "xXHIcviC<%",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[latex]\\frac{1}{2} = ?[/latex]",
+                        "0.5"
+                    ],
+                    "flags": 0,
+                    "guid": "QF?J]D.Rpw",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 }
             ]
@@ -62,6 +170,7 @@
                     ],
                     "flags": 0,
                     "guid": "e0(-8#/<`i",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -74,6 +183,7 @@
                     ],
                     "flags": 0,
                     "guid": "I8Rz=Bhnl7",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -88,9 +198,181 @@
             "dyn": 0,
             "extendNew": 10,
             "extendRev": 50,
-            "media_files": [],
+            "media_files": [
+                "paste-586a141bf177e3ea89c23dcc71827790e79ca35a.jpg"
+            ],
             "name": "Тестовая дека",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<img src=\"paste-586a141bf177e3ea89c23dcc71827790e79ca35a.jpg\">",
+                        "фвыавыа"
+                    ],
+                    "flags": 0,
+                    "guid": "A9s~j3O!s@",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "dsfa",
+                        "sdfas"
+                    ],
+                    "flags": 0,
+                    "guid": "ppCqCod=7#",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "asdfad",
+                        "asdfadf"
+                    ],
+                    "flags": 0,
+                    "guid": "OoPYDKN-i%",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "dafdsfasdf",
+                        "d11111111111111111111111111111111111111"
+                    ],
+                    "flags": 0,
+                    "guid": "lFuJ5.Z)gL",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "фафыва",
+                        "фвыафывафагууууууууууууууууууууууу"
+                    ],
+                    "flags": 0,
+                    "guid": "KV%qKtsln",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "фыавыва",
+                        "2222222222222222222"
+                    ],
+                    "flags": 0,
+                    "guid": "m9UseIaE%W",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "опгп",
+                        "иопри"
+                    ],
+                    "flags": 0,
+                    "guid": "p,lPAU7`]u",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "жд",
+                        "го"
+                    ],
+                    "flags": 0,
+                    "guid": "Q>$&tTRdcK",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "трт",
+                        "бтдл"
+                    ],
+                    "flags": 0,
+                    "guid": "lAU(A$[aa",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "10 утра",
+                        "Милана"
+                    ],
+                    "flags": 0,
+                    "guid": "JL>VSg8@2:",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "вав",
+                        "фвафыва"
+                    ],
+                    "flags": 0,
+                    "guid": "iC08S!;nPT",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "$\\frac{1}{2} = ?$",
+                        "0.5"
+                    ],
+                    "flags": 0,
+                    "guid": "zYR,waWj6q",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "$\\frac{1}{2}$ - это сколько?",
+                        "0.5"
+                    ],
+                    "flags": 0,
+                    "guid": "ro}-zVOuLT",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -169,6 +451,59 @@
     "media_files": [],
     "name": "Матстат",
     "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+            "css": ".card {\nfont-family: calibri;\nfont-size: 10px;\ntext-align: center;\ncolor: black;\nbackground-color: white;\n}\nimg {\nwidth: auto;\nheight: auto;\nmax-height:1000px;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt,]{article}\n\\usepackage{amsmath,amsthm,amssymb}\n\\usepackage{mathtext}\n\\usepackage[T1,T2A]{fontenc}\n\\usepackage[utf8]{inputenc}\n\\usepackage[english,bulgarian,ukrainian,russian]{babel}\n\\usepackage{soul}\n\\usepackage{amsmath} \n\\usepackage{amsfonts}\n\\usepackage{amssymb}\n\\usepackage{mathpazo} \n\n\\usepackage{listings} \n\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "LaTeX",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n  \n<hr id=answer>\n  \n[latex]{{Back}}[/latex]",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "[latex]{{Front}}[/latex]"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
