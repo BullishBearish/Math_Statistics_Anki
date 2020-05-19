@@ -186,6 +186,30 @@
                     "guid": "lAU(A$[aa",
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "10 утра",
+                        "Милана"
+                    ],
+                    "flags": 0,
+                    "guid": "JL>VSg8@2:",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "вав",
+                        "фвафыва"
+                    ],
+                    "flags": 0,
+                    "guid": "iC08S!;nPT",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
                 }
             ]
         }
@@ -284,7 +308,7 @@
             "req": [
                 [
                     0,
-                    "any",
+                    "all",
                     [
                         0
                     ]
