@@ -48,7 +48,6 @@
                     ],
                     "flags": 0,
                     "guid": "e0(-8#/<`i",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -61,7 +60,6 @@
                     ],
                     "flags": 0,
                     "guid": "I8Rz=Bhnl7",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -90,7 +88,6 @@
                     ],
                     "flags": 0,
                     "guid": "A9s~j3O!s@",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -103,7 +100,6 @@
                     ],
                     "flags": 0,
                     "guid": "ppCqCod=7#",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -116,33 +112,6 @@
                     ],
                     "flags": 0,
                     "guid": "OoPYDKN-i%",
-                    "newlyAdded": false,
-                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "фафыва",
-                        "фвыафывафагууууууууууууууууууууууу"
-                    ],
-                    "flags": 0,
-                    "guid": "KV%qKtsln",
-                    "newlyAdded": false,
-                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "фыавыва",
-                        "2222222222222222222"
-                    ],
-                    "flags": 0,
-                    "guid": "m9UseIaE%W",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -155,7 +124,6 @@
                     ],
                     "flags": 0,
                     "guid": "lFuJ5.Z)gL",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -163,12 +131,11 @@
                     "__type__": "Note",
                     "data": "",
                     "fields": [
-                        "жд",
-                        "го"
+                        "фафыва",
+                        "фвыафывафагууууууууууууууууууууууу"
                     ],
                     "flags": 0,
-                    "guid": "Q>$&tTRdcK",
-                    "newlyAdded": false,
+                    "guid": "KV%qKtsln",
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -176,12 +143,11 @@
                     "__type__": "Note",
                     "data": "",
                     "fields": [
-                        "трт",
-                        "бтдл"
+                        "фыавыва",
+                        "2222222222222222222"
                     ],
                     "flags": 0,
-                    "guid": "lAU(A$[aa",
-                    "newlyAdded": false,
+                    "guid": "m9UseIaE%W",
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -194,7 +160,30 @@
                     ],
                     "flags": 0,
                     "guid": "p,lPAU7`]u",
-                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "жд",
+                        "го"
+                    ],
+                    "flags": 0,
+                    "guid": "Q>$&tTRdcK",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "трт",
+                        "бтдл"
+                    ],
+                    "flags": 0,
+                    "guid": "lAU(A$[aa",
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
