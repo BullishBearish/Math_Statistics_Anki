@@ -92,9 +92,10 @@
             "extendRev": 50,
             "media_files": [
                 "latex-9db526203e5d2727026476b141b960867837f9fd.png",
-                "latex-eb946338365d9781f7d2e9ec692c26702d0ae3a7.png"
+                "latex-eb946338365d9781f7d2e9ec692c26702d0ae3a7.png",
+                "paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg"
             ],
-            "mid": "1589816686489",
+            "mid": "1589816686493",
             "name": "Гипотезы П",
             "notes": [
                 {
@@ -145,6 +146,31 @@
                     "guid": "QF?J]D.Rpw",
                     "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Гипотеза - это {{c1::любое утверждение о виде или свойствах распределения}}"
+                    ],
+                    "flags": 0,
+                    "guid": "Ep5e$6<B#h",
+                    "newlyAdded": false,
+                    "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Какие два вида принимает гипотеза о распределении?",
+                        "<img src=\"paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg\">"
+                    ],
+                    "flags": 0,
+                    "guid": "HLQgNqPknT",
+                    "newlyAdded": false,
+                    "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 }
             ]
@@ -545,6 +571,58 @@
                 }
             ],
             "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
             "vers": []
         },
         {
