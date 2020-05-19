@@ -62,9 +62,12 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [
+        "paste-4c42b9aa8a90fb89c6f3c48f73c1547f02c84eb7.jpg",
+        "paste-55e7ef8961ce1aed24df3003e6caee2bb2e50c66.jpg",
+        "paste-711f6411ba78c70ac0c1c3fdd323ba91f0c6b76d.jpg",
         "paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg"
     ],
-    "mid": "1589816686493",
+    "mid": "1589915209506",
     "name": "Гипотезы П",
     "note_models": [
         {
@@ -185,6 +188,58 @@
             ],
             "flags": 0,
             "guid": "HLQgNqPknT",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза об однородности",
+                "<img src=\"paste-55e7ef8961ce1aed24df3003e6caee2bb2e50c66.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "AmIfO/EN%f",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза о независимости",
+                "<img src=\"paste-711f6411ba78c70ac0c1c3fdd323ba91f0c6b76d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "rk5&:^@Q_+",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза о случайности",
+                "<img src=\"paste-4c42b9aa8a90fb89c6f3c48f73c1547f02c84eb7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "3`P}FM4V?",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(H_0: \\theta \\in \\Theta_0\\)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kEA5Mz,Nnq",
             "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
