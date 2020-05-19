@@ -23,6 +23,33 @@
                     ],
                     "flags": 0,
                     "guid": "ib}DP6/d0^",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "444444444555555555555",
+                        "4444444445555555555"
+                    ],
+                    "flags": 0,
+                    "guid": "Jd{5oEwsma",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "444444",
+                        "44444"
+                    ],
+                    "flags": 0,
+                    "guid": "FN2_4#K01!",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -47,56 +74,11 @@
                     "__type__": "Note",
                     "data": "",
                     "fields": [
-                        "Коссова - {{c1::королева}}"
-                    ],
-                    "flags": 0,
-                    "guid": "IcNYFps<Gt",
-                    "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "Демешев {{c1::крутой}}"
-                    ],
-                    "flags": 0,
-                    "guid": "rRF/VQxUg8",
-                    "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "[latex]\\frac{1}{2}[/latex] = ?",
-                        "0.5"
-                    ],
-                    "flags": 0,
-                    "guid": "xXHIcviC<%",
-                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "[latex]\\frac{1}{2} = ?[/latex]",
-                        "0.5"
-                    ],
-                    "flags": 0,
-                    "guid": "QF?J]D.Rpw",
-                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
                         "Гипотеза - это {{c1::любое утверждение о виде или свойствах распределения}}"
                     ],
                     "flags": 0,
                     "guid": "Ep5e$6<B#h",
+                    "newlyAdded": false,
                     "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
                     "tags": []
                 },
@@ -109,6 +91,7 @@
                     ],
                     "flags": 0,
                     "guid": "HLQgNqPknT",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 }
@@ -135,6 +118,7 @@
                     ],
                     "flags": 0,
                     "guid": "e0(-8#/<`i",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -147,6 +131,7 @@
                     ],
                     "flags": 0,
                     "guid": "I8Rz=Bhnl7",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -175,6 +160,7 @@
                     ],
                     "flags": 0,
                     "guid": "A9s~j3O!s@",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -187,6 +173,7 @@
                     ],
                     "flags": 0,
                     "guid": "ppCqCod=7#",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -199,6 +186,7 @@
                     ],
                     "flags": 0,
                     "guid": "OoPYDKN-i%",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -211,6 +199,7 @@
                     ],
                     "flags": 0,
                     "guid": "lFuJ5.Z)gL",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -223,6 +212,7 @@
                     ],
                     "flags": 0,
                     "guid": "KV%qKtsln",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -235,6 +225,7 @@
                     ],
                     "flags": 0,
                     "guid": "m9UseIaE%W",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -247,6 +238,7 @@
                     ],
                     "flags": 0,
                     "guid": "p,lPAU7`]u",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -259,6 +251,7 @@
                     ],
                     "flags": 0,
                     "guid": "Q>$&tTRdcK",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -271,6 +264,7 @@
                     ],
                     "flags": 0,
                     "guid": "lAU(A$[aa",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -283,6 +277,7 @@
                     ],
                     "flags": 0,
                     "guid": "JL>VSg8@2:",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -295,6 +290,7 @@
                     ],
                     "flags": 0,
                     "guid": "iC08S!;nPT",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -307,6 +303,7 @@
                     ],
                     "flags": 0,
                     "guid": "zYR,waWj6q",
+                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -319,6 +316,7 @@
                     ],
                     "flags": 0,
                     "guid": "ro}-zVOuLT",
+                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -331,6 +329,7 @@
                     ],
                     "flags": 0,
                     "guid": "zhsH.H3r,@",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -343,6 +342,7 @@
                     ],
                     "flags": 0,
                     "guid": "m61<b^j4_n",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -355,6 +355,7 @@
                     ],
                     "flags": 0,
                     "guid": "w(_H7R?dZ9",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -367,6 +368,7 @@
                     ],
                     "flags": 0,
                     "guid": "ADXrG*l_f0",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -379,6 +381,7 @@
                     ],
                     "flags": 0,
                     "guid": "IF888u)6Q@",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -391,6 +394,7 @@
                     ],
                     "flags": 0,
                     "guid": "i5`{{JR>+2",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -403,6 +407,7 @@
                     ],
                     "flags": 0,
                     "guid": "&pgW/Xj7(",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -415,6 +420,7 @@
                     ],
                     "flags": 0,
                     "guid": "t{~&&4sfFh",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 }
@@ -429,9 +435,36 @@
             "dyn": 0,
             "extendNew": 10,
             "extendRev": 50,
-            "media_files": [],
+            "media_files": [
+                "latex-9db526203e5d2727026476b141b960867837f9fd.png",
+                "latex-eb946338365d9781f7d2e9ec692c26702d0ae3a7.png"
+            ],
             "name": "Мусор",
             "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Коссова - {{c1::королева}}"
+                    ],
+                    "flags": 0,
+                    "guid": "IcNYFps<Gt",
+                    "newlyAdded": false,
+                    "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Демешев {{c1::крутой}}"
+                    ],
+                    "flags": 0,
+                    "guid": "rRF/VQxUg8",
+                    "newlyAdded": false,
+                    "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+                    "tags": []
+                },
                 {
                     "__type__": "Note",
                     "data": "",
@@ -441,6 +474,7 @@
                     ],
                     "flags": 0,
                     "guid": "^&i{y4tuK",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -453,6 +487,7 @@
                     ],
                     "flags": 0,
                     "guid": "ibi#yJ/#LR",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -465,6 +500,7 @@
                     ],
                     "flags": 0,
                     "guid": "ptG9,#%IB[",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -477,6 +513,7 @@
                     ],
                     "flags": 0,
                     "guid": "ep*zad!/Hv",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -489,7 +526,34 @@
                     ],
                     "flags": 0,
                     "guid": "iRU.}84VQR",
+                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[latex]\\frac{1}{2}[/latex] = ?",
+                        "0.5"
+                    ],
+                    "flags": 0,
+                    "guid": "xXHIcviC<%",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[latex]\\frac{1}{2} = ?[/latex]",
+                        "0.5"
+                    ],
+                    "flags": 0,
+                    "guid": "QF?J]D.Rpw",
+                    "newlyAdded": false,
+                    "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 }
             ]
@@ -656,6 +720,58 @@
         },
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
             "css": ".card {\nfont-family: calibri;\nfont-size: 10px;\ntext-align: center;\ncolor: black;\nbackground-color: white;\n}\nimg {\nwidth: auto;\nheight: auto;\nmax-height:1000px;\n}\n",
             "flds": [
@@ -702,58 +818,6 @@
                     "name": "Card 1",
                     "ord": 0,
                     "qfmt": "[latex]{{Front}}[/latex]"
-                }
-            ],
-            "type": 0,
-            "vers": []
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Front",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Back",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "Basic",
-            "req": [
-                [
-                    0,
-                    "all",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
-                    "bafmt": "",
-                    "bqfmt": "",
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "{{Front}}"
                 }
             ],
             "type": 0,
