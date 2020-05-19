@@ -38,7 +38,34 @@
             "extendRev": 50,
             "media_files": [],
             "name": "Гипотезы М",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "прив",
+                        "ет"
+                    ],
+                    "flags": 0,
+                    "guid": "e0(-8#/<`i",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "привету",
+                        "ли"
+                    ],
+                    "flags": 0,
+                    "guid": "I8Rz=Bhnl7",
+                    "newlyAdded": false,
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -268,7 +295,7 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
