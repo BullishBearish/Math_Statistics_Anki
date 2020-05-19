@@ -172,6 +172,7 @@
             ],
             "flags": 0,
             "guid": "Ep5e$6<B#h",
+            "newlyAdded": false,
             "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
             "tags": []
         },
@@ -184,6 +185,7 @@
             ],
             "flags": 0,
             "guid": "HLQgNqPknT",
+            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         }
