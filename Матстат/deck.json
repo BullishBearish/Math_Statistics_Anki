@@ -24,8 +24,22 @@
             "extendNew": 10,
             "extendRev": 50,
             "media_files": [],
+            "mid": "1589816686489",
             "name": "Гипотезы П",
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Коссова - {{c1::королева}}"
+                    ],
+                    "flags": 0,
+                    "guid": "IcNYFps<Gt",
+                    "newlyAdded": false,
+                    "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+                    "tags": []
+                }
+            ]
         },
         {
             "__type__": "Deck",
@@ -48,6 +62,7 @@
                     ],
                     "flags": 0,
                     "guid": "e0(-8#/<`i",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -60,6 +75,7 @@
                     ],
                     "flags": 0,
                     "guid": "I8Rz=Bhnl7",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -88,6 +104,7 @@
                     ],
                     "flags": 0,
                     "guid": "A9s~j3O!s@",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -100,6 +117,7 @@
                     ],
                     "flags": 0,
                     "guid": "ppCqCod=7#",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -112,6 +130,7 @@
                     ],
                     "flags": 0,
                     "guid": "OoPYDKN-i%",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -124,6 +143,7 @@
                     ],
                     "flags": 0,
                     "guid": "lFuJ5.Z)gL",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -136,6 +156,7 @@
                     ],
                     "flags": 0,
                     "guid": "KV%qKtsln",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -148,6 +169,7 @@
                     ],
                     "flags": 0,
                     "guid": "m9UseIaE%W",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -160,6 +182,7 @@
                     ],
                     "flags": 0,
                     "guid": "p,lPAU7`]u",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -172,6 +195,7 @@
                     ],
                     "flags": 0,
                     "guid": "Q>$&tTRdcK",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -184,6 +208,7 @@
                     ],
                     "flags": 0,
                     "guid": "lAU(A$[aa",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -196,6 +221,7 @@
                     ],
                     "flags": 0,
                     "guid": "JL>VSg8@2:",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -208,6 +234,7 @@
                     ],
                     "flags": 0,
                     "guid": "iC08S!;nPT",
+                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -279,6 +306,49 @@
     "note_models": [
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
             "css": ".card {\n font-family: calibri;\n font-size: 20px;\n text-align: center;\n color: darkslategray;\n background-color: white;\n}\n.typeGood {\n  \n  background-color: #FFFFFF;\n}\n\n.typeBad {\n  background-color: #FFFFFF;\n}\n\n.typeMissed {\n  background-color: #FFFFFF;\n}\n\n#typeans {\n  width: 50%;\n}",
             "flds": [
@@ -304,7 +374,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basic",
+            "name": "Basic-a7180",
             "req": [
                 [
                     0,
