@@ -18,51 +18,11 @@
                     "__type__": "Note",
                     "data": "",
                     "fields": [
-                        "444444",
-                        "44444"
-                    ],
-                    "flags": 0,
-                    "guid": "FN2_4#K01!",
-                    "newlyAdded": false,
-                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
                         "44",
                         "444"
                     ],
                     "flags": 0,
                     "guid": "ib}DP6/d0^",
-                    "newlyAdded": false,
-                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "444",
-                        "44"
-                    ],
-                    "flags": 0,
-                    "guid": "zhsH.H3r,@",
-                    "newlyAdded": false,
-                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "444444444555555555555",
-                        "4444444445555555555"
-                    ],
-                    "flags": 0,
-                    "guid": "Jd{5oEwsma",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -91,7 +51,6 @@
                     ],
                     "flags": 0,
                     "guid": "IcNYFps<Gt",
-                    "newlyAdded": false,
                     "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
                     "tags": []
                 },
@@ -103,7 +62,6 @@
                     ],
                     "flags": 0,
                     "guid": "rRF/VQxUg8",
-                    "newlyAdded": false,
                     "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
                     "tags": []
                 },
@@ -116,7 +74,6 @@
                     ],
                     "flags": 0,
                     "guid": "xXHIcviC<%",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -129,7 +86,6 @@
                     ],
                     "flags": 0,
                     "guid": "QF?J]D.Rpw",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -141,7 +97,6 @@
                     ],
                     "flags": 0,
                     "guid": "Ep5e$6<B#h",
-                    "newlyAdded": false,
                     "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
                     "tags": []
                 },
@@ -154,7 +109,6 @@
                     ],
                     "flags": 0,
                     "guid": "HLQgNqPknT",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 }
@@ -181,7 +135,6 @@
                     ],
                     "flags": 0,
                     "guid": "e0(-8#/<`i",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -194,7 +147,6 @@
                     ],
                     "flags": 0,
                     "guid": "I8Rz=Bhnl7",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -212,7 +164,6 @@
             "media_files": [
                 "paste-586a141bf177e3ea89c23dcc71827790e79ca35a.jpg"
             ],
-            "mid": "1589900811738",
             "name": "Тестовая дека",
             "notes": [
                 {
@@ -224,7 +175,6 @@
                     ],
                     "flags": 0,
                     "guid": "A9s~j3O!s@",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -237,7 +187,6 @@
                     ],
                     "flags": 0,
                     "guid": "ppCqCod=7#",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -250,7 +199,6 @@
                     ],
                     "flags": 0,
                     "guid": "OoPYDKN-i%",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -263,7 +211,6 @@
                     ],
                     "flags": 0,
                     "guid": "lFuJ5.Z)gL",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -276,7 +223,6 @@
                     ],
                     "flags": 0,
                     "guid": "KV%qKtsln",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -289,7 +235,6 @@
                     ],
                     "flags": 0,
                     "guid": "m9UseIaE%W",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -302,7 +247,6 @@
                     ],
                     "flags": 0,
                     "guid": "p,lPAU7`]u",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -315,7 +259,6 @@
                     ],
                     "flags": 0,
                     "guid": "Q>$&tTRdcK",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -328,7 +271,6 @@
                     ],
                     "flags": 0,
                     "guid": "lAU(A$[aa",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -341,7 +283,6 @@
                     ],
                     "flags": 0,
                     "guid": "JL>VSg8@2:",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -354,7 +295,6 @@
                     ],
                     "flags": 0,
                     "guid": "iC08S!;nPT",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -367,7 +307,6 @@
                     ],
                     "flags": 0,
                     "guid": "zYR,waWj6q",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -380,8 +319,19 @@
                     ],
                     "flags": 0,
                     "guid": "ro}-zVOuLT",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "444",
+                        "44"
+                    ],
+                    "flags": 0,
+                    "guid": "zhsH.H3r,@",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
                 {
@@ -393,7 +343,6 @@
                     ],
                     "flags": 0,
                     "guid": "m61<b^j4_n",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -406,7 +355,6 @@
                     ],
                     "flags": 0,
                     "guid": "w(_H7R?dZ9",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -419,7 +367,6 @@
                     ],
                     "flags": 0,
                     "guid": "ADXrG*l_f0",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -432,7 +379,6 @@
                     ],
                     "flags": 0,
                     "guid": "IF888u)6Q@",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -445,7 +391,6 @@
                     ],
                     "flags": 0,
                     "guid": "i5`{{JR>+2",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -458,7 +403,6 @@
                     ],
                     "flags": 0,
                     "guid": "&pgW/Xj7(",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -466,38 +410,11 @@
                     "__type__": "Note",
                     "data": "",
                     "fields": [
-                        "вапвапв",
-                        "вапвапа"
+                        "7777",
+                        "777777"
                     ],
                     "flags": 0,
-                    "guid": "M(Z8IzV-ss",
-                    "newlyAdded": false,
-                    "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "5675676575",
-                        "6756756"
-                    ],
-                    "flags": 0,
-                    "guid": "p3IOgT@!L!",
-                    "newlyAdded": false,
-                    "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "5656757",
-                        "567657"
-                    ],
-                    "flags": 0,
-                    "guid": "uW{>70?&>>",
-                    "newlyAdded": false,
+                    "guid": "t{~&&4sfFh",
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 }
@@ -524,7 +441,6 @@
                     ],
                     "flags": 0,
                     "guid": "^&i{y4tuK",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -537,7 +453,6 @@
                     ],
                     "flags": 0,
                     "guid": "ibi#yJ/#LR",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -550,7 +465,6 @@
                     ],
                     "flags": 0,
                     "guid": "ptG9,#%IB[",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -563,7 +477,6 @@
                     ],
                     "flags": 0,
                     "guid": "ep*zad!/Hv",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 },
@@ -576,34 +489,6 @@
                     ],
                     "flags": 0,
                     "guid": "iRU.}84VQR",
-                    "newlyAdded": false,
-                    "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-                    "tags": []
-                }
-            ]
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "e2f35709-99e7-11ea-8dd1-54271ec30a9a",
-            "deck_config_uuid": "257ae6a5-99e4-11ea-ab81-54271ec30a9a",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 10,
-            "extendRev": 50,
-            "media_files": [],
-            "name": "777",
-            "notes": [
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "5475",
-                        "457457"
-                    ],
-                    "flags": 0,
-                    "guid": "J+yP^1U:Ye",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 }
@@ -662,51 +547,6 @@
                 "maxIvl": 180,
                 "minSpace": 1,
                 "perDay": 9999
-            },
-            "timer": 0
-        },
-        {
-            "__type__": "DeckConfig",
-            "autoplay": true,
-            "crowdanki_uuid": "257ae6a5-99e4-11ea-ab81-54271ec30a9a",
-            "dyn": false,
-            "lapse": {
-                "delays": [
-                    10
-                ],
-                "leechAction": 0,
-                "leechFails": 8,
-                "minInt": 1,
-                "mult": 0
-            },
-            "maxTaken": 60,
-            "name": "Default",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1,
-                    10
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    7
-                ],
-                "order": 1,
-                "perDay": 20,
-                "separate": true
-            },
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "fuzz": 0.05,
-                "hardFactor": 1.2,
-                "ivlFct": 1,
-                "maxIvl": 36500,
-                "minSpace": 1,
-                "perDay": 200
             },
             "timer": 0
         }
@@ -897,7 +737,7 @@
             "req": [
                 [
                     0,
-                    "any",
+                    "all",
                     [
                         0
                     ]
