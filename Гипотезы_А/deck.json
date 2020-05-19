@@ -1,0 +1,69 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "ba402f36-992f-11ea-8211-28c63fc5d0c2",
+    "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 1,
+            "autoAnswer": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    30,
+                    1440,
+                    1440
+                ],
+                "leechAction": 1,
+                "leechFails": 4,
+                "minInt": 1,
+                "mult": 0.2
+            },
+            "maxTaken": 1800,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    40,
+                    1440,
+                    2880,
+                    7200,
+                    14400
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    7,
+                    7
+                ],
+                "order": 0,
+                "perDay": 50,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 180,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": "1578240762825",
+    "name": "Гипотезы А",
+    "note_models": [],
+    "notes": []
+}
