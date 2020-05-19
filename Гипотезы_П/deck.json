@@ -1,101 +1,7 @@
 {
     "__type__": "Deck",
-    "children": [
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ba402f36-992f-11ea-8211-28c63fc5d0c2",
-            "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 10,
-            "extendRev": 50,
-            "media_files": [],
-            "mid": "1578240762825",
-            "name": "Гипотезы А",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ba58139c-992f-11ea-b8ce-28c63fc5d0c2",
-            "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 10,
-            "extendRev": 50,
-            "media_files": [
-                "paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg"
-            ],
-            "mid": "1589816686493",
-            "name": "Гипотезы П",
-            "notes": [
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "Гипотеза - это {{c1::любое утверждение о виде или свойствах распределения}}"
-                    ],
-                    "flags": 0,
-                    "guid": "Ep5e$6<B#h",
-                    "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "data": "",
-                    "fields": [
-                        "Какие два вида принимает гипотеза о распределении?",
-                        "<img src=\"paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg\">"
-                    ],
-                    "flags": 0,
-                    "guid": "HLQgNqPknT",
-                    "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-                    "tags": []
-                }
-            ]
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ba712fb8-992f-11ea-8169-28c63fc5d0c2",
-            "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 10,
-            "extendRev": 50,
-            "media_files": [],
-            "name": "Гипотезы М",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "ba8b24be-992f-11ea-8a58-28c63fc5d0c2",
-            "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 10,
-            "extendRev": 50,
-            "media_files": [],
-            "name": "Тестовая дека",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "6c64230a-99d1-11ea-9866-28c63fc5d0c2",
-            "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 10,
-            "extendRev": 50,
-            "media_files": [],
-            "name": "Мусор",
-            "notes": []
-        }
-    ],
-    "crowdanki_uuid": "03bf0d86-9931-11ea-8080-28c63fc5d0c2",
+    "children": [],
+    "crowdanki_uuid": "ba58139c-992f-11ea-b8ce-28c63fc5d0c2",
     "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
     "deck_configurations": [
         {
@@ -155,8 +61,11 @@
     "dyn": 0,
     "extendNew": 10,
     "extendRev": 50,
-    "media_files": [],
-    "name": "Матстат",
+    "media_files": [
+        "paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg"
+    ],
+    "mid": "1589816686493",
+    "name": "Гипотезы П",
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -254,5 +163,29 @@
             "vers": []
         }
     ],
-    "notes": []
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза - это {{c1::любое утверждение о виде или свойствах распределения}}"
+            ],
+            "flags": 0,
+            "guid": "Ep5e$6<B#h",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Какие два вида принимает гипотеза о распределении?",
+                "<img src=\"paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "HLQgNqPknT",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        }
+    ]
 }
