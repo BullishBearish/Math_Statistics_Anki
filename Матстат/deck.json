@@ -23,7 +23,6 @@
                     ],
                     "flags": 0,
                     "guid": "^&i{y4tuK",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -36,7 +35,6 @@
                     ],
                     "flags": 0,
                     "guid": "ibi#yJ/#LR",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -49,7 +47,6 @@
                     ],
                     "flags": 0,
                     "guid": "ptG9,#%IB[",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -62,7 +59,6 @@
                     ],
                     "flags": 0,
                     "guid": "ep*zad!/Hv",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -75,8 +71,55 @@
                     ],
                     "flags": 0,
                     "guid": "iRU.}84VQR",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "444444",
+                        "44444"
+                    ],
+                    "flags": 0,
+                    "guid": "FN2_4#K01!",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "44",
+                        "444"
+                    ],
+                    "flags": 0,
+                    "guid": "ib}DP6/d0^",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "444",
+                        "44"
+                    ],
+                    "flags": 0,
+                    "guid": "zhsH.H3r,@",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "444444444",
+                        "444444444"
+                    ],
+                    "flags": 0,
+                    "guid": "Jd{5oEwsma",
+                    "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
             ]
@@ -91,8 +134,6 @@
             "extendNew": 10,
             "extendRev": 50,
             "media_files": [
-                "latex-9db526203e5d2727026476b141b960867837f9fd.png",
-                "latex-eb946338365d9781f7d2e9ec692c26702d0ae3a7.png",
                 "paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg"
             ],
             "mid": "1589816686493",
@@ -106,7 +147,6 @@
                     ],
                     "flags": 0,
                     "guid": "IcNYFps<Gt",
-                    "newlyAdded": false,
                     "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
                     "tags": []
                 },
@@ -118,7 +158,6 @@
                     ],
                     "flags": 0,
                     "guid": "rRF/VQxUg8",
-                    "newlyAdded": false,
                     "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
                     "tags": []
                 },
@@ -131,7 +170,6 @@
                     ],
                     "flags": 0,
                     "guid": "xXHIcviC<%",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -144,7 +182,6 @@
                     ],
                     "flags": 0,
                     "guid": "QF?J]D.Rpw",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -156,7 +193,6 @@
                     ],
                     "flags": 0,
                     "guid": "Ep5e$6<B#h",
-                    "newlyAdded": false,
                     "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
                     "tags": []
                 },
@@ -169,7 +205,6 @@
                     ],
                     "flags": 0,
                     "guid": "HLQgNqPknT",
-                    "newlyAdded": false,
                     "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
                     "tags": []
                 }
@@ -196,7 +231,6 @@
                     ],
                     "flags": 0,
                     "guid": "e0(-8#/<`i",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -209,7 +243,6 @@
                     ],
                     "flags": 0,
                     "guid": "I8Rz=Bhnl7",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 }
@@ -238,7 +271,6 @@
                     ],
                     "flags": 0,
                     "guid": "A9s~j3O!s@",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -251,7 +283,6 @@
                     ],
                     "flags": 0,
                     "guid": "ppCqCod=7#",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -264,7 +295,6 @@
                     ],
                     "flags": 0,
                     "guid": "OoPYDKN-i%",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -277,7 +307,6 @@
                     ],
                     "flags": 0,
                     "guid": "lFuJ5.Z)gL",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -290,7 +319,6 @@
                     ],
                     "flags": 0,
                     "guid": "KV%qKtsln",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -303,7 +331,6 @@
                     ],
                     "flags": 0,
                     "guid": "m9UseIaE%W",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -316,7 +343,6 @@
                     ],
                     "flags": 0,
                     "guid": "p,lPAU7`]u",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -329,7 +355,6 @@
                     ],
                     "flags": 0,
                     "guid": "Q>$&tTRdcK",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -342,7 +367,6 @@
                     ],
                     "flags": 0,
                     "guid": "lAU(A$[aa",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -355,7 +379,6 @@
                     ],
                     "flags": 0,
                     "guid": "JL>VSg8@2:",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -368,7 +391,6 @@
                     ],
                     "flags": 0,
                     "guid": "iC08S!;nPT",
-                    "newlyAdded": false,
                     "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
                     "tags": []
                 },
@@ -381,7 +403,6 @@
                     ],
                     "flags": 0,
                     "guid": "zYR,waWj6q",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 },
@@ -394,7 +415,6 @@
                     ],
                     "flags": 0,
                     "guid": "ro}-zVOuLT",
-                    "newlyAdded": false,
                     "note_model_uuid": "e3ce3080-99d0-11ea-ba61-28c63fc5d0c2",
                     "tags": []
                 }
@@ -532,6 +552,59 @@
         },
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+            "css": ".card {\n font-family: calibri;\n font-size: 20px;\n text-align: center;\n color: darkslategray;\n background-color: white;\n}\n.typeGood {\n  \n  background-color: #FFFFFF;\n}\n\n.typeBad {\n  background-color: #FFFFFF;\n}\n\n.typeMissed {\n  background-color: #FFFFFF;\n}\n\n#typeans {\n  width: 50%;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-a7180",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "\n{{FrontSide}}\n<br> \n<hr id=answer>\n<br> \n{{Back}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<br> \n{{Front}}\n\n<br> "
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
             "flds": [
@@ -620,59 +693,6 @@
                     "name": "Card 1",
                     "ord": 0,
                     "qfmt": "{{Front}}"
-                }
-            ],
-            "type": 0,
-            "vers": []
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
-            "css": ".card {\n font-family: calibri;\n font-size: 20px;\n text-align: center;\n color: darkslategray;\n background-color: white;\n}\n.typeGood {\n  \n  background-color: #FFFFFF;\n}\n\n.typeBad {\n  background-color: #FFFFFF;\n}\n\n.typeMissed {\n  background-color: #FFFFFF;\n}\n\n#typeans {\n  width: 50%;\n}",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Front",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Back",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basic-a7180",
-            "req": [
-                [
-                    0,
-                    "all",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "\n{{FrontSide}}\n<br> \n<hr id=answer>\n<br> \n{{Back}}\n",
-                    "bafmt": "",
-                    "bqfmt": "",
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "<br> \n{{Front}}\n\n<br> "
                 }
             ],
             "type": 0,
