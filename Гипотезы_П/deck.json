@@ -61,12 +61,7 @@
     "dyn": 0,
     "extendNew": 10,
     "extendRev": 50,
-    "media_files": [
-        "paste-4c42b9aa8a90fb89c6f3c48f73c1547f02c84eb7.jpg",
-        "paste-55e7ef8961ce1aed24df3003e6caee2bb2e50c66.jpg",
-        "paste-711f6411ba78c70ac0c1c3fdd323ba91f0c6b76d.jpg",
-        "paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg"
-    ],
+    "media_files": [],
     "mid": "1589915209506",
     "name": "Гипотезы П",
     "note_models": [
@@ -143,7 +138,7 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
@@ -184,7 +179,7 @@
             "data": "",
             "fields": [
                 "Какие два вида принимает гипотеза о распределении?",
-                "<img src=\"paste-927ed1dbd265f4e791a6fa71339ec6195bcd7e53.jpg\">"
+                "\\(H_{0}: F_{X_{1}}(x)=F_{0}(x)\\)<br>\\(H_{0}: F_{X_{1}}(x) \\in \\mathscr{F}_{\\theta}=\\{F_{\\theta}(x), x \\in (-\\infty, \\infty), \\theta \\in \\Theta\\}\\)"
             ],
             "flags": 0,
             "guid": "HLQgNqPknT",
@@ -197,7 +192,7 @@
             "data": "",
             "fields": [
                 "Гипотеза об однородности",
-                "<img src=\"paste-55e7ef8961ce1aed24df3003e6caee2bb2e50c66.jpg\">"
+                "\\(H_{0}: F_{X_1^{(1)}}(x)=F_{X_1^{(2)}}(x)=...=F_{X_1^{(k)}}(x)\\)<br>"
             ],
             "flags": 0,
             "guid": "AmIfO/EN%f",
@@ -210,7 +205,7 @@
             "data": "",
             "fields": [
                 "Гипотеза о независимости",
-                "<img src=\"paste-711f6411ba78c70ac0c1c3fdd323ba91f0c6b76d.jpg\">"
+                "\\(H_{0}: F_{(X_1,Y_1)'}(x,y) = F_{X_1}(x) \\times F_{Y_1}(y)\\)"
             ],
             "flags": 0,
             "guid": "rk5&:^@Q_+",
@@ -223,7 +218,7 @@
             "data": "",
             "fields": [
                 "Гипотеза о случайности",
-                "<img src=\"paste-4c42b9aa8a90fb89c6f3c48f73c1547f02c84eb7.jpg\">"
+                "\\(H_{0}: F_{(X_1,..,X_n)'}(x_1,..,x_n) = F_{X_1}(x_1) \\times F_{X_1}(x_2) \\times ... \\times F_{X_1}(x_n)\\)<br>"
             ],
             "flags": 0,
             "guid": "3`P}FM4V?",
@@ -235,11 +230,236 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "\\(H_0: \\theta \\in \\Theta_0\\)",
-                ""
+                "Критическая область - это {{c1::область тех значений выборки, для которых основная гипотеза отвергается}}."
             ],
             "flags": 0,
-            "guid": "kEA5Mz,Nnq",
+            "guid": "HY,ed%3Dv(",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Параметрическая гипотеза:<div>\\(X_1,..,X_n \\sim F_{\\theta}(x) \\in \\mathscr{F}_{\\theta}=\\{F_{\\theta}(x),\\theta \\in \\Theta\\}\\)<br>\\(H_0: {{c1::\\theta \\in \\Theta_0}}\\)<br>\\(H_1: {{c1::\\theta \\in \\Theta \\smallsetminus \\Theta_0 = \\Theta_1}}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "fi]&6s-JFM",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ошибка 1 рода",
+                "\\(x \\in \\mathscr{X}_1\\) и \\(\\theta \\in \\Theta_0\\)"
+            ],
+            "flags": 0,
+            "guid": "f)S8bc)131",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ошибка 2 рода",
+                "\\(x \\in \\mathscr{X}_0\\) и \\(\\theta \\in \\Theta_1\\)"
+            ],
+            "flags": 0,
+            "guid": "JDtX:+(xd3",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Формула вероятности ошибки первого рода",
+                "\\(P(\\text{принять } H_1|\\theta \\in \\Theta_0) \\le \\alpha\\)"
+            ],
+            "flags": 0,
+            "guid": "GWT0.H@Nf0",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Условие оптимальности критерия \\(\\mathscr{X}_1^*\\):",
+                "\\(P(X \\in \\mathscr{X}_0 = \\mathscr{X} \\setminus \\mathscr{X}_1 |\\theta \\in \\Theta_1)\\) наименьшая"
+            ],
+            "flags": 0,
+            "guid": "oElj|<_n)?",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Функция мощности",
+                "\\(W(\\theta)=W(\\mathscr{X}_1, \\theta)=P(X \\in \\mathscr{X}_1)\\)"
+            ],
+            "flags": 0,
+            "guid": "c6]bUYLHP6",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Равномерно наиболее мощный критерий",
+                "1) \\(W(\\mathscr{X}_1; \\theta) \\le \\alpha, \\theta \\in \\Theta_0\\)<br>2) \\(W(\\mathscr{X}_1^*; \\theta) \\ge W(\\mathscr{X}_1; \\theta), \\theta \\in \\Theta_1\\)"
+            ],
+            "flags": 0,
+            "guid": "w=%m}_DQu6",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Условие неотвержения основной гипотезы \\(H_0: \\mu = \\mu_0\\) при альтернативной \\(H_1: \\mu \\ne \\mu_0\\) и<div>\\(Z_p =\\dfrac{\\bar X - \\mu_0}{\\sigma / \\sqrt{n}} \\sim N(0,1)\\)<br></div>",
+                "\\(z_p \\in (-z_{\\frac{\\alpha}{2}};z_{\\frac{\\alpha}{2}})\\)"
+            ],
+            "flags": 0,
+            "guid": "dF%ssF.WzT",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Условие отвержения основной гипотезы \\(H_0: \\mu = \\mu_0\\) при альтернативной \\(H_1: \\mu \\ne \\mu_0\\) и<div>\\(Z_p =\\dfrac{\\bar X - \\mu_0}{\\sigma / \\sqrt{n}} \\sim N(0,1)\\)</div>",
+                "\\(z_p \\notin (-z_{\\frac{\\alpha}{2}};z_{\\frac{\\alpha}{2}})\\)"
+            ],
+            "flags": 0,
+            "guid": "d2uuceSR4L",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза о мат. ожидании, дисперсия известна<div>\\(H_1: \\mu &gt; \\mu_0 \\implies \\mathscr{X}_1: {{c1::z_p &gt; z_\\alpha}}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "wHlPA7P_wp",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Гипотеза о мат. ожидании, дисперсия известна<br></div>\\(H_1: \\mu &lt; \\mu_0 \\implies \\mathscr{X}_1: {{c1::z_p &lt; -z_\\alpha}}\\)"
+            ],
+            "flags": 0,
+            "guid": "vZryZ^uOk$",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Гипотеза о мат. ожидании, дисперсия неизвестна<br></div>\\(H_1: \\mu &lt; \\mu_0 \\implies \\mathscr{X}_1: {{c1::t_p &lt; -t_{\\alpha;n-1} }}\\)"
+            ],
+            "flags": 0,
+            "guid": "x~IK0eGwcD",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Гипотеза о мат. ожидании, дисперсия неизвестна<br></div>\\(H_1: \\mu &gt; \\mu_0 \\implies \\mathscr{X}_1: {{c1::t_p &gt; t_{\\alpha;n-1} }}\\)"
+            ],
+            "flags": 0,
+            "guid": "qpVoR+fL}h",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Гипотеза о мат. ожидании, дисперсия неизвестна<br></div>\\(H_1: \\mu \\ne \\mu_0 \\implies \\mathscr{X}_1: {{c1::|t_p| &gt; t_{\\frac{\\alpha}{2};n-1} }}\\)"
+            ],
+            "flags": 0,
+            "guid": "pVS&7#VG0}",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза о дисперсии, \\(\\gamma_p = \\dfrac{\\hat{\\sigma}^2}{\\sigma_0^2}(n-1) \\sim \\chi^2_{n-1}\\)<br>\\(H_1: \\sigma^2 \\ne \\sigma_0^2 \\implies \\mathscr{X}_1: {{c1::\\left[<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\begin{gathered}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\gamma_p &gt; \\chi^2_{n-1;1-\\frac{\\alpha}{2} } \\\\<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\gamma_p &lt; \\chi^2_{n-1;\\frac{\\alpha}{2} } \\\\<br>&nbsp;&nbsp;&nbsp; \\end{gathered}<br>&nbsp;&nbsp;&nbsp; \\right.}}\\)<br>"
+            ],
+            "flags": 0,
+            "guid": "v.^mMAU/_*",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В чём различие между проверкой гипотезы о мат. ожидании при неизвестной дисперсии в маленьких выборках и больших выборках?",
+                "При наличии большой выборки распределение не Стьюдента, а нормальное."
+            ],
+            "flags": 0,
+            "guid": "J/%}+4n%1%",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В гипотезе о вероятности:<div>\\(z_p={{c1::\\dfrac{\\hat{p} - p_0}{\\sqrt{\\dfrac{p_0(1-p_0)}{n} } } }} \\xrightarrow[n\\rightarrow 1]{F} N(0,1)\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "qF*Lkr0^Sv",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<span style=\"font-size: 16.6667px;\">Определение p-value</span>",
+                "Минимальный уровень значимости, при котором гипотеза отвергается"
+            ],
+            "flags": 0,
+            "guid": "rgp5Gj$wwq",
             "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
