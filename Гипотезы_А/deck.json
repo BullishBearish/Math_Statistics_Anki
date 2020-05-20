@@ -62,13 +62,13 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [],
-    "mid": "1578240762825",
+    "mid": "1589911877855",
     "name": "Гипотезы А",
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "crowdanki_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
                     "font": "Arial",
@@ -90,8 +90,9 @@
                 }
             ],
             "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "name": "Basic",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{xcolor}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Math_Jax_Basic",
             "req": [
                 [
                     0,
@@ -105,13 +106,13 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "afmt": "{{FrontSide}}\n<br> \n<hr id=answer>\n<br> \n{{Back}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\n  messageStyle: 'none',\n  showProcessingMessages: false,\nTeX: { extensions: [\"color.js\"] },\n        loader: {load: ['[tex]/enclose']},\n        tex: {packages: {'[+]': ['enclose']}}\n  tex2jax: {\n     inlineMath: [[\"$\",\"$\"],[\"\\\\(\",\"\\\\)\"]], \n        displayMath: [[\"$$\",\"$$\"],[\"\\\\[\",\"\\\\]\"]], \n        processEscapes: true\n  }\n});\nMathJax.Hub.Configured();\n</script>\n\n\n<script type=\"text/javascript\">\n(function() {\n  if (window.MathJax != null) {\n    var card = document.querySelector('.card');\n    MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\n    return;\n  }\n  var script = document.createElement('script');\n  script.type = 'text/javascript';\n  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\n  document.body.appendChild(script);\n})();\n</script>",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{Front}}"
+                    "qfmt": "<br>\n{{Front}}\n<br>\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\n  messageStyle: 'none',\n  showProcessingMessages: false,\nTeX: { extensions: [\"color.js\"] },\n        loader: {load: ['[tex]/enclose']},\n        tex: {packages: {'[+]': ['enclose']}}\n  tex2jax: {\n     inlineMath: [[\"$\",\"$\"],[\"\\\\(\",\"\\\\)\"]], \n        displayMath: [[\"$$\",\"$$\"],[\"\\\\[\",\"\\\\]\"]], \n        processEscapes: true\n  }\n});\nMathJax.Hub.Configured();\n</script>\n\n\n\n\n<script type=\"text/javascript\">\n(function() {\n  if (window.MathJax != null) {\n    var card = document.querySelector('.card');\n    MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\n    return;\n  }\n  var script = document.createElement('script');\n  script.type = 'text/javascript';\n  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\n  document.body.appendChild(script);\n})();\n</script>\n\n"
                 }
             ],
             "type": 0,
@@ -123,12 +124,404 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "фыавыа",
-                "фаваф"
+                "Гипотеза это",
+                "\\(\\forall\\) утверждение о виде или свойствах распределения&nbsp;\\(X_{1}\\ldots X_{n}&nbsp; \\)"
             ],
             "flags": 0,
-            "guid": "q2`sCugzxo",
-            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "guid": "q*p[CC|cTK",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": [
+                "определение"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4 гипотезы",
+                "распределения<div>однородности</div><div>независимости<br><div>случайности</div></div>"
+            ],
+            "flags": 0,
+            "guid": "PbKE/5]&`q",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Обозначение гипотезы, которую проверяем<div><br><div><div>Как произносится</div></div></div>",
+                "<div>\\(H_0\\)<br></div><div><br></div><div><span style=\"background-color: rgb(234, 244, 255); color: blue;\">Нулевая&nbsp;</span>или&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">основная</span>&nbsp;гипотеза</div>"
+            ],
+            "flags": 0,
+            "guid": "xN`LuK}0$Z",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": [
+                "синтаксис"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Гипотеза распределения</div><div></div>",
+                "<div><span style=\"background-color: rgb(234, 244, 255); color: blue;\">Простая</span><span style=\"background-color: rgb(234, 244, 255); color: blue;\">&nbsp;(для&nbsp;конкретного распределения):&nbsp;</span></div><div><span style=\"background-color: rgb(234, 244, 255); color: blue;\"><br></span></div><div>\"Наблюдаемая выборка является выборкой из некоторого&nbsp;<u>конкретного расперделения&nbsp;</u>\\(F_0(x)\\), и распределение ее элементов известно\"<span style=\"background-color: rgb(234, 244, 255); color: blue;\"><br></span></div><div><span style=\"background-color: rgb(234, 244, 255); color: blue;\"><br></span></div>\\(H_{0}:F_{X_1}\\left(x\\right) =F_{0}\\left( x\\right)\\)<br><br><div><div><br></div><div><span style=\"background-color: rgb(234, 244, 255); color: blue;\">Сложная (для&nbsp;класса распределений)</span><span style=\"background-color: rgb(234, 244, 255); color: blue;\">:</span></div><div><br></div><div>\"Наблюдаемая выборка относится к некоторому&nbsp;<u>семейству распределений</u>&nbsp;\\(\\mathscr{F}_{\\theta }\\) с неизвестным параметром, и ее распределение лежит в известном классе\"<br></div><div><br></div><div>\\(H_{0}:F_{X_{1}}\\left( x\\right) \\in \\mathscr{F}_{\\theta } =\\left\\{ F_{\\theta }\\left( x\\right) ,x\\in \\left( -\\infty ,+\\infty \\right) ,\\theta \\in \\Theta \\right\\}\\)&nbsp;<br></div><div><br></div><div><br></div><div><hr></div><div><br></div><div>\\(\\Theta \\) - допустимое множество параметров \\(\\theta\\)<br></div><div><br></div><div>Если параметров несколько, то \\(\\theta\\) - двумерный параметр</div><div><br></div><br><div><br></div></div>"
+            ],
+            "flags": 0,
+            "guid": "BTabsr~>w$",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": [
+                "определение"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Почему в гипотизе распределения стоит индекс \\(X_1\\)<br><br>&nbsp;\\(H_{0}:F_{X_{1}}\\left( x\\right) =F_{0}\\left( x\\right)\\)&nbsp;",
+                "Потому что распределение \\(X_1&nbsp;\\) такое же, как у всех оставшихся \\(X_{2}\\ldots X_{n}\\) (н.о.р.с.в)"
+            ],
+            "flags": 0,
+            "guid": "r5(#3v7$_B",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": [
+                "определение"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза об однородности",
+                "<div>Есть&nbsp; \\(k\\) выборок:</div><div><br>\\(X_{1}^{\\left( 1\\right) }\\ldots X_\\color{darkred}{n_{1}}^{\\left( k\\right)&nbsp;&nbsp;} \\\\<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\ldots \\\\<br>X_{1}^{\\left( k\\right) } \\ldots&nbsp; &nbsp; X_\\color{darkred}{n_{k}}^{\\left( k\\right) }&nbsp; \\)</div><div><br></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Гипотеза об однородности</span><br></div><div><br></div><div>\"Эти выборки извлечены из одного распределения, не важно какого\"<br></div><div><br></div><div>\\( H_{0}:F_{X_{1}^\\color{blue}{(1)}}(x) = F_{X_{1}^\\color{blue}{(2)}}(x) = \\ldots = F_{X_{1}^\\color{blue}{(k)}}(x) \\)</div><div><br></div><div><br></div><div><br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "nKlmG).o)R",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза о независимости",
+                "Пары наблюдений \\( \\left( X_{1},Y_{1}\\right) \\ldots \\left( X_{n},Y_{n}\\right)&nbsp;\\)<div><br></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Гипотеза о независимости</span><br></div><div><br></div><div>\"Случайные величины&nbsp;&nbsp;\\( X, Y \\) независимы, когда их совместное распределение представимо в виде произведения частных функций распределений\"<br></div><div><br></div><div>\\( H_{0}:F_{(X_1, Y_1)\\color{red}'}(x,y) = F_{X_1}(x) \\cdot F_{Y_1}(x)&nbsp; &nbsp;\\)</div><div><br></div><div><br></div><div><hr></div><div><br></div><div><br></div><div>\\( (X_1, Y_1)\\color{red}' \\)&nbsp; \\( \\color{red}{штрих}\\), чтобы показать, что это вектор-стоблец&nbsp;</div><div><br></div><div>\\(&nbsp; F_{(X_1, Y_1)} \\) -&nbsp; \"совместное распределение\"&nbsp; \\(= P(X_1 \\leq x, Y_1 \\leq y)&nbsp; \\) - \"вероятность того, что компоненты \\( X_1, Y_1 \\) не превышают соответствующие аргументы \\(x,y\\) \"&nbsp;</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Jy8N{F.GTG",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза случайности",
+                "<div>&nbsp;\\(X_{1}\\ldots X_{n}&nbsp;\\) &nbsp;- независимы и одинаково распределены<br></div><div><br></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Гипотеза случайности</span><br></div><div><br></div><div>\"Совместное распределение должно быть равно произведению частных распределений, которые у них одинаковые\"<br></div><div><br></div><div>\\( H_0 : F_{X_1 \\ldots X_n}(x_1 \\ldots x_n) = F_{X_1}(x_1) \\cdot&nbsp;&nbsp;F_{X_1}(x_2) \\cdot \\ldots \\cdot&nbsp;&nbsp;F_{X_1}(x_n) \\)</div><div><br></div><div><br></div><div><br></div><div><hr></div><div><br></div><div>\\( X_1 \\ldots X_n \\) - случайные величины</div><div>\\( x_1 \\ldots x_n \\) - аргументы функции (числовые значения)</div>"
+            ],
+            "flags": 0,
+            "guid": "e^r&:E;XA6",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Почему параметрическая гипотеза так называется",
+                "Потому что задана парамтеризация&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "le)%t-~:Pw",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Параметризация в гипотезе это",
+                "Фиксирование некоторого вида распределения"
+            ],
+            "flags": 0,
+            "guid": "A@oQIOTWi<",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Параметрическая гипотеза",
+                "Выборка берется из некоторого семейства известного распределения, от неизвестных параметров<div><span style=\" color: blue;\n background-color: #eaf4ff;\"><br></span></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Параметрическая гипотеза:</span></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Основаня</span><br></div><div>\"Параметры приняли значения из некоторого множества \\(\\Theta_0\\) \"</div><div>\\(H_0 : \\in \\Theta_0 \\)<br></div><div><br></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Альтернативная</span><br>\"Параметры приняли значение из дополнения для \\(\\Theta_0&nbsp; &nbsp; &nbsp;\\)</div><div>\\(H_1 : \\Theta \\in \\ \\color{blue}{\\Theta \\setminus \\Theta_0 } \\ = \\Theta_1\\)</div><div><br></div><div><hr></div><div><br></div><div>Счиатем, что вид распределения известен</div><div><br></div><div>\\( X_1 \\ldots X_n \\sim F_{\\Theta} \\in \\mathscr{F}_{\\theta } =\\left\\{ F_{\\theta } ,\\theta \\in \\Theta \\right\\}\\)&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "CBPyQ&yAiI",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Сложная и простая гипотеза через множество парметров",
+                "Простая - если \\(H_0 : \\Theta = \\Theta_0&nbsp;\\)<div>Сложная - иначе</div><div><br></div><div>\"Если множество параметров в параметрической гипотизе состоит из одной точки, то гипотеза простая. Иначе - сложаня\"</div>"
+            ],
+            "flags": 0,
+            "guid": "n#t+2Wf(up",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Чему равносильно задание критерия(правила) проверки гипотезы",
+                "Заданию критической области"
+            ],
+            "flags": 0,
+            "guid": "FZXu?lhTd:",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Критическая область \\(\\mathscr{X}_1\\) это",
+                "Область отвержения \\( H_0 \\) :<div><br></div><div>\" Множество значений выборки, при которых отвергается \\( H_0\\) \"</div>"
+            ],
+            "flags": 0,
+            "guid": "E3Ei/dL!7q",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как получить \\(\\mathscr{X}_0\\)",
+                "Из&nbsp;<div><br></div><div>\\(\\mathscr{X} = \\mathscr{X}_1 \\cup \\mathscr{X}_0\\)&nbsp;<br></div>"
+            ],
+            "flags": 0,
+            "guid": "C^[4t-U:il",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\mathscr{X} \\) это",
+                "Множество всех значений выборки"
+            ],
+            "flags": 0,
+            "guid": "ymT//oyc-2",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\mathscr{X}_1 \\) это",
+                "Критическая область<br><br>Область овтержения \\( H_0 \\)"
+            ],
+            "flags": 0,
+            "guid": "OTU=+p^hcT",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как еще называют критическую область \\(\\mathscr{X}_1 \\)<div><br></div><div>Почему это некорректно?</div>",
+                "<span style=\" color: blue;\n background-color: #eaf4ff;\"></span><div><span style=\" color: #ff0000;\n background-color: #fff0f1;\">Критерием</span><br></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\"><br></span></div><div>Но это некорректно, потому что криетрий - это правило, а \\(\\mathscr{X}_1 \\) - множество</div>"
+            ],
+            "flags": 0,
+            "guid": "Jv@-nc^Pxb",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Таблица ошибок 1 и 2 рода<div><br></div><div><br></div>",
+                "<div><b>1 рода:</b></div><div>Была&nbsp;<span style=\"font-weight: 700; text-align: center;\">\\( \\color{blue}{ H_0} \\), </span><span style=\"text-align: center;\">приняли</span><span style=\"font-weight: 700; text-align: center;\">&nbsp;</span><span style=\"text-align: center;\">\\( \\color{red}{ H_1} \\)</span></div><div><br></div><b>2 рода:</b><br>Была&nbsp;<span style=\"font-weight: 700; text-align: center;\">&nbsp;\\( \\color{red}{ H_1} \\) </span><span style=\"text-align: center;\">приняли</span><span style=\"font-weight: 700; text-align: center;\">&nbsp;</span><span style=\"text-align: center;\">\\( \\color{blue}{ H_0}\\)</span><div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\"><br></div><table style=\"font-size: 85%; border-collapse: collapse; border: 1px solid black;\"><thead><tr><th style=\"width:33%;  padding:2px; border: 1px solid black;\">\\( \\color{purple}{на \\ самом\\ деле &gt;} \\)<br><br><br><br><br><br>\\( \\color{purple}{приняли} \\)<br></th><th style=\"width:33%;  padding:2px; border: 1px solid black;\">&nbsp; &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( \\color{blue}{ H_0} \\)<br><br>&nbsp; &nbsp; &nbsp; \\( (\\Theta \\in \\Theta_0) \\)&nbsp; &nbsp; &nbsp; &nbsp;<br><br></th><th style=\"width:33%;  padding:2px; border: 1px solid black;\">&nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( \\color{red}{ H_1} \\)<br><br>&nbsp; &nbsp; &nbsp; \\( ( \\Theta \\in \\Theta_1 )\\)&nbsp; &nbsp; <br>&nbsp;<br></th></tr></thead>\n                <tbody><tr><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\"><br>\\( \\color{blue}{ H_0} \\)<br><br>(\\( x \\in \\mathscr{X}_0&nbsp; )\\)<br><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">\\( + \\)</td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">Ошибка <b>2 рода</b></td></tr><tr><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\"><br>\\( \\color{red}{ H_1} \\)<br><br>(\\( x \\in \\mathscr{X}_1&nbsp; )\\)<br><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">Ошибка <b>1 рода</b><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">\\( + \\)<br></td></tr></tbody></table><br><div><br></div></div>"
+            ],
+            "flags": 0,
+            "guid": "fApmzi`bD-",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Можно ли одновременно уменьшить вероятность ошибки 1 и 2 рода?<div><br></div><div>Покажите</div>",
+                "Нет, потому что они взаимосвязаны<div><br></div><div>Берем&nbsp;<span style=\"background-color: rgb(234, 244, 255); color: blue;\">критическую область за все множество значений</span></div><div>&nbsp;\\(\\mathscr{X}_1 = \\mathscr{X}\\), тогда</div><div><br></div><div>\\(P( ошибки \\ 1 \\ рода) = 1\\)</div><div>\\(P( ошибки \\ 2 \\ рода) = 0\\)</div><div><br></div><div>Берем&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">пустую критическую область</span>&nbsp;\\(\\mathscr{X}_1 = \\varnothing \\), тогда<br></div><div><br></div><div><div>\\(P( ошибки \\ 1 \\ рода) = 0\\)</div><div>\\(P( ошибки \\ 2 \\ рода) = 1\\)</div></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "nFvAzV%!Qd",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "По какому принципу выбирается критерий, чтобы потери были наименьшие",
+                "Гипотезы \\( H_0, H_1 \\) формулируются так, чтобы&nbsp;<div><font color=\"#0000ff\">уменьшать</font> \\( \\color{blue}{P(ошибки \\ 1 \\ рода)} \\),&nbsp;</div><div>потому что будем строить критейрий в <u>первую очередь</u> чтобы фиксировать эту вероятность<div><br></div><div>Может получиться несколько&nbsp;<span style=\" color: #ff0000;\n background-color: #fff0f1;\">критериев&nbsp;</span>\\(\\mathscr{X}_1\\), из них выберем тот, который&nbsp;<font color=\"#0000ff\">уменьшает</font>&nbsp;\\( \\color{blue}{P(ошибки \\ 2 \\ рода)} \\)</div></div>"
+            ],
+            "flags": 0,
+            "guid": "ioCx*!Eo@j",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Уровень значимости \\( \\alpha \\)",
+                "<div>Тот уровень, который не должна превосходить \\(P( ошибки \\ 1 \\ рода) \\)<br></div><div><br></div><div>\\( P (\\ принять \\ H_1 \\ | \\ \\Theta \\in \\Theta_0 \\ ) \\leq \\alpha \\)&nbsp;</div><div><br></div><div><hr><br></div><div>где&nbsp;</div><div><br></div><div>\\(\\Theta \\in \\Theta_0\\) - Верно \\( H_0 \\)<br></div><div><br></div><div>\\(принять \\ H_1 \\ | \\ \\Theta \\in \\Theta_0&nbsp; \\)&nbsp; -&nbsp; это ошибка 1 рода<br></div>"
+            ],
+            "flags": 0,
+            "guid": "s5?zNk!]/|",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как получается уровень значимости \\( \\alpha \\)",
+                "Сам исследователь задает тот уровень значимости, который ему подходит<div><br></div><div>Например&nbsp;</div><div><br></div><div>\\( \\alpha = 0.01 \\)</div><div>\\( \\alpha = 0.05 \\)<br></div><div>\\( \\alpha = 0.10 \\)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "j_qW,sSbn*",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как связаны уровень доверия и уровень значимости",
+                "Уровень доверия = \\( 1 - \\alpha \\)<div><br></div><div>Уровень значимости = \\( \\alpha \\)</div>"
+            ],
+            "flags": 0,
+            "guid": "LVOR56m4]t",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Оптимальный критерий \\( \\mathscr{X_1^*} \\) по построению&nbsp;",
+                "\\( \\mathscr{X_1^*} \\)&nbsp;оптимальный, если<div><br></div><div>\\( P (X \\in&nbsp; \\mathscr{X_0} \\ | \\ \\Theta \\ \\in \\ \\Theta_1 )&nbsp;\\) - наименьшая<br></div><div><br></div><div><hr></div><div><br></div><div>\\( X \\in&nbsp; \\mathscr{X_0} \\) - не попали в критическую область \\(\\mathscr{X_1}\\)</div><div><br></div><div>\\( \\Theta \\ \\in \\ \\Theta_1 \\) - верна&nbsp; альтернативная \\( H_1 \\)</div><div><br></div><div>\\(&nbsp; (X \\in&nbsp; \\mathscr{X_0} \\ | \\ \\Theta \\ \\in \\ \\Theta_1 )\\) - ошибка 2 рода</div>"
+            ],
+            "flags": 0,
+            "guid": "OZrFeKi!zd",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "От чего зависит функция мощности \\( W \\)",
+                "\\( W(\\mathscr{X_1}, \\theta) \\)<div><br></div><div>От критической области \\(\\mathscr{X_1}\\)&nbsp; и&nbsp; \\( \\theta \\)</div>"
+            ],
+            "flags": 0,
+            "guid": "P&CakXR!=i",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Функция мощности",
+                "\\( W(\\mathscr{X_1}, \\theta) = P( X \\in&nbsp; \\mathscr{X_1}) \\)<div><br></div><div>Вероятность попадания в критическую область \\( \\mathscr{X_1}\\)&nbsp; &nbsp;(отвержения основной \\( H_0 \\))</div>"
+            ],
+            "flags": 0,
+            "guid": "g5Sm40K8Kv",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>\\(P( ошибки \\ 1 \\ рода) \\) через функцию мощности \\(W(\\mathscr{X_1}, \\theta)\\)</div>",
+                "Если \\( \\color{red}{\\theta \\in \\Theta_0} \\), то<div>&nbsp;\\( W(\\mathscr{X_1}, \\theta) = P( ошибки \\ 1 \\ рода) \\)</div><div><br></div><div><br></div><div>Если \\( \\color{lightgreen}{\\theta \\in \\Theta_1} \\), то<br></div><div>&nbsp;\\( W(\\mathscr{X_1}, \\theta) = P(X \\in&nbsp; \\mathscr{X_1} \\ | \\ \\Theta \\ \\in \\ \\Theta_1 )&nbsp;\\)&nbsp;</div><div>- вероятность принятия правильного решения (альтернативной \\( H_1 \\))<br></div>"
+            ],
+            "flags": 0,
+            "guid": "o1j$_Q]N<_",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Выразить \\(P( ошибки \\ 2 \\ рода) \\) через функцию мощности \\(W(\\mathscr{X_1}, \\theta)\\)",
+                "\\(P( ошибки \\ 2 \\ рода) = 1 - W(\\mathscr{X}_1 , \\theta) \\),&nbsp;<div><br><div>при том что \\(\\theta \\in \\Theta_1 \\)</div></div><div><br></div><div><hr><br></div><div>Выразили через&nbsp;</div><div>\\(P( ошибки \\ 1 \\ рода) = P(X \\in&nbsp; \\color{blue}{\\mathscr{X_0}} \\ | \\ \\Theta \\ \\in \\ \\Theta_1 ) =&gt; \\)&nbsp;</div><div>\\(P( ошибки \\ 2 \\ рода) = \\color{blue}{1 -} P(X \\in&nbsp; \\color{blue}{\\mathscr{X_1}}&nbsp;\\ | \\ \\Theta \\ \\in \\ \\Theta_1 ) \\)</div><div><br></div><div>при том что \\(\\theta \\in \\Theta_1 \\)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "xTiCfSE@65",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что обычно подразумевают под мощностью теста и почему",
+                "\\(P( ошибки \\ 2 \\ рода)\\), потому что \\(P( ошибки \\ 1 \\ рода)\\) мы задаем сами"
+            ],
+            "flags": 0,
+            "guid": "dUkr8ue#AN",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Равномерно наиболее мощный критерий<br>РНМК",
+                "1) \\( W(\\mathscr{X_1}, \\theta) \\leq&nbsp; \\alpha , \\ \\ \\ (\\theta \\in \\Theta_0)\\)<div><br></div><div>2) \\( W(\\mathscr{\\color{blue}{X_1^*}}, \\theta) \\geq W(\\mathscr{X_1}, \\theta), \\ \\ \\ (\\theta \\in \\Theta_1)&nbsp;\\)</div><div>Причем \\( \\exists \\ \\theta^* : W\\color{blue}{(\\mathscr{X_1^*}, \\theta^*) &gt;} W(\\mathscr{X_1}, \\theta) \\)<br></div><div><br></div><div>1) Отбираем критерии, для которых \\(P( ошибки \\ 1 \\ рода)\\) не превосходит уровень значимости \\( \\alpha \\)</div><div><br></div><div>2) Отбираем&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">лучший&nbsp;</span>критерий, для которого наибольшая функция мощности на \\(\\theta \\in \\Theta_1 \\), то есть наименьшая \\(P( ошибки \\ 2 \\ рода)\\).&nbsp;</div><div>Причем должна существовать хотя бы одна \\( \\theta \\), для которой выполнено строгое равенство<br></div><div><br></div><div><hr><br></div><div>\\(P( ошибки \\ 2 \\ рода) = 1 - W(\\mathscr{X}_1 , \\theta) \\)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "Qv=]bP$2D[",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Какое предположение в гипотезе o математическом ожидании",
+                "Выборка берется из нормального распределения<br>"
+            ],
+            "flags": 0,
+            "guid": "vs>94jjWR_",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Гипотезеа o математическом ожидании</div>",
+                "<div>\\( X_1 \\ldots X_n \\sim\\mathscr{N} (\\mu, \\sigma^2), \\ \\ \\ \\sigma^2 \\) известна</div><div><br></div><div>\\( H_0 : \\mu = \\mu_0 \\)</div><div>\\( H_1 : \\mu \\neq&nbsp; \\mu_0 \\)<br></div><div><br></div><div>Стандартизируем нашу с.в.</div><div>\\( \\frac{\\overline{X} - \\mu } {\\sigma/\\sqrt{n}} \\sim \\mathscr{N}(0,1) \\)</div><div><br></div><div>Посчитаем расчетное значение, подставив \\( \\mu_0 \\)</div><div>\\( z_p = \\frac{\\overline{X} - \\color{blue}{\\mu_0 }} {\\sigma_0/\\sqrt{n}} \\sim \\mathscr{N}(0,1) \\)<br></div><div><br></div><div>Если \\( z_p \\in (-z_{\\alpha/2} ,\\&nbsp; z_{\\alpha/2}) \\), то&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">нет оснований отвергать</span>&nbsp;\\( H_0\\)&nbsp;</div><div><br></div><div>Если&nbsp; \\( z_p \\notin (-z_{\\alpha/2} ,\\&nbsp; z_{\\alpha/2}) \\), то&nbsp;<span style=\" color: #ff0000;\n background-color: #fff0f1;\">отвергаем</span>&nbsp;\\(H_0\\)</div><div><br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "K0u_WB-8B>",
+            "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         }
     ]
