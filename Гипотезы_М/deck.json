@@ -63,6 +63,310 @@
     "extendRev": 50,
     "media_files": [],
     "name": "Гипотезы М",
-    "note_models": [],
-    "notes": []
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<br>\n{{FrontSide}}\n<br>\n<hr id=answer>\n<br>\n{{Back}}\n\n<script type=\"text/x-mathjax-config\"> \n MathJax.Hub.processSectionDelay = 0; \n MathJax.Hub.Config({ \n messageStyle:\"none\", \n showProcessingMessages:false, \n tex2jax:{ \n inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \n displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \n processEscapes:true \n } \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \n if (window.MathJax != null) { \n var card = document.querySelector('.card'); \n MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \n return; \n } \n var script = document.createElement('script'); \n script.type = 'text/javascript'; \n script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \n document.body.appendChild(script); \n})(); \n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<br>\n{{Front}}\n<br>\n\n<script type=\"text/x-mathjax-config\"> \n MathJax.Hub.processSectionDelay = 0; \n MathJax.Hub.Config({ \n messageStyle:\"none\", \n showProcessingMessages:false, \n tex2jax:{ \n inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \n displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \n processEscapes:true \n } \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \n if (window.MathJax != null) { \n var card = document.querySelector('.card'); \n MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \n return; \n } \n var script = document.createElement('script'); \n script.type = 'text/javascript'; \n script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \n document.body.appendChild(script); \n})(); \n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze-8a0a5",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<br>\n<br>\n{{cloze:Text}}\n<br>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<br>\n<br>\n{{cloze:Text}}\n<br>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Гипотеза это -<br></div>",
+                "<div>любое утверждение о виде или свойствах распределения<br></div>"
+            ],
+            "flags": 0,
+            "guid": "dtqZM(<bV(",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Для&nbsp;\\(x_{1}, \\ldots, x_{n}\\) гипотеза о <font color=\"#0000ff\">распределении</font> может формулироваться 2-мя способами:<div><br><div>1)&nbsp;\\(\\mathrm{H}_{0}: F_{x_{1}}(x)=F_{0}(x)\\)</div></div><div><br></div><div>2) ?</div>",
+                "&nbsp;\\(H_{0}: \\mathrm{F}_{\\mathrm{X}_{1}}(x) \\in \\mathcal{F}_{\\mathrm{\\theta}}=\\left\\{F_{\\theta}(x), x \\in(-\\infty; \\infty), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\right\\}\\)<div><br></div><div>Функция распределений \\(\\mathrm{F}_{\\mathrm{X}_{1}}(x)\\) принадлежит множеству распределений \\(\\mathcal{F}_{\\mathrm{\\theta}}\\), которое состоит из распределений \\(F_{\\theta}(x)\\), зависящих от параметра \\(\\theta\\), и \\(x \\in(-\\infty; \\infty), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "DF+(ds^jdM",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Для&nbsp;\\(x_{1}, \\ldots, x_{n}\\) гипотеза о&nbsp;<font color=\"#0000ff\">распределении</font>&nbsp;может формулироваться 2-мя способами:<div><br><div>1)&nbsp; \\(H_{0}: \\mathrm{F}_{\\mathrm{X}_{1}}(x) \\in \\mathcal{F}_{\\mathrm{\\theta}}=\\left\\{F_{\\theta}(x), x \\in(-\\infty; \\infty), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\right\\}\\)</div></div><div><br></div><div>2) ?</div>",
+                "\\(\\mathrm{H}_{0}: F_{x_{1}}(x)=F_{0}(x)\\)<br><br><br>Распределение тех наблюдений, которые мы имеем, это есть некоторое заданное распределение"
+            ],
+            "flags": 0,
+            "guid": "M{vdGR^sFQ",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза об <font color=\"#0000ff\">однородности</font> для распредлений&nbsp;<div><br><div>\\(x_{1}^{(1)}, \\ldots, x_{n_{1}}^{(1)} \\)<div>\\(\\ldots&nbsp; \\ldots \\ldots \\ldots\\)</div><div>\\(x_{1}^{(k)}, \\ldots, x_{n_{k}}^{(k)}\\)<br></div><div><br></div></div></div>",
+                "\\(H_{0}: F_{x_{1}^{(1)}} (x) = F_{x_{1}^{(2)}} (x) = \\ldots = F_{x_{1}^{(k)}} (x)\\), то есть все эти выборки имеют одно и тоже распредление"
+            ],
+            "flags": 0,
+            "guid": "b>tAOZw|{v",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза о независимости",
+                "\\(\\left(X_{1}, Y_{1}\\right), \\ldots , \\left(X_{n}, Y_{n}\\right)\\) - пары наблюдений (если говорим о независимости 2х показателей)<div><br></div><div>\\(H_{0}: F_{\\left(X, Y\\right)^{'}}(x, y) = F_{X_{1}}(x) \\cdot F_{Y_{1}}(y)&nbsp;\\)</div><div><br></div><div>Если случайные величины независимы, тогда их совместное распредление - это совместная функция распределения должна быть представима в виде произведений частных функций распределений певрой компоненты на вторую.</div><div><br></div><div>Где \\(F_{\\left(X, Y\\right)^{'}}(x, y)\\) - это \\(P\\left(X_{1} \\leq x_{1}, Y_{1} \\leq y\\right)\\), а \\((X, Y)^{'}\\) - это вектор-столбец</div><div><br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "f(G}a#/P3x",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Гипотеза о случайности",
+                "<div>\\(x_{1}, \\ldots, x_{n}\\) - выборка<br></div><div><br></div>Если данные действительно являются случайной выборкой, это значит что они независимы и одинаково распределены<div><br></div><div>Для этого их совместное распределение должно быть равно произведению частных распределений (а они у них одинаковы):<br><div><br></div><div>\\(H_{0}: F_{\\left(X_{1}, \\ldots, X_{n}\\right)^{\\prime}}\\left(x_{1}, \\ldots x_{n}\\right)=F_{x_{1}}(x) \\cdot F_{x_{1}}\\left(x_{2}\\right) \\ldots F_{x_{1}}\\left(x_{n}\\right)\\)</div></div><div><br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "8US]@7j)b",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\mathscr{X}\\) - это",
+                "множество всех значений выборки"
+            ],
+            "flags": 0,
+            "guid": "n<md]DQzOB",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Параметрические гипотезы - это",
+                "\\(x_{1}, \\ldots x_{n} \\sim F_{\\theta}(x) \\in \\mathcal{F}_{\\theta} = \\left\\{F_{\\theta}(x), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\right\\}\\)<div><br></div><div>Основная гипотеза: \\(H_{0}: \\theta \\in \\require{enclose}\\enclose{circle}{н}_{0}\\)<br></div><div><br></div><div>Альтернативная гипотеза: \\(H_{1}: \\theta \\in \\require{enclose}\\enclose{circle}{н} \\backslash \\require{enclose}\\enclose{circle}{н}_{0} = \\require{enclose}\\enclose{circle}{н}_{1}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "J`MTWIog9[",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Если&nbsp;\\(H_{0}: \\theta = \\theta_{0}\\), это {{c1::простая}} параметрическая гипотеза"
+            ],
+            "flags": 0,
+            "guid": "h(>-kzuhER",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\mathscr{X}_{1}\\) - это",
+                "критическая область - область отвержения \\(H_{0}\\) (также называют критерием)"
+            ],
+            "flags": 0,
+            "guid": "OG-1rF;D(}",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ошибка 1 рода - это",
+                "ошибка, при которой реализация выборки попала в критическую область, соответственно мы приняли решение, что основная гипотеза <font color=\"#0000ff\">неверна</font>, но на самом деле основная гипотеза была <font color=\"#0000ff\">верна</font><div><br></div><div>Верно: \\(H_{0}: \\theta \\in \\require{enclose}\\enclose{circle}{н}_{0}\\)<br></div><div><br></div><div>Приняли: \\(H_{1}: x \\in \\mathscr{X}_{1}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "KkTnyD50vj",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ошибка 2 рода - это",
+                "<div>ошибка, при которой реализация выборки <font color=\"#0000ff\">не</font> попала в критическую область, соответственно мы приняли решение, что основная гипотеза <font color=\"#0000ff\">верна</font>, но на самом деле основная гипотеза была <font color=\"#0000ff\">неверна</font><br></div><div><br></div><div>Верно: \\(H_{1}: \\theta \\in \\require{enclose}\\enclose{circle}{н}_{1}\\)<br></div><div><br></div><div>Приняли: \\(H_{0}: x \\in \\mathscr{X}_{0}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "iVJ_HWtb,z",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Можно ли минимизировать одновременно ошибки 1го рода и ошибки 2го рода?<div><br></div><div>Проиллюстрируйте на примере</div>",
+                "Это невозможно, так как эти ошибки между собой связаны. Пытаемся минимизировать одну&nbsp;\\(\\Rightarrow\\) растет другая.<div><br></div><div><br></div><div>Примеры:&nbsp;</div><div><br></div><div>Рассмотрим ситуацию, когда \\(\\mathscr{X}_{0} = \\mathscr{X}\\)</div><div>P(ошибки 1 рода) = 1</div><div>P(ошибки 2 рода) = 0<br></div><div><br></div><div><br></div><div><div>Рассмотрим ситуацию, когда \\(\\mathscr{X}_{1} = \\varnothing\\) (мы всегда принимаем гипотезу)</div><div>P(ошибки 1 рода) = 0</div><div>P(ошибки 2 рода) = 1</div></div>"
+            ],
+            "flags": 0,
+            "guid": "E%sm9NzdDS",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Предположим, что \\(\\mathscr{X}_{0} = \\mathscr{X}\\)</div><div>P(ошибки 1 рода) = <font color=\"#0000ff\">?</font></div><div>P(ошибки 2 рода) = <font color=\"#0000ff\">?</font></div>",
+                "<div>P(ошибки 1 рода) = 1</div><div>P(ошибки 2 рода) = 0</div>"
+            ],
+            "flags": 0,
+            "guid": "i<(G=_^Xqk",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Предположим, что \\(\\mathscr{X}_{1} = \\varnothing\\)</div><div>P(ошибки 1 рода) = <font color=\"#0000ff\">?</font></div><div>P(ошибки 2 рода) = <font color=\"#0000ff\">?</font></div>",
+                "<div>P(ошибки 1 рода) = 0</div><div>P(ошибки 2 рода) = 1</div>"
+            ],
+            "flags": 0,
+            "guid": "s8f](mZ!WK",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что такое уровень значимости?",
+                "<div>Уровень, который не должна превосходить ошибка 1го рода.&nbsp;</div><div><br></div><div>Выбирается самим исследователем<br></div><div><br></div><div>Обозначается \\(\\alpha; P\\)(ош. 1 рода)&nbsp;\\(\\leq \\alpha\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "J<v!1KhxI[",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        }
+    ]
 }
