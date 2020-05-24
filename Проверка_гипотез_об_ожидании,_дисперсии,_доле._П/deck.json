@@ -1,0 +1,234 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "400fc17c-9dea-11ea-91ae-54e1add023fb",
+    "deck_config_uuid": "1b44b60f-9dea-11ea-aac1-54e1add023fb",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "1b44b60f-9dea-11ea-aac1-54e1add023fb",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": "1589816686489",
+    "name": "Проверка гипотез об ожидании, дисперсии, доле. П",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic Math Jax",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle: 'none',\nshowProcessingMessages: false,\ntex2jax: {\ninlineMath: [['$', '$']],\ndisplayMath: [['$$', '$$']],\nprocessEscapes: true\n}\n});\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze-8a0a5",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<br>\n<br>\n{{cloze:Text}}\n<br>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<br>\n<br>\n{{cloze:Text}}\n<br>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Какое распределение имеет статистика&nbsp;\\(\\dfrac{\\bar X - \\mu_0}{\\hat{\\sigma} / \\sqrt{n}}\\)?",
+                "Распределение Стьюдента"
+            ],
+            "flags": 0,
+            "guid": "D2aLd2|H|{",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Дисперсия неизвестна, \\(H_1: \\mu \\ne \\mu_0 \\implies \\mathscr{X}_1: {{c1::|t_p| &gt; t_{\\frac{\\alpha}{2};n-1} }}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "vY2&>T}#Sz",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\gamma_p = \\dfrac{\\hat{\\sigma}^2}{\\sigma_0^2}(n-1) \\sim \\chi^2_{n-1}\\)<br>\\(H_1: \\sigma^2 \\ne \\sigma_0^2 \\implies \\mathscr{X}_1: {{c1::\\left[<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\begin{gathered}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\gamma_p &gt; \\chi^2_{n-1;1-\\frac{\\alpha}{2} } \\\\<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\gamma_p &lt; \\chi^2_{n-1;\\frac{\\alpha}{2} } \\\\<br>&nbsp;&nbsp;&nbsp; \\end{gathered}<br>&nbsp;&nbsp;&nbsp; \\right.}}\\)"
+            ],
+            "flags": 0,
+            "guid": "n?(5o7@-qk",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что такое p-value?",
+                "Минимальный уровень значимости, при котором гипотеза отвергается"
+            ],
+            "flags": 0,
+            "guid": "f>i{ihi%R0",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>\\(X_1,..,X_n \\sim F\\) \\((E(X_1) &lt; \\infty; D(X_1) &lt; \\infty)\\)</div>\\(\\dfrac{\\bar X - \\mu_0}{\\hat{\\sigma} / \\sqrt{n}} \\xrightarrow[n\\rightarrow \\infty]{F} {{c1::N(0,1)}}\\)"
+            ],
+            "flags": 0,
+            "guid": "oc4P[`6/+O",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(\\dfrac{\\hat{p} - p_0}{\\sqrt{\\dfrac{p_0(1-p_0)}{n}}} \\xrightarrow[n\\rightarrow \\infty]{F} {{c1::N(0,1)}}\\)"
+            ],
+            "flags": 0,
+            "guid": "I>1GVJgl%g",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        }
+    ]
+}

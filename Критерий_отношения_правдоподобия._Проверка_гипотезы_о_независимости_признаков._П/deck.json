@@ -1,0 +1,224 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "33ee65fd-9dea-11ea-ae7b-54e1add023fb",
+    "deck_config_uuid": "1b44b60f-9dea-11ea-aac1-54e1add023fb",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "1b44b60f-9dea-11ea-aac1-54e1add023fb",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": "1589915209506",
+    "name": "Критерий отношения правдоподобия. Проверка гипотезы о независимости признаков. П",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze-8a0a5",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<br>\n<br>\n{{cloze:Text}}\n<br>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<br>\n<br>\n{{cloze:Text}}\n<br>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic Math Jax",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle: 'none',\nshowProcessingMessages: false,\ntex2jax: {\ninlineMath: [['$', '$']],\ndisplayMath: [['$$', '$$']],\nprocessEscapes: true\n}\n});\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Критерий отношения правдоподобия<div>\\(H_0: \\theta \\in \\Theta_0\\)</div><div>\\(H_1: \\theta \\in \\Theta_1\\)</div><div>\\(dim\\Theta = s\\)<br>\\(dim\\Theta_0 = r\\)<br>\\(\\mathscr{X}_{1\\alpha} = \\{x: {{c1::-2ln\\dfrac{\\underset{\\theta \\in \\Theta_0}{\\sup}L(x;\\theta)}{\\underset{\\theta \\in \\Theta}{\\sup}L(x;\\theta)} \\ge \\chi_{\\alpha; s-r}^2}} \\}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "O~6qgKq111",
+            "newlyAdded": false,
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Почему в критерии отношения правдоподобия удобно использоваться в знаменателе супремум по всей области \\(\\Theta\\)?",
+                "Потому что функция правдоподобия достигает максимума в \\(\\theta=\\hat{\\theta}_{ML}\\), и тогда знаменатель становится значением функции правдоподобия при данном аргументе"
+            ],
+            "flags": 0,
+            "guid": "xDN/=rFkcF",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как записать функцию правдоподобия при проверке гипотезы о распределении, если частота, с которой встречается \\(a_i\\) - это \\(\\nu_i\\)?",
+                "\\(L=p_1^{\\nu_1} \\cdot p_2^{\\nu_2} \\cdot ... \\cdot p_s^{\\nu_s}\\)"
+            ],
+            "flags": 0,
+            "guid": "RjNqW]0`1D",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Чему равна оценка максимального правдоподобия для вероятности при проверке гипотезы о распределении, если частота, с которой встречается \\(a_i\\) - это \\(\\nu_i\\)?",
+                "\\(\\hat{p}_k=\\dfrac{\\nu_k}{\\nu_1+...+\\nu_s}\\)"
+            ],
+            "flags": 0,
+            "guid": "gbM80elK{b",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Критическая область для критерия отношения правдоподобия",
+                "\\(\\mathscr{X}_{1\\alpha}=\\{-2\\sum_{j=1}^s \\nu_j [ln(n p_j^0)-ln\\nu_j] \\ge \\chi_{\\alpha; s-1}^2\\}\\)"
+            ],
+            "flags": 0,
+            "guid": "rZxwFGd@I+",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        }
+    ]
+}

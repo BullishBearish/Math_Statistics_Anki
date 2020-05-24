@@ -1,0 +1,265 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "39cf6a2b-9dea-11ea-869f-54e1add023fb",
+    "deck_config_uuid": "1b44b60f-9dea-11ea-aac1-54e1add023fb",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "1b44b60f-9dea-11ea-aac1-54e1add023fb",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-58bf3868b5be265022b2c12c53e20c64a103f7d5.jpg",
+        "paste-6abf87385790e8c3405d1b889dcc6bb0baa13db6.jpg",
+        "paste-928ce927590a281dcb40e928c49379f7564d1178.jpg",
+        "paste-c12d214408f6dbe60a484960567d1650694489bc.jpg"
+    ],
+    "mid": "1589915209506",
+    "name": "Некоторые одномерные распределения, используемые в математической статистике. П",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic Math Jax",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle: 'none',\nshowProcessingMessages: false,\ntex2jax: {\ninlineMath: [['$', '$']],\ndisplayMath: [['$$', '$$']],\nprocessEscapes: true\n}\n});\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как выглядит функция плотности нормального распределения",
+                "<img src=\"paste-c12d214408f6dbe60a484960567d1650694489bc.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "w9h9]%T@+=",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Дайте определение нормально распределённой случайной величины. Для неё укажите диапазон возможных значений, функцию плотности, ожидание, дисперсию",
+                "\\(X \\sim N(\\mu, \\sigma^2)\\), если \\(f(x)=\\frac{1}{\\sqrt{2 \\pi \\sigma^2}}e^{-\\frac{1}{2} \\frac{(x-\\mu)^2}{\\sigma^2}}, x \\in (-\\infty, +\\infty)\\)<br><br>\\(\\mu=E(X), \\sigma^2=D(X)\\)"
+            ],
+            "flags": 0,
+            "guid": "oX]l*#T](T",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Правило 3 сигм",
+                "\\(P(\\mu - 3\\sigma&lt;X&lt;\\mu + 3\\sigma) \\approx 0,997\\)"
+            ],
+            "flags": 0,
+            "guid": "p2njtf6UO+",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Функция плотности многомерного нормального распределения",
+                "\\(f(x_1,..,x_n)=\\frac{1}{(\\sqrt{2\\pi})^n}\\frac{1}{\\sqrt{detC}}e^{-\\frac{1}{2}((x-\\mu)^T)C^{-1}(x-\\mu))}\\)"
+            ],
+            "flags": 0,
+            "guid": "m6^+n]iFq<",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Свойства многомерного нормального распределения",
+                "1) любой подвектор нормального вектора нормальный<div>2) для многомерного нормального распределения из некоррелированности его компонент следует их независимость</div><div>3) \\(X \\sim N(\\mu,C), Y=BX+b \\implies Y \\sim N(B\\mu+b,BCB^T)\\)</div><div>4) \\(\\begin{pmatrix}<br>X_1 \\\\<br>X_2<br>\\end{pmatrix}<br>\\sim N\\) \\(\\left(\\begin{pmatrix}<br>\\mu_1 \\\\<br>\\mu_2<br>\\end{pmatrix},\\begin{pmatrix}<br>\\sigma_1^2 &amp; \\rho\\sigma_1\\sigma_2 \\\\<br>\\rho\\sigma_1\\sigma_2 &amp; \\sigma_2^2<br>\\end{pmatrix}\\right) \\implies\\)</div><div>\\(X_1 | X_2 = x \\sim<br>N\\left(\\mu_1+\\rho \\sigma_1\\dfrac{x-\\mu_2}{\\sigma_2}<br>\\begin{pmatrix}<br>\\mu_1 \\\\<br>\\mu_2<br>\\end{pmatrix}, \\sigma_1^2(1-\\rho^2)\\right)\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "EF6jUSLpuK",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как выглядит функция плотности хи-квадрат распределения при разных степенях свободы?",
+                "<img src=\"paste-58bf3868b5be265022b2c12c53e20c64a103f7d5.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Gx:05E|Y7t",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "С помощью нормальных случайных величин дайте определение случайной величины, имеющей хи-квадрат распределение. Для неё укажите диапазон возможных значений, математическое ожидание и дисперсию.",
+                "\\(\\gamma \\sim \\chi_k^2\\), если \\(\\gamma=z_1^2+...+z_k^2\\), где \\(z_1 \\sim N(0,1)\\) и \\(z_1, z_2...z_k\\) независимы<div>\\(x \\ge 0, E(\\gamma)=k, D(\\gamma)=2k\\)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "DByYed:.7K",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "С помощью нормальных случайных величин дайте определение случайной величины, имеющей распределения Стьюдента. Для неё укажите диапазон возможных значений, математическое ожидание и дисперсию.",
+                "\\(T \\sim t_k\\), если \\(T=\\dfrac{z}{\\sqrt{\\frac{\\gamma}{k}}}\\), где \\(z \\sim N(0,1), \\gamma \\sim \\chi_k^2\\), \\(z\\) и \\(\\gamma\\) независимы<br>\\(x \\in (-\\infty, +\\infty); E(T)=0; D(T)=\\frac{k}{k-2}, k&gt;2\\)"
+            ],
+            "flags": 0,
+            "guid": "qq,@,u~laj",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как выглядит функция плотности распределения Стьюдента на фоне нормального распределения?",
+                "<img src=\"paste-6abf87385790e8c3405d1b889dcc6bb0baa13db6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "cqe)Mcguqf",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "С помощью нормальных случайных величин дайте определение случайной величины, имеющей распределение Фишера. Для неё укажите диапазон возможных значений и два свойства.",
+                "\\(\\xi \\sim F_{k_1,k_2}\\), если \\(\\xi = \\dfrac{\\gamma_1/k_1}{\\gamma_2/k_2}\\), где \\(\\gamma_1 \\sim \\chi_{k_1}^2, \\gamma_2 \\sim \\chi_{k_2}^2\\), \\(\\gamma_1\\) и \\(\\gamma_2\\) независимы<br>\\(x \\in (-\\infty, +\\infty)\\)<br>1) \\(\\frac{1}{\\xi} \\sim F_{k_2,k_1}\\)<br>2) \\((T)^2 \\sim F_{1,k}\\)"
+            ],
+            "flags": 0,
+            "guid": "x?B.@HpUQb",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как выглядит функция плотности распределения Фишера?",
+                "<img src=\"paste-928ce927590a281dcb40e928c49379f7564d1178.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "NnKu#~t_bb",
+            "newlyAdded": false,
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        }
+    ]
+}

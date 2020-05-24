@@ -68,7 +68,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
             "flds": [
                 {
                     "font": "Arial",
@@ -96,13 +96,13 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{cloze:Text}}",
+                    "afmt": "<br>\n<br>\n{{cloze:Text}}\n<br>",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Cloze",
                     "ord": 0,
-                    "qfmt": "{{cloze:Text}}"
+                    "qfmt": "<br>\n<br>\n{{cloze:Text}}\n<br>"
                 }
             ],
             "type": 1,
@@ -111,7 +111,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
                     "font": "Arial",
@@ -148,13 +148,13 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "afmt": "<br>\n{{FrontSide}}\n<br>\n<hr id=answer>\n<br>\n{{Back}}\n\n<script type=\"text/x-mathjax-config\"> \n MathJax.Hub.processSectionDelay = 0; \n MathJax.Hub.Config({ \n messageStyle:\"none\", \n showProcessingMessages:false, \n tex2jax:{ \n inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \n displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \n processEscapes:true \n } \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \n if (window.MathJax != null) { \n var card = document.querySelector('.card'); \n MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \n return; \n } \n var script = document.createElement('script'); \n script.type = 'text/javascript'; \n script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \n document.body.appendChild(script); \n})(); \n</script>",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{Front}}"
+                    "qfmt": "<br>\n{{Front}}\n<br>\n\n<script type=\"text/x-mathjax-config\"> \n MathJax.Hub.processSectionDelay = 0; \n MathJax.Hub.Config({ \n messageStyle:\"none\", \n showProcessingMessages:false, \n tex2jax:{ \n inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \n displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \n processEscapes:true \n } \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \n if (window.MathJax != null) { \n var card = document.querySelector('.card'); \n MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \n return; \n } \n var script = document.createElement('script'); \n script.type = 'text/javascript'; \n script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \n document.body.appendChild(script); \n})(); \n</script>"
                 }
             ],
             "type": 0,
