@@ -1,0 +1,29 @@
+<svg height="237" width="920" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="86eb62ca444144639be9c12d4da4c73f-oa-1">
+   <rect fill="#FFEBA2" height="23" stroke="#2D2D2D" width="127" x="531" y="3.40625"/>
+   <rect fill="#FFEBA2" height="21" stroke="#2D2D2D" width="182" x="548" y="30.40625"/>
+   <rect fill="#FFEBA2" height="21" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="131" x="782" y="29.40625"/>
+  </g>
+  <g id="86eb62ca444144639be9c12d4da4c73f-oa-2">
+   <rect fill="#FFEBA2" height="24" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="304" x="374" y="56.40625"/>
+   <rect fill="#FFEBA2" height="25" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="102" x="811" y="80.40625"/>
+   <rect fill="#FFEBA2" height="21" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="57" x="1" y="108.40625"/>
+  </g>
+  <g id="86eb62ca444144639be9c12d4da4c73f-oa-3">
+   <rect fill="#FFEBA2" height="24" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="152" x="765" y="109.40625"/>
+   <rect fill="#FFEBA2" height="25" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="276" x="3" y="134.40625"/>
+  </g>
+  <g id="86eb62ca444144639be9c12d4da4c73f-oa-4">
+   <rect fill="#FFEBA2" height="26" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="254" x="310" y="181.40625"/>
+   <rect fill="#FFEBA2" height="28" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="20" x="823" y="155.40625"/>
+   <rect fill="#FFEBA2" height="20" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="125" x="430" y="160.40625"/>
+  </g>
+  <rect fill="#FFEBA2" height="21" id="86eb62ca444144639be9c12d4da4c73f-oa-5" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="103" x="324" y="211.40625"/>
+ </g>
+</svg>

@@ -30,6 +30,7 @@
                 "delays": [
                     40,
                     1440,
+                    1440,
                     2880,
                     7200,
                     14400
@@ -40,12 +41,12 @@
                     7
                 ],
                 "order": 0,
-                "perDay": 50,
+                "perDay": 9999,
                 "separate": true
             },
             "replayq": true,
             "rev": {
-                "bury": false,
+                "bury": true,
                 "ease4": 1.3,
                 "fuzz": 0.05,
                 "hardFactor": 1.2,
@@ -62,13 +63,13 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [],
-    "mid": "1589911877855",
+    "mid": "1589893259947",
     "name": "Гипотезы А",
     "note_models": [
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "css": "/* Profile: Custom Profile || Satus: Not Saved */ \n\n.card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: left;\n    color: black;\n    background-color: white;\n}\n\n",
             "flds": [
                 {
                     "font": "Arial",
@@ -92,11 +93,12 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{xcolor}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Math_Jax_Basic",
+            "name": "Basic_MJ",
+            "number of columns": 1,
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
@@ -106,13 +108,184 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n<br> \n<hr id=answer>\n<br> \n{{Back}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\n  messageStyle: 'none',\n  showProcessingMessages: false,\nTeX: { extensions: [\"color.js\"] },\n        loader: {load: ['[tex]/enclose']},\n        tex: {packages: {'[+]': ['enclose']}}\n  tex2jax: {\n     inlineMath: [[\"$\",\"$\"],[\"\\\\(\",\"\\\\)\"]], \n        displayMath: [[\"$$\",\"$$\"],[\"\\\\[\",\"\\\\]\"]], \n        processEscapes: true\n  }\n});\nMathJax.Hub.Configured();\n</script>\n\n\n<script type=\"text/javascript\">\n(function() {\n  if (window.MathJax != null) {\n    var card = document.querySelector('.card');\n    MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\n    return;\n  }\n  var script = document.createElement('script');\n  script.type = 'text/javascript';\n  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\n  document.body.appendChild(script);\n})();\n</script>",
+                    "afmt": "{{FrontSide}}\n<br> <br><br>\n<hr id=answer>\n<br> <br>\n{{Back}}\n\n\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        messageStyle:\"none\",\n        showProcessingMessages:false,\n        tex2jax:{\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes:true\n        }\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\n  if (window.MathJax != null) {\n    var card = document.querySelector('.card');\n    MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\n    return;\n  }\n  var script = document.createElement('script');\n  script.type = 'text/javascript';\n  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\n  document.body.appendChild(script);\n})();\n</script>",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<br>\n{{Front}}\n<br>\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\n  messageStyle: 'none',\n  showProcessingMessages: false,\nTeX: { extensions: [\"color.js\"] },\n        loader: {load: ['[tex]/enclose']},\n        tex: {packages: {'[+]': ['enclose']}}\n  tex2jax: {\n     inlineMath: [[\"$\",\"$\"],[\"\\\\(\",\"\\\\)\"]], \n        displayMath: [[\"$$\",\"$$\"],[\"\\\\[\",\"\\\\]\"]], \n        processEscapes: true\n  }\n});\nMathJax.Hub.Configured();\n</script>\n\n\n\n\n<script type=\"text/javascript\">\n(function() {\n  if (window.MathJax != null) {\n    var card = document.querySelector('.card');\n    MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\n    return;\n  }\n  var script = document.createElement('script');\n  script.type = 'text/javascript';\n  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\n  document.body.appendChild(script);\n})();\n</script>\n\n"
+                    "qfmt": "<br>\n<br>\n{{Front}}\n\n\n\n\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        messageStyle:\"none\",\n        showProcessingMessages:false,\n        tex2jax:{\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes:true\n        }\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\n  if (window.MathJax != null) {\n    var card = document.querySelector('.card');\n    MathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\n    return;\n  }\n  var script = document.createElement('script');\n  script.type = 'text/javascript';\n  script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\n  document.body.appendChild(script);\n})();\n</script>\n\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Math_Jax_Close",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "Критерии_согласия"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "Line alone": false,
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Add Reverse",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra1",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra2",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra3",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra4",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic_MaJx_OptRev",
+            "number of columns": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n<br>\n<hr id=answer>\n\n{{Back}}\n<br><br>\n{{Extra1}}\n<br><br>\n{{Extra2}}\n<br><br>\n{{Extra3}}\n<br><br>\n{{Extra4}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "\n{{Front}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}"
                 }
             ],
             "type": 0,
@@ -129,10 +302,9 @@
             ],
             "flags": 0,
             "guid": "q*p[CC|cTK",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
-            "tags": [
-                "определение"
-            ]
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -143,6 +315,7 @@
             ],
             "flags": 0,
             "guid": "PbKE/5]&`q",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -155,10 +328,9 @@
             ],
             "flags": 0,
             "guid": "xN`LuK}0$Z",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
-            "tags": [
-                "синтаксис"
-            ]
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -169,10 +341,9 @@
             ],
             "flags": 0,
             "guid": "BTabsr~>w$",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
-            "tags": [
-                "определение"
-            ]
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -183,10 +354,9 @@
             ],
             "flags": 0,
             "guid": "r5(#3v7$_B",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
-            "tags": [
-                "определение"
-            ]
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -197,6 +367,7 @@
             ],
             "flags": 0,
             "guid": "nKlmG).o)R",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -209,6 +380,7 @@
             ],
             "flags": 0,
             "guid": "Jy8N{F.GTG",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -221,6 +393,7 @@
             ],
             "flags": 0,
             "guid": "e^r&:E;XA6",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -233,6 +406,7 @@
             ],
             "flags": 0,
             "guid": "le)%t-~:Pw",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -245,6 +419,7 @@
             ],
             "flags": 0,
             "guid": "A@oQIOTWi<",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -253,10 +428,11 @@
             "data": "",
             "fields": [
                 "Параметрическая гипотеза",
-                "Выборка берется из некоторого семейства известного распределения, от неизвестных параметров<div><span style=\" color: blue;\n background-color: #eaf4ff;\"><br></span></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Параметрическая гипотеза:</span></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Основаня</span><br></div><div>\"Параметры приняли значения из некоторого множества \\(\\Theta_0\\) \"</div><div>\\(H_0 : \\in \\Theta_0 \\)<br></div><div><br></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Альтернативная</span><br>\"Параметры приняли значение из дополнения для \\(\\Theta_0&nbsp; &nbsp; &nbsp;\\)</div><div>\\(H_1 : \\Theta \\in \\ \\color{blue}{\\Theta \\setminus \\Theta_0 } \\ = \\Theta_1\\)</div><div><br></div><div><hr></div><div><br></div><div>Счиатем, что вид распределения известен</div><div><br></div><div>\\( X_1 \\ldots X_n \\sim F_{\\Theta} \\in \\mathscr{F}_{\\theta } =\\left\\{ F_{\\theta } ,\\theta \\in \\Theta \\right\\}\\)&nbsp;</div>"
+                "Выборка берется из некоторого семейства известного распределения, от неизвестных параметров<div><span style=\" color: blue;\n background-color: #eaf4ff;\"><br></span></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Параметрическая гипотеза:</span></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Основаня</span><br></div><div>\"Параметры приняли значения из некоторого множества \\(\\Theta_0\\) \"</div><div>\\(H_0 : \\theta \\in \\Theta_0 \\)<br></div><div><br></div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Альтернативная</span><br>\"Параметры приняли значение из дополнения для \\(\\Theta_0&nbsp; &nbsp; &nbsp;\\)</div><div>\\(H_1 : \\theta \\in \\ \\color{blue}{\\Theta \\setminus \\Theta_0 } \\ = \\Theta_1\\)</div><div><br></div><div><hr></div><div><br></div><div>Счиатем, что вид распределения известен</div><div><br></div><div>\\( X_1 \\ldots X_n \\sim F_{\\Theta} \\in \\mathscr{F}_{\\theta } =\\left\\{ F_{\\theta } ,\\theta \\in \\Theta \\right\\}\\)&nbsp;</div>"
             ],
             "flags": 0,
             "guid": "CBPyQ&yAiI",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -269,6 +445,7 @@
             ],
             "flags": 0,
             "guid": "n#t+2Wf(up",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -281,6 +458,7 @@
             ],
             "flags": 0,
             "guid": "FZXu?lhTd:",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -289,10 +467,11 @@
             "data": "",
             "fields": [
                 "Критическая область \\(\\mathscr{X}_1\\) это",
-                "Область отвержения \\( H_0 \\) :<div><br></div><div>\" Множество значений выборки, при которых отвергается \\( H_0\\) \"</div>"
+                "Область отвержения \\( H_0 \\) :<div><br></div><div>\"Множество значений выборки, при которых отвергается \\( H_0\\)\"</div>"
             ],
             "flags": 0,
             "guid": "E3Ei/dL!7q",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -305,6 +484,7 @@
             ],
             "flags": 0,
             "guid": "C^[4t-U:il",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -317,6 +497,7 @@
             ],
             "flags": 0,
             "guid": "ymT//oyc-2",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -329,6 +510,7 @@
             ],
             "flags": 0,
             "guid": "OTU=+p^hcT",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -341,6 +523,7 @@
             ],
             "flags": 0,
             "guid": "Jv@-nc^Pxb",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -349,10 +532,11 @@
             "data": "",
             "fields": [
                 "Таблица ошибок 1 и 2 рода<div><br></div><div><br></div>",
-                "<div><b>1 рода:</b></div><div>Была&nbsp;<span style=\"font-weight: 700; text-align: center;\">\\( \\color{blue}{ H_0} \\), </span><span style=\"text-align: center;\">приняли</span><span style=\"font-weight: 700; text-align: center;\">&nbsp;</span><span style=\"text-align: center;\">\\( \\color{red}{ H_1} \\)</span></div><div><br></div><b>2 рода:</b><br>Была&nbsp;<span style=\"font-weight: 700; text-align: center;\">&nbsp;\\( \\color{red}{ H_1} \\) </span><span style=\"text-align: center;\">приняли</span><span style=\"font-weight: 700; text-align: center;\">&nbsp;</span><span style=\"text-align: center;\">\\( \\color{blue}{ H_0}\\)</span><div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\"><br></div><table style=\"font-size: 85%; border-collapse: collapse; border: 1px solid black;\"><thead><tr><th style=\"width:33%;  padding:2px; border: 1px solid black;\">\\( \\color{purple}{на \\ самом\\ деле &gt;} \\)<br><br><br><br><br><br>\\( \\color{purple}{приняли} \\)<br></th><th style=\"width:33%;  padding:2px; border: 1px solid black;\">&nbsp; &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( \\color{blue}{ H_0} \\)<br><br>&nbsp; &nbsp; &nbsp; \\( (\\Theta \\in \\Theta_0) \\)&nbsp; &nbsp; &nbsp; &nbsp;<br><br></th><th style=\"width:33%;  padding:2px; border: 1px solid black;\">&nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( \\color{red}{ H_1} \\)<br><br>&nbsp; &nbsp; &nbsp; \\( ( \\Theta \\in \\Theta_1 )\\)&nbsp; &nbsp; <br>&nbsp;<br></th></tr></thead>\n                <tbody><tr><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\"><br>\\( \\color{blue}{ H_0} \\)<br><br>(\\( x \\in \\mathscr{X}_0&nbsp; )\\)<br><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">\\( + \\)</td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">Ошибка <b>2 рода</b></td></tr><tr><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\"><br>\\( \\color{red}{ H_1} \\)<br><br>(\\( x \\in \\mathscr{X}_1&nbsp; )\\)<br><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">Ошибка <b>1 рода</b><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">\\( + \\)<br></td></tr></tbody></table><br><div><br></div></div>"
+                "<div><b>1 рода:</b></div><div>Была&nbsp;<span style=\"font-weight: 700; text-align: center;\">\\( \\color{blue}{ H_0} \\), </span><span style=\"text-align: center;\">приняли</span><span style=\"font-weight: 700; text-align: center;\">&nbsp;</span><span style=\"text-align: center;\">\\( \\color{red}{ H_1} \\)</span></div><div><br></div><b>2 рода:</b><br>Была&nbsp;<span style=\"font-weight: 700; text-align: center;\">&nbsp;\\( \\color{red}{ H_1} \\) </span><span style=\"text-align: center;\">приняли</span><span style=\"font-weight: 700; text-align: center;\">&nbsp;</span><span style=\"text-align: center;\">\\( \\color{blue}{ H_0}\\)</span><div><div style=\"text-align: center;\"><br></div><div style=\"text-align: center;\"><br></div><table style=\"font-size: 85%; border-collapse: collapse; border: 1px solid black;\"><thead><tr><th style=\"width:33%;  padding:2px; border: 1px solid black;\">\\( \\color{purple}{на \\ самом\\ деле &gt;} \\)<br><br><br><br><br><br>\\( \\color{purple}{приняли} \\)<br></th><th style=\"width:33%;  padding:2px; border: 1px solid black;\">&nbsp; &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( \\color{blue}{ H_0} \\)<br><br>&nbsp; &nbsp; &nbsp; \\( (\\theta \\in \\Theta_0) \\)&nbsp; &nbsp; &nbsp; &nbsp;<br><br></th><th style=\"width:33%;  padding:2px; border: 1px solid black;\">&nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( \\color{red}{ H_1} \\)<br><br>&nbsp; &nbsp; &nbsp; \\( ( \\theta \\in \\Theta_1 )\\)&nbsp; &nbsp; <br>&nbsp;<br></th></tr></thead>\n                <tbody><tr><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\"><br>\\( \\color{blue}{ H_0} \\)<br><br>(\\( x \\in \\mathscr{X}_0&nbsp; )\\)<br><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">\\( + \\)</td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">Ошибка <b>2 рода</b></td></tr><tr><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\"><br>\\( \\color{red}{ H_1} \\)<br><br>(\\( x \\in \\mathscr{X}_1&nbsp; )\\)<br><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">Ошибка <b>1 рода</b><br></td><td style=\"text-align: center; width: 33%; padding: 2px; border: 1px solid black;\">\\( + \\)<br></td></tr></tbody></table><br><div><br></div></div>"
             ],
             "flags": 0,
             "guid": "fApmzi`bD-",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -365,6 +549,7 @@
             ],
             "flags": 0,
             "guid": "nFvAzV%!Qd",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -377,6 +562,7 @@
             ],
             "flags": 0,
             "guid": "ioCx*!Eo@j",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -385,10 +571,11 @@
             "data": "",
             "fields": [
                 "Уровень значимости \\( \\alpha \\)",
-                "<div>Тот уровень, который не должна превосходить \\(P( ошибки \\ 1 \\ рода) \\)<br></div><div><br></div><div>\\( P (\\ принять \\ H_1 \\ | \\ \\Theta \\in \\Theta_0 \\ ) \\leq \\alpha \\)&nbsp;</div><div><br></div><div><hr><br></div><div>где&nbsp;</div><div><br></div><div>\\(\\Theta \\in \\Theta_0\\) - Верно \\( H_0 \\)<br></div><div><br></div><div>\\(принять \\ H_1 \\ | \\ \\Theta \\in \\Theta_0&nbsp; \\)&nbsp; -&nbsp; это ошибка 1 рода<br></div>"
+                "<div>Тот уровень, который не должна превосходить \\(P( ошибки \\ 1 \\ рода) \\)<br></div><div><br></div><div>\\( P (\\ H_1 \\ | \\ \\theta \\in \\Theta_0 \\ ) \\leq \\alpha \\)&nbsp;</div><div><br></div><div><hr><br></div><div>где&nbsp;</div><div><br></div><div>\\(\\theta \\in \\Theta_0\\) ⇒ Верна \\( H_0 \\)<br></div><div><br></div><div>\\(принять \\ H_1 \\ | \\ \\theta \\in \\Theta_0&nbsp; \\)&nbsp; -&nbsp; это ошибка 1 рода<br></div>"
             ],
             "flags": 0,
             "guid": "s5?zNk!]/|",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -401,6 +588,7 @@
             ],
             "flags": 0,
             "guid": "j_qW,sSbn*",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -413,6 +601,7 @@
             ],
             "flags": 0,
             "guid": "LVOR56m4]t",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -421,10 +610,11 @@
             "data": "",
             "fields": [
                 "Оптимальный критерий \\( \\mathscr{X_1^*} \\) по построению&nbsp;",
-                "\\( \\mathscr{X_1^*} \\)&nbsp;оптимальный, если<div><br></div><div>\\( P (X \\in&nbsp; \\mathscr{X_0} \\ | \\ \\Theta \\ \\in \\ \\Theta_1 )&nbsp;\\) - наименьшая<br></div><div><br></div><div><hr></div><div><br></div><div>\\( X \\in&nbsp; \\mathscr{X_0} \\) - не попали в критическую область \\(\\mathscr{X_1}\\)</div><div><br></div><div>\\( \\Theta \\ \\in \\ \\Theta_1 \\) - верна&nbsp; альтернативная \\( H_1 \\)</div><div><br></div><div>\\(&nbsp; (X \\in&nbsp; \\mathscr{X_0} \\ | \\ \\Theta \\ \\in \\ \\Theta_1 )\\) - ошибка 2 рода</div>"
+                "\\( \\mathscr{X_1^*} \\)&nbsp;оптимальный, если<div><br></div><div>\\( P (x \\in \\mathscr{X_0} \\ | \\ \\theta \\ \\in \\ \\Theta_1 )&nbsp;\\) - вероятность ошибки 2 рода наименьшая<br></div><div><br></div><div><hr></div><div>Пояснения</div><div><br></div><div>\\( x \\in&nbsp; \\mathscr{X_0} \\) - не попали в критическую область \\(\\mathscr{X_1}\\)</div><div><br></div><div>\\( \\theta \\ \\in \\ \\Theta_1 \\) - верна&nbsp; альтернативная \\( H_1 \\)</div>"
             ],
             "flags": 0,
             "guid": "OZrFeKi!zd",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -437,6 +627,7 @@
             ],
             "flags": 0,
             "guid": "P&CakXR!=i",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -445,10 +636,11 @@
             "data": "",
             "fields": [
                 "Функция мощности",
-                "\\( W(\\mathscr{X_1}, \\theta) = P( X \\in&nbsp; \\mathscr{X_1}) \\)<div><br></div><div>Вероятность попадания в критическую область \\( \\mathscr{X_1}\\)&nbsp; &nbsp;(отвержения основной \\( H_0 \\))</div>"
+                "\\( W(\\mathscr{X_1}, \\theta) = P( X \\in&nbsp; \\mathscr{X_1}) \\)<div><br></div><div>Вероятность попадасть в критическую область \\( \\mathscr{X_1}\\)&nbsp; &nbsp;</div><div>(отвержения основной гипотезы \\( H_0 \\))</div>"
             ],
             "flags": 0,
             "guid": "g5Sm40K8Kv",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -457,10 +649,11 @@
             "data": "",
             "fields": [
                 "<div>\\(P( ошибки \\ 1 \\ рода) \\) через функцию мощности \\(W(\\mathscr{X_1}, \\theta)\\)</div>",
-                "Если \\( \\color{red}{\\theta \\in \\Theta_0} \\), то<div>&nbsp;\\( W(\\mathscr{X_1}, \\theta) = P( ошибки \\ 1 \\ рода) \\)</div><div><br></div><div><br></div><div>Если \\( \\color{lightgreen}{\\theta \\in \\Theta_1} \\), то<br></div><div>&nbsp;\\( W(\\mathscr{X_1}, \\theta) = P(X \\in&nbsp; \\mathscr{X_1} \\ | \\ \\Theta \\ \\in \\ \\Theta_1 )&nbsp;\\)&nbsp;</div><div>- вероятность принятия правильного решения (альтернативной \\( H_1 \\))<br></div>"
+                "Если \\( \\color{red}{\\theta \\in \\Theta_0} \\), то<div>&nbsp;\\( P( ошибки \\ 1 \\ рода)&nbsp; = P(x \\in&nbsp; \\mathscr{X_1} \\ | \\ \\theta \\ \\in \\ \\Theta_0 ) =&nbsp;&nbsp;W(\\mathscr{X_1}, \\theta) \\)</div><div><br></div><div><br></div><div>Но если \\( \\color{green}{\\theta \\in \\Theta_1} \\), то<br></div><div>&nbsp;\\( W(\\mathscr{X_1}, \\theta) = P(x \\in&nbsp; \\mathscr{X_1} \\ | \\ \\theta \\ \\in \\ \\Theta_1 )&nbsp;\\)&nbsp;</div><div>- вероятность принятия правильного решения (альтернативной \\( H_1 \\))<br></div>"
             ],
             "flags": 0,
             "guid": "o1j$_Q]N<_",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -469,10 +662,11 @@
             "data": "",
             "fields": [
                 "Выразить \\(P( ошибки \\ 2 \\ рода) \\) через функцию мощности \\(W(\\mathscr{X_1}, \\theta)\\)",
-                "\\(P( ошибки \\ 2 \\ рода) = 1 - W(\\mathscr{X}_1 , \\theta) \\),&nbsp;<div><br><div>при том что \\(\\theta \\in \\Theta_1 \\)</div></div><div><br></div><div><hr><br></div><div>Выразили через&nbsp;</div><div>\\(P( ошибки \\ 1 \\ рода) = P(X \\in&nbsp; \\color{blue}{\\mathscr{X_0}} \\ | \\ \\Theta \\ \\in \\ \\Theta_1 ) =&gt; \\)&nbsp;</div><div>\\(P( ошибки \\ 2 \\ рода) = \\color{blue}{1 -} P(X \\in&nbsp; \\color{blue}{\\mathscr{X_1}}&nbsp;\\ | \\ \\Theta \\ \\in \\ \\Theta_1 ) \\)</div><div><br></div><div>при том что \\(\\theta \\in \\Theta_1 \\)<br></div>"
+                "\\(P( ошибки \\ 2 \\ рода) = 1 - W(\\mathscr{X}_1 , \\theta) \\),&nbsp;<div><br><div>при том что \\(\\theta \\in \\Theta_1 \\)</div></div><div><br></div><div><hr><br></div><div>Подробнее:&nbsp;</div><div><br></div><div>\\(P( ошибки \\ 2 \\ рода) = P(x \\in&nbsp; \\color{blue}{\\mathscr{X_0 }} \\&nbsp; \\ | \\ \\ \\theta \\ \\in \\ \\Theta_ 1 ) \\)</div><div><br></div><div>\\(= \\color{blue}{1 - } P(X \\in&nbsp; \\color{blue}{\\mathscr{X_1}}&nbsp;\\ | \\ \\theta \\ \\in \\ \\Theta_1 ) \\)</div><div><br></div><div>\\(= 1 - W(\\mathscr{X}_1 , \\theta)\\)&nbsp;</div><div><br></div>"
             ],
             "flags": 0,
             "guid": "xTiCfSE@65",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -485,6 +679,7 @@
             ],
             "flags": 0,
             "guid": "dUkr8ue#AN",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -492,11 +687,12 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Равномерно наиболее мощный критерий<br>РНМК",
-                "1) \\( W(\\mathscr{X_1}, \\theta) \\leq&nbsp; \\alpha , \\ \\ \\ (\\theta \\in \\Theta_0)\\)<div><br></div><div>2) \\( W(\\mathscr{\\color{blue}{X_1^*}}, \\theta) \\geq W(\\mathscr{X_1}, \\theta), \\ \\ \\ (\\theta \\in \\Theta_1)&nbsp;\\)</div><div>Причем \\( \\exists \\ \\theta^* : W\\color{blue}{(\\mathscr{X_1^*}, \\theta^*) &gt;} W(\\mathscr{X_1}, \\theta) \\)<br></div><div><br></div><div>1) Отбираем критерии, для которых \\(P( ошибки \\ 1 \\ рода)\\) не превосходит уровень значимости \\( \\alpha \\)</div><div><br></div><div>2) Отбираем&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">лучший&nbsp;</span>критерий, для которого наибольшая функция мощности на \\(\\theta \\in \\Theta_1 \\), то есть наименьшая \\(P( ошибки \\ 2 \\ рода)\\).&nbsp;</div><div>Причем должна существовать хотя бы одна \\( \\theta \\), для которой выполнено строгое равенство<br></div><div><br></div><div><hr><br></div><div>\\(P( ошибки \\ 2 \\ рода) = 1 - W(\\mathscr{X}_1 , \\theta) \\)<br></div>"
+                "Как строится равномерно наиболее мощный критерий через функцию мощности<br><br>",
+                "1) \\( W(\\mathscr{X_1}, \\theta) \\leq&nbsp; \\alpha , \\ \\ \\ (\\theta \\in \\Theta_0)\\)<div><br></div><div>2) \\( W(\\mathscr{\\color{blue}{X_1^*}}, \\theta) \\geq W(\\mathscr{X_1}, \\theta), \\ \\ \\ (\\theta \\in \\Theta_1)&nbsp;\\)</div><div>Причем \\( \\exists \\ \\theta^* : W\\color{blue}{(\\mathscr{X_1^*}, \\theta^*) &gt;} W(\\mathscr{X_1}, \\theta) \\)<br></div><div><br></div><div>1) Отбираем критерии, для которых \\(P( ошибки \\ 1 \\ рода)\\) не превосходит уровень значимости \\( \\alpha \\) среди нужных критериев \\((\\theta \\in \\Theta_0)\\)</div><div><br></div><div>2) Отбираем&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">лучший&nbsp;</span>критерий, для которого получается наибольшая функция мощности на \\(\\theta \\in \\Theta_1 \\), то есть наименьшая \\(P( ошибки \\ 2 \\ рода)\\).&nbsp;</div><div>Причем должна существовать хотя бы одна \\( \\theta \\), для которой выполнено строгое равенство<br></div><div><br></div><div><hr>Напоминание</div><div><br></div><div>\\(P( ошибки \\ 2 \\ рода) = 1 - W(\\mathscr{X}_1 , \\theta) \\)<br></div>"
             ],
             "flags": 0,
             "guid": "Qv=]bP$2D[",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -509,6 +705,7 @@
             ],
             "flags": 0,
             "guid": "vs>94jjWR_",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
             "tags": []
         },
@@ -521,7 +718,88 @@
             ],
             "flags": 0,
             "guid": "K0u_WB-8B>",
+            "newlyAdded": false,
             "note_model_uuid": "07770671-9aaf-11ea-9b48-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(P( ошибки \\ 1 \\ рода)&nbsp; = P(x \\in&nbsp; \\mathscr{X_{{{c1::1}}} } \\&nbsp; \\ | \\ \\ \\theta \\ \\in \\ \\Theta_ {{{c1::0}}} )\\)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r$i=b2@Gaz",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\\(P( ошибки \\ 2 \\ рода)&nbsp; = P(x \\in&nbsp; \\mathscr{X_{{{c1::0}}} } \\&nbsp; \\ | \\ \\ \\theta \\ \\in \\ \\Theta_ {{{c1::1}}} )\\)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "A7VD7@vIN|",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Определите РНМК словами",
+                "Относится к классу критериев с \\(P( ошибки \\ 1 \\ рода) &lt; \\alpha \\), при этом обладает наименьшей ошибкой 2 рода",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "s/Q*csg-))",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Минимизировать ошибку 2 рода =&nbsp;",
+                "Максимизировать мощность =&nbsp;",
+                "y",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bIL1Z,.RmS",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Принцип выбора РНМК через вероятности",
+                "<div>\\( 1)&nbsp; \\mathscr{X}_{1 \\color{blue}{\\alpha}} = \\{ x : P(x \\in \\mathscr{X}_1 \\ | \\theta \\in\\Theta_0) \\leq \\color{blue}{\\alpha} \\}&nbsp; \\)</div><div>Нашли много критериев, у которых ошика 1 рода не больше \\(\\color{blue}{\\alpha}&nbsp;\\)</div><div><br></div><div><div>2) Ищем наиболее мощный&nbsp;\\( \\mathscr{X}_{1\\alpha}^* \\) ⇒&nbsp;</div><div>тот, который даст наименьшую ошибку 2 рода (максимизируем мощность):<br></div><div><br></div><div>\\(Мощность = P( x \\in \\mathscr{X}_{1\\alpha}^* \\ | \\ \\theta \\in \\Theta_1)&nbsp; \\geq&nbsp; P( x \\in \\mathscr{X}_{1\\alpha}^\\ | \\ \\theta \\in \\Theta_0) = \\)</div><div>\\(вероятность \\ любого \\ другого \\ критерия \\ из \\ (1) \\)</div></div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hlg}$&s0];",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
             "tags": []
         }
     ]

@@ -1,0 +1,22 @@
+<svg height="165" width="938" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="2496f64a1b0f441ebc7e6cc4a04d9789-oa-1">
+   <rect fill="#FFEBA2" height="27" stroke="#2D2D2D" width="52" x="768" y="-0.59375"/>
+   <rect fill="#FFEBA2" height="25" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="49" x="877" y="-0.59375"/>
+   <rect fill="#FFEBA2" height="25" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="51" x="247" y="25.40625"/>
+   <rect fill="#FFEBA2" height="25" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="44" x="352" y="24.40625"/>
+  </g>
+  <rect fill="#FFEBA2" height="23" id="2496f64a1b0f441ebc7e6cc4a04d9789-oa-2" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="478" x="306" y="133.40625"/>
+  <g id="2496f64a1b0f441ebc7e6cc4a04d9789-oa-3">
+   <rect fill="#FFEBA2" height="26" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="363" x="556" y="52.40625"/>
+   <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="738" xml:space="preserve" y="72.40625">когда</text>
+   <rect fill="#ffeba2" height="29" stroke="#2D2D2D" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" width="194" x="276" y="77.40625"/>
+   <text fill="#000000" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" x="378" xml:space="preserve" y="100.40625">должен?</text>
+  </g>
+ </g>
+</svg>

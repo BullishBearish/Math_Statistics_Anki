@@ -1,0 +1,873 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c06061ad-9f5c-11ea-a541-28c63fc5d0c2",
+    "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 1,
+            "autoAnswer": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    30,
+                    1440,
+                    1440
+                ],
+                "leechAction": 1,
+                "leechFails": 4,
+                "minInt": 1,
+                "mult": 0.2
+            },
+            "maxTaken": 1800,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    40,
+                    1440,
+                    1440,
+                    2880,
+                    7200,
+                    14400
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    7,
+                    7
+                ],
+                "order": 0,
+                "perDay": 9999,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 180,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-555ebea26851c4a96f2c85f123c7c327f7db61ca.jpg",
+        "paste-5d8fd4119a8810b692c2455202941798b052488b.jpg",
+        "paste-8c320da676dc703466c31473933fcd3a4b755d08.jpg",
+        "paste-a003d1c2fb9f28e8ca8b02a86c148890567f064e.jpg"
+    ],
+    "mid": "1590241629090",
+    "name": "Критерии согласия распределений А",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "Line alone": false,
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Add Reverse",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra1",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra2",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra3",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra4",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic_MaJx_OptRev",
+            "number of columns": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n<br>\n<hr id=answer>\n\n{{Back}}\n<br><br>\n{{Extra1}}\n<br><br>\n{{Extra2}}\n<br><br>\n{{Extra3}}\n<br><br>\n{{Extra4}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "\n{{Front}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Math_Jax_Close",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что из себя представляет критерий согласия",
+                "Гипотезу о виде распределения",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y5*Gs>j*$E",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-general"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как может выглядеть критерий согласия",
+                "<div><img src=\"paste-555ebea26851c4a96f2c85f123c7c327f7db61ca.jpg\"><br><div><img src=\"paste-a003d1c2fb9f28e8ca8b02a86c148890567f064e.jpg\"><br></div></div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K$!X<t>z*h",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Два класса статистических критериев проверки гипотез о распределении",
+                "Общие критерии согласия<div><br></div><div>Специальные критерии согласия</div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vc3`t6H!~@",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что такое общие критерии согласия",
+                "<img src=\"paste-5d8fd4119a8810b692c2455202941798b052488b.jpg\">",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "FrFsm{YEUY",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-general"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Что такое специальные критерии согласия",
+                "<img src=\"paste-8c320da676dc703466c31473933fcd3a4b755d08.jpg\">",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fuc?a?j7I@",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-general"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Почему есть очень много разных статистических критериев",
+                "Из-за многообразия альтернатив к нулевой гипотезе",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v4Mt0,Wiaz",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Лемма Неймана-Пирсона позволяет найти {{c1::РНМК}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y$8531?$[W",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-лемма_Неймана_Пирсона"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Почему при формировании гипотез в качестве нулевой берем ту, которая делает ошибку 1 рода&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\"></span><span style=\" color: blue;\n background-color: #eaf4ff;\">наиболее нежелательной</span>",
+                "Потому что эту вероятность мы контролируем с помощью \\(\\alpha\\)",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "il~U74~9Ae",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-лемма_Неймана_Пирсона"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Лемма Неймана - Пирсона",
+                "Критерий \\(\\exists\\), если \\(H_0\\) и \\(H_1&nbsp;\\) простые:<div><br><div>\\(H_0 : \\theta = \\theta_0\\)</div><div>\\(H_1 : \\theta = \\theta_1\\)<br></div><div><br></div><div>\\( \\mathscr{X}_{1\\alpha}^* = \\{ x : \\frac{L(x;\\theta_1)}{L(x;\\theta_0)} \\geq c_\\alpha \\} \\)</div><div><br></div><div>\\( c_\\alpha : P( x \\in \\mathscr{X}_{1\\alpha}^* \\ | \\ \\theta = \\theta_0) \\leq \\alpha \\)</div><div><br></div><div>Область отвержения наиболее мощного критерия&nbsp; - это то значения выборочного пространоства, для которых отношение функций правдоподобия при \\(\\theta_1\\) и \\(\\theta_0\\) больше некоторой константы \\(c_\\alpha\\), которая определяется таким образом, чтобы ошибка 1 рода не превосходила \\(\\alpha\\)</div></div><div><br></div><div><hr>Определяем \\(c_\\alpha\\) из \\(\\alpha\\), потом определяем критическую область \\( \\mathscr{X}_{1\\alpha}^* \\)</div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "onBG7:/-yf",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-лемма_Неймана_Пирсона"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В лемме Неймана-Пирсона гипотезы {{c1::простые::какие}}<div><br></div><div><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x_apho$bF9",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-лемма_Неймана_Пирсона"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В лемме Неймана-Пирсона<div><br></div><div>\\( \\mathscr{X}_{1\\alpha}^* = \\{ x : \\frac { {{c1::L(x;\\theta_1)}} }&nbsp; {{{c1::{L(x;\\theta_0)} }}} \\geq c_\\alpha \\} \\)<br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B>n!Z;Tg9u",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-лемма_Неймана_Пирсона"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В лемме Неймана-Пирсона<div><br></div><div>\\( c_\\alpha : P( x \\in \\mathscr{X}_{1\\alpha}^* \\ | \\ {{c1::\\theta = \\theta_0::условие}}) {{c1::\\leq::знак }}\\alpha \\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v,Lt#6&v.d",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-лемма_Неймана_Пирсона"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Общий вид гипотезы о распределении",
+                "<span style=\" color: blue;\n background-color: #eaf4ff;\"></span>\\(H_0 : F_{X_1}(x) \\in \\mathscr{F}(\\theta) = \\{F(x, \\theta), \\theta\\in\\theta\\}\\)<div><br></div><div>\\(H_1 : F_{X_1}(x) \\notin \\mathscr{F}(\\theta) = \\{F(x, \\theta), \\theta\\in\\theta\\}\\)<br></div><div><br></div><div><span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span>\\(H_0\\) : истинное распределение с.в. \\(X_1\\) (как и любой другой, тк норсв) принадлежит некоторому семейству распределений \\(\\mathscr{F}(\\theta)\\), параметры не важны, важен класс распределения</div><div><br></div><div>\\( H_1 \\) : распределение не принадлежит такому классу<span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span></div><div><br></div><div><hr><br></div><div>\\(\\hat{F}_n(x) \\) - выборочная функция распределения, построенная по n наблюдениям<br></div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "KK!X<n^L^^",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Критерий Пирсона-Фишера",
+                "При справедливости \\(H_0\\) (распределение из предполагаемого класса)&nbsp;<div><br></div><div>\\[ \\gamma^{(n)} = \\sum_{j=1}^s \\frac{(\\nu_j - np_j(\\hat{\\theta}))^2} {np_j(\\hat{\\theta})}&nbsp; \\overset{F}{\\underset{n\\rightarrow\\inf}{\\to}} \\chi_{s-k-1}^2\\]</div><div><br></div><div><span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span>Сумма относительных разниц в квадрате к теоретическому числу раз сходится по распределению к Хи-квадрат<span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span></div><div><br></div><div><hr><br></div><div>\\(\\gamma^{(n)}\\) - статистика<br></div><div><br></div><div><div>\\(k\\) -&nbsp; размерность параметра \\(\\theta\\)</div></div><div><br></div><div>\\(s\\) - число различных значений</div><div><br></div><div>\\(\\hat{\\theta}\\) - \\(\\forall\\) состоятельная оценка</div><div><br></div><div>\\(p_j(\\hat{\\theta})\\) - вероятность, что принялось конкретное значение, зависит от \\(\\hat{\\theta}\\), т.к. само распределение \\(\\hat{F}_n(x) \\)зависит от \\(\\hat{\\theta}\\)</div><div><br></div><div>\\(np_j(\\hat{\\theta})\\) - вероятность того, что с.в. примет значение \\(j\\)<br></div><div><br></div><div>\\(\\nu_j \\) - частота, с которой в выборке наблюдается значение \\(j\\) (теоретическое матожидание)</div><div><br></div><div><br></div><div><br></div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "d*Rmd(i6d.",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В критерии Пирсона-Фишера заполните пропуски<div><br></div><div>При справедливости \\(H_0\\) (распределение из предполагаемого класса)&nbsp;<div><br></div><div>\\[ \\gamma^{(n)} = \\sum_{j=1}^{&nbsp; &nbsp;{{c1::s}}&nbsp; &nbsp;} \\frac{(\\nu_j - np_j(\\hat{\\theta}))^2} {np_j(\\hat{\\theta})}&nbsp; \\overset{&nbsp; {{c2::F}}&nbsp; &nbsp;}{\\underset{n\\rightarrow\\inf}{\\to}} \\chi_{&nbsp; &nbsp;{{c3::s-k-1&nbsp;}} &nbsp;}&nbsp; &nbsp;^2\\]</div><div><br></div><div><span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span>Сумма относительных разниц в квадрате к теоретическому числу раз сходится по распределению к Хи-квадрат<span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span></div><div><br></div><div><hr><br></div><div><br></div><div>\\(\\gamma^{(n)}\\) - статистика<br></div><div><br></div><div><div>\\(k\\) -&nbsp; размерность параметра \\(\\theta\\)</div></div><div><br></div><div>\\(s\\) - число различных значений</div><div><br></div><div>\\(\\hat{\\theta}\\) - \\(\\forall\\) состоятельная оценка</div><div><br></div><div>\\(p_j(\\hat{\\theta})\\) - вероятность, что принялось конкретное значение, зависит от \\(\\hat{\\theta}\\), т.к. само распределение \\(\\hat{F}_n(x) \\)зависит от \\(\\hat{\\theta}\\)</div><div><br></div><div>\\(np_j(\\hat{\\theta})\\) - вероятность того, что с.в. примет значение \\(j\\)<br></div><div><br></div><div>\\(\\nu_j \\) - частота, с которой в выборке наблюдается значение \\(j\\) (теоретическое матожидание)</div><div><br></div><div><br></div><div><br></div></div>",
+                "<div><br></div><div><br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "O$j%zssqg?",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В критерии Пирсона-Фишера&nbsp;<div><br></div><div>При справедливости \\(H_0\\) (распределение из предполагаемого класса)&nbsp;<div><br></div><div>\\[ \\gamma^{(n)} = \\sum_{j=1}^s \\frac{(\\nu_j - np_j(\\hat{\\theta}))^2} {np_j(\\hat{\\theta})}&nbsp; \\overset{F}{\\underset{n\\rightarrow\\inf}{\\to}} \\chi_{s-k-1}^2\\]</div><div><br></div><div><span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span>Сумма относительных разниц в квадрате к теоретическому числу раз сходится по распределению к Хи-квадрат::Произнесите словами<span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span></div><div><br></div><div><br></div><div>\\(\\gamma^{(n)}\\) - {{c1::статистика}}<br></div><div><br></div><div><div>\\(k\\) -&nbsp; {{c2::размерность параметра \\(\\theta\\)}}</div></div><div><br></div><div>\\(s\\) - {{c3::число различных значений}}</div><div><br></div><div>\\(\\hat{\\theta}\\) - {{c4::\\(\\forall\\) состоятельная оценка}}</div><div><br></div><div>\\(p_j(\\hat{\\theta})\\) - {{c5::вероятность, что принялось конкретное значение, зависит от \\(\\hat{\\theta}\\), т.к. само распределение \\(\\hat{F}_n(x) \\)зависит от \\(\\hat{\\theta}\\)}}</div><div><br></div><div>\\(np_j(\\hat{\\theta})\\) - {{c6::вероятность того, что с.в. примет значение \\(j\\)}}<br></div><div><br></div><div>\\(\\nu_j \\) - {{c7::частота, с которой в выборке наблюдается значение \\(j\\) (теоретическое матожидание)}}</div><div><br></div><div><br></div><div><br></div></div>",
+                "<div><br></div><div><br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "N(Wj_6^X.M",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как изменится статистика \\(\\gamma^{(n)}\\) в критерии Пирсона-Фишера, при изменении вида исходного распределения",
+                "Никак, в том ее и смысл, что она одинакова для любого распределения, как и другие подобные статистики в критериях",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zc<6^4`rJi",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Для каких распределений в основном используется критерий Пирсона-Фишера?",
+                "Для дискретных, но есть и переход к непрерывным",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Cy8sTq1qHd",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В критерии Пирсона-Фишера&nbsp;<div><br></div><div>При справедливости \\(H_0\\) (распределение из предполагаемого класса)&nbsp;<div><br></div><div>\\[ \\gamma^{(n)} = \\sum_{j=1}^s \\frac{(\\nu_j - np_j(\\hat{\\theta}))^2} {np_j(\\hat{\\theta})}&nbsp; \\overset{F}{\\underset{n\\rightarrow\\inf}{\\to}} \\chi_{s-k-1}^2\\]</div><div><br></div><div><span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span>{{c1::Сумма относительных разниц в квадрате к теоретическому числу раз сходится по распределению к Хи-квадрат::Произнесите словами}}<span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span></div><div><br></div><div><br></div><div>\\(\\gamma^{(n)}\\) - статистика<br></div><div><br></div><div><div>\\(k\\) -&nbsp; размерность параметра \\(\\theta\\)</div></div><div><br></div><div>\\(s\\) - число различных значений</div><div><br></div><div>\\(\\hat{\\theta}\\) - \\(\\forall\\) состоятельная оценка</div><div><br></div><div>\\(p_j(\\hat{\\theta})\\) - вероятность, что принялось конкретное значение, зависит от \\(\\hat{\\theta}\\), т.к. само распределение \\(\\hat{F}_n(x) \\)зависит от \\(\\hat{\\theta}\\)</div><div><br></div><div>\\(np_j(\\hat{\\theta})\\) - вероятность того, что с.в. примет значение \\(j\\)<br></div><div><br></div><div>\\(\\nu_j \\) - частота, с которой в выборке наблюдается значение \\(j\\) (теоретическое матожидание)</div><div><br></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wDog.fuHz~",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В критерии Пирсона-Фишера мы не знаем истинное значение параметра {{c1::\\(\\theta\\)}}, поэтому вместо него используем {{c1::любую состоятельную оценку}}, полученную {{c1::любым способом}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "BPa69l-Ex3",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-general"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В критерии Пирсона-Фишера заполните пропуски<div><br></div><div>При справедливости \\(H_0\\) (распределение из предполагаемого класса)&nbsp;<div><br></div><div>\\[ \\gamma^{(n)} = \\sum_{j=1}^{&nbsp; &nbsp;{{c1::s}}&nbsp; &nbsp;} \\frac{(\\nu_j - np_j(\\hat{\\theta}))^2} {np_j(\\hat{\\theta})}&nbsp; \\overset{&nbsp; {{c1::F}}&nbsp; &nbsp;}{\\underset{n\\rightarrow\\inf}{\\to}} \\chi_{&nbsp; &nbsp;{{c1::s-k-1&nbsp;}} &nbsp;}&nbsp; &nbsp;^2\\]</div><div><br></div><div><span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span>Сумма относительных разниц в квадрате к теоретическому числу раз сходится по распределению к Хи-квадрат<span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span></div><div><br></div><div><br></div><div><br></div><div>\\(\\gamma^{(n)}\\) - статистика<br></div><div><br></div><div><div>\\(k\\) -&nbsp; размерность параметра \\(\\theta\\)</div></div><div><br></div><div>\\(s\\) - число различных значений</div><div><br></div><div>\\(\\hat{\\theta}\\) - \\(\\forall\\) состоятельная оценка</div><div><br></div><div>\\(p_j(\\hat{\\theta})\\) - вероятность, что принялось конкретное значение, зависит от \\(\\hat{\\theta}\\), т.к. само распределение \\(\\hat{F}_n(x) \\)зависит от \\(\\hat{\\theta}\\)</div><div><br></div><div>\\(np_j(\\hat{\\theta})\\) - вероятность того, что с.в. примет значение \\(j\\)<br></div><div><br></div><div>\\(\\nu_j \\) - частота, с которой в выборке наблюдается значение \\(j\\) (теоретическое матожидание)</div><div><br></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "e+6I^K&np#",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В критерии Пирсона-Фишера&nbsp;<div><br></div><div>При справедливости \\(H_0\\) (распределение из предполагаемого класса)&nbsp;<div><br></div><div>\\[ \\gamma^{(n)} = \\sum_{j=1}^s \\frac{(\\nu_j - np_j(\\hat{\\theta}))^2} {np_j(\\hat{\\theta})}&nbsp; \\overset{F}{\\underset{n\\rightarrow\\inf}{\\to}} \\chi_{s-k-1}^2\\]</div><div><br></div><div><span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span>Сумма относительных разниц в квадрате к теоретическому числу раз сходится по распределению к Хи-квадрат::Произнесите словами<span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span></div><div><br></div><div><br></div><div>\\(\\gamma^{(n)}\\) - {{c1::статистика}}<br></div><div><br></div><div><div>\\(k\\) -&nbsp; {{c1::размерность параметра \\(\\theta\\)}}</div></div><div><br></div><div>\\(s\\) - {{c1::число различных значений}}</div><div><br></div><div>\\(\\hat{\\theta}\\) - {{c1::\\(\\forall\\) состоятельная оценка}}</div><div><br></div><div>\\(p_j(\\hat{\\theta})\\) - {{c1::вероятность, что принялось конкретное значение, зависит от \\(\\hat{\\theta}\\), т.к. само распределение \\(\\hat{F}_n(x) \\)зависит от \\(\\hat{\\theta}\\)}}</div><div><br></div><div>\\(np_j(\\hat{\\theta})\\) - {{c1::вероятность того, что с.в. примет значение \\(j\\)}}<br></div><div><br></div><div>\\(\\nu_j \\) - {{c1::частота, с которой в выборке наблюдается значение \\(j\\) (теоретическое матожидание)}}</div><div><br></div><div><br></div><div><br></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "d4j6v*L1K~",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Какой недостаток у критерия Пирсона-Фишера",
+                "Состоятелен далко не против любой альтернативы и обладает небольшой мощностью",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pmZs6?O2/Z",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Пирсона_Фишера"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Какое ограничение на критерий Колмогорова",
+                "Работает только с непрерывными распределениями",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iA!e0e`O8q",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Критерий колмогорова определяет соответсвие {{c1::конкретному распределению::семейству или конкретному распределению?}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MP,?NuyRG>",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Объясните логику критерия согласия Колмогорова<div>Как он получается?</div>",
+                "<div>\\(H_0 : F_{X_1}(x) = F_0(x)\\)</div><div><div>\\(H_1 : F_{X_1}(x) \\neq F_0(x)\\)</div><br></div><div><br></div>Если выборка из нужного распределения, то&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">разница выборочного и теоретического распределения</span>&nbsp;небольшая<div>\\(\\hat{F_n}(x) - F_0(x)\\)</div><div><br></div><div><span style=\"background-color: rgb(234, 244, 255); color: blue;\">По ЗБЧ</span>&nbsp;выборочная функция распределения обязана сходиться по вероятности к теоретической,&nbsp; т.к. тоже является с.в.</div><div><br></div><div>\\( \\hat{F_n}(x)&nbsp;&nbsp; \\overset{P}{\\underset{n\\rightarrow\\inf}{\\to}} F_0(x)\\)<br></div><div><br></div><div>А&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">по Th Гливенко-Кантели</span>:</div><div>Супремум их разницы стремится к нулю по вероятности</div><div>\\( \\underset{x}{sup} |\\hat{F_n}(x) - F_0(x)| \\overset{P}{\\underset{n\\rightarrow\\inf}{\\to}}0\\)&nbsp;</div><div><br></div><div>Поэтому такую статистику и используем</div><div><span style=\" color: blue;\n background-color: #eaf4ff;\">Статистика Колмогорва:</span><br></div><div>\\[ D_n = \\underset{x}{sup} |\\hat{F_n}(x) - F_0(x)| \\]<br></div><div><br></div><div>И \\(D_n \\sim \\) распределение Колмогорова</div><div><br></div><div>А также \\( \\exists\\)&nbsp;<span style=\" color: blue;\n background-color: #eaf4ff;\">предельный результат&nbsp;</span>для больших \\(n\\)</div><div><br></div><div>\\[ \\underset{n \\rightarrow \\infty }{lim} P(\\sqrt n D_n &lt; z) = 1 + \\sum_{j=1}^\\infty (-1)^j e^{-2j^2z^2} \\]</div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vK%UJWc-x3",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предельный результат для критерий Колмогорова",
+                "\\[ \\underset{n \\rightarrow \\infty }{lim} P(\\sqrt n D_n &lt; z) = 1 + \\sum_{j=1}^\\infty (-1)^j e^{-2j^2z^2} \\]",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kRSLd:S$-c",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Предельный результат для критерия Колмогорова</div>\\[ \\underset{n \\rightarrow \\infty }{lim} P({{c1::\\sqrt n D_n &lt; z}}) = 1 + \\sum_{j=1}^\\infty (-1)^j e^{-2j^2z^2} \\]&nbsp;<div><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "l^@:}g|AQt",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предельный результат для критерий Колмогорова<div>\\[ \\underset{n \\rightarrow \\infty }{lim} P(\\sqrt n D_n &lt; z) = 1 + \\sum_{j=1}^\\infty (-1)^j e^{{{c1::-2j^2z^2}}} \\]&nbsp;</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "FgH4<^IEE%",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Предельный результат для критерий Колмогорова<div>\\[ \\underset{n \\rightarrow \\infty }{lim} P(\\sqrt n D_n &lt; z) = {{c1::1 + \\sum_{j=1}^\\infty (-1)^j e^{-2j^2z^2} }}&nbsp;\\]&nbsp;</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wh.XBO00mP",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Критерий Колмогорова&nbsp;",
+                "<div>\\(H_0 : F_{X_1}(x) = F_0(x)\\)</div><div><div>\\(H_1 : F_{X_1}(x) \\neq F_0(x)\\)</div></div><br><div><div><span style=\"color: blue; background-color: rgb(234, 244, 255);\">Статистика Колмогорва:</span><br></div><div>\\[ D_n = \\underset{x}{sup} |\\hat{F_n}(x) - F_0(x)| \\]</div></div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jo50kk:)A8",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div><div><span style=\"color: blue; background-color: rgb(234, 244, 255);\">Статистика Колмогорва:</span><br></div><div>\\[ D_n = \\underset{x}{sup} | {{c1::\\hat{F_n}(x) - F_0(x) }}| \\]</div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "F>t@,Xq(zk",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Критерий Колмогорова и предельный результат",
+                "<div><span style=\"color: blue; background-color: rgb(234, 244, 255);\">Статистика Колмогорва:</span><br></div><div>\\[ D_n = \\underset{x}{sup} |\\hat{F_n}(x) - F_0(x)| \\]</div><div><br></div><div><div><span style=\"color: blue; background-color: rgb(234, 244, 255);\">предельный результат&nbsp;</span>для больших \\(n\\)</div><div>\\[ \\underset{n \\rightarrow \\infty }{lim} P(\\sqrt n D_n &lt; z) = 1 + \\sum_{j=1}^\\infty (-1)^j e^{-2j^2z^2} \\]</div></div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vY7!Nnl<fU",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как использовать статистику Колмогорова \\(D_n\\)",
+                "По таблицам значений для небольших n, и по предельному переходу для больших<br>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x%N:}jO0>u",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Зачем \\(D_n\\) домножается на \\(\\sqrt n\\)&nbsp; в предельном переходе Колмогорова?<div>\\( \\underset{n \\rightarrow \\infty }{lim} P(\\color{red}{\\sqrt n }D_n &lt; z)\\)</div>",
+                "Потому что по Th Гливенко-Кантели \\(D_n\\) как супремум разницы выборочной и теоретической фунций распределения, стремится к нулю, и чтобы получить распределение, нужно домножить&nbsp;",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f7h;+4nF{|",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": [
+                "Критерии_согласия-критерий_Колмогорова"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,604 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "b01f62a0-9f5c-11ea-b1bb-28c63fc5d0c2",
+    "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 1,
+            "autoAnswer": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    30,
+                    1440,
+                    1440
+                ],
+                "leechAction": 1,
+                "leechFails": 4,
+                "minInt": 1,
+                "mult": 0.2
+            },
+            "maxTaken": 1800,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    40,
+                    1440,
+                    1440,
+                    2880,
+                    7200,
+                    14400
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    7,
+                    7
+                ],
+                "order": 0,
+                "perDay": 9999,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 180,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "17afbd92192d47b5b36365588f262a58-oa-1-A.svg",
+        "17afbd92192d47b5b36365588f262a58-oa-1-Q.svg",
+        "17afbd92192d47b5b36365588f262a58-oa-2-A.svg",
+        "17afbd92192d47b5b36365588f262a58-oa-2-Q.svg",
+        "17afbd92192d47b5b36365588f262a58-oa-3-A.svg",
+        "17afbd92192d47b5b36365588f262a58-oa-3-Q.svg",
+        "17afbd92192d47b5b36365588f262a58-oa-O.svg",
+        "2496f64a1b0f441ebc7e6cc4a04d9789-oa-1-A.svg",
+        "2496f64a1b0f441ebc7e6cc4a04d9789-oa-1-Q.svg",
+        "2496f64a1b0f441ebc7e6cc4a04d9789-oa-2-A.svg",
+        "2496f64a1b0f441ebc7e6cc4a04d9789-oa-2-Q.svg",
+        "2496f64a1b0f441ebc7e6cc4a04d9789-oa-3-A.svg",
+        "2496f64a1b0f441ebc7e6cc4a04d9789-oa-3-Q.svg",
+        "2496f64a1b0f441ebc7e6cc4a04d9789-oa-O.svg",
+        "7c197716d8ad4df2b2793348b1129af6-oa-1-A.svg",
+        "7c197716d8ad4df2b2793348b1129af6-oa-1-Q.svg",
+        "7c197716d8ad4df2b2793348b1129af6-oa-O.svg",
+        "843befab70bc494fba2959ff64c02bed-oa-1-A.svg",
+        "843befab70bc494fba2959ff64c02bed-oa-1-Q.svg",
+        "843befab70bc494fba2959ff64c02bed-oa-O.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-1-A.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-1-Q.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-2-A.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-2-Q.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-3-A.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-3-Q.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-4-A.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-4-Q.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-5-A.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-5-Q.svg",
+        "86eb62ca444144639be9c12d4da4c73f-oa-O.svg",
+        "d7f967a5da4d450ba0fcb78d6217dfe9-oa-1-A.svg",
+        "d7f967a5da4d450ba0fcb78d6217dfe9-oa-1-Q.svg",
+        "d7f967a5da4d450ba0fcb78d6217dfe9-oa-O.svg",
+        "fdf810c5488542e9b445031ac6e65f81-oa-1-A.svg",
+        "fdf810c5488542e9b445031ac6e65f81-oa-1-Q.svg",
+        "fdf810c5488542e9b445031ac6e65f81-oa-2-A.svg",
+        "fdf810c5488542e9b445031ac6e65f81-oa-2-Q.svg",
+        "fdf810c5488542e9b445031ac6e65f81-oa-O.svg",
+        "tmp4w_80k6s.png",
+        "tmpbsfte1sp.png",
+        "tmpl7c2ujly.png",
+        "tmpmotipi0y.png",
+        "tmpnqdr1z2j.png",
+        "tmppg_ypy00.png",
+        "tmpxmeving0.png"
+    ],
+    "name": "Гипотезы А2",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: darkslategray;\n background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Header",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Image",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Footer",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Remarks",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sources",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Image Occlusion Enhanced",
+            "number of columns": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "7c197716d8ad4df2b2793348b1129af6-oa-1",
+                "",
+                "<img src=\"tmpl7c2ujly.png\" />",
+                "<img src=\"7c197716d8ad4df2b2793348b1129af6-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"7c197716d8ad4df2b2793348b1129af6-oa-1-A.svg\" />",
+                "<img src=\"7c197716d8ad4df2b2793348b1129af6-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "nnj8BB`>l8",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "86eb62ca444144639be9c12d4da4c73f-oa-1",
+                "",
+                "<img src=\"tmp4w_80k6s.png\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-1-A.svg\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "tD{56.G:UU",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "86eb62ca444144639be9c12d4da4c73f-oa-2",
+                "",
+                "<img src=\"tmp4w_80k6s.png\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-2-A.svg\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "KIm,/[`h3}",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "86eb62ca444144639be9c12d4da4c73f-oa-3",
+                "",
+                "<img src=\"tmp4w_80k6s.png\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-3-A.svg\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "I4T&b5C*]`",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "86eb62ca444144639be9c12d4da4c73f-oa-4",
+                "",
+                "<img src=\"tmp4w_80k6s.png\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-4-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-4-A.svg\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "1pq0Q#wb]",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "86eb62ca444144639be9c12d4da4c73f-oa-5",
+                "",
+                "<img src=\"tmp4w_80k6s.png\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-5-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-5-A.svg\" />",
+                "<img src=\"86eb62ca444144639be9c12d4da4c73f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "k:kir7-{)",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "d7f967a5da4d450ba0fcb78d6217dfe9-oa-1",
+                "",
+                "<img src=\"tmpnqdr1z2j.png\" />",
+                "<img src=\"d7f967a5da4d450ba0fcb78d6217dfe9-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"d7f967a5da4d450ba0fcb78d6217dfe9-oa-1-A.svg\" />",
+                "<img src=\"d7f967a5da4d450ba0fcb78d6217dfe9-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "u:P2{]>3Wr",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2496f64a1b0f441ebc7e6cc4a04d9789-oa-1",
+                "",
+                "<img src=\"tmpmotipi0y.png\" />",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-1-A.svg\" />",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "o#PywQ_inV",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2496f64a1b0f441ebc7e6cc4a04d9789-oa-2",
+                "",
+                "<img src=\"tmpmotipi0y.png\" />",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-2-A.svg\" />",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "szKbxk|MYD",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2496f64a1b0f441ebc7e6cc4a04d9789-oa-3",
+                "",
+                "<img src=\"tmpmotipi0y.png\" />",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-3-A.svg\" />",
+                "<img src=\"2496f64a1b0f441ebc7e6cc4a04d9789-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "f##cmjl<+w",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "fdf810c5488542e9b445031ac6e65f81-oa-1",
+                "",
+                "<img src=\"tmpxmeving0.png\" />",
+                "<img src=\"fdf810c5488542e9b445031ac6e65f81-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"fdf810c5488542e9b445031ac6e65f81-oa-1-A.svg\" />",
+                "<img src=\"fdf810c5488542e9b445031ac6e65f81-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "xSs-MZ]z<^",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "fdf810c5488542e9b445031ac6e65f81-oa-2",
+                "",
+                "<img src=\"tmpxmeving0.png\" />",
+                "<img src=\"fdf810c5488542e9b445031ac6e65f81-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"fdf810c5488542e9b445031ac6e65f81-oa-2-A.svg\" />",
+                "<img src=\"fdf810c5488542e9b445031ac6e65f81-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "PU1p^5`a2J",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "843befab70bc494fba2959ff64c02bed-oa-1",
+                "",
+                "<img src=\"tmpbsfte1sp.png\" />",
+                "<img src=\"843befab70bc494fba2959ff64c02bed-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"843befab70bc494fba2959ff64c02bed-oa-1-A.svg\" />",
+                "<img src=\"843befab70bc494fba2959ff64c02bed-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "vOc!iIC_EJ",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17afbd92192d47b5b36365588f262a58-oa-1",
+                "",
+                "<img src=\"tmppg_ypy00.png\" />",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-1-A.svg\" />",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "i@g7,R,T+l",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17afbd92192d47b5b36365588f262a58-oa-2",
+                "",
+                "<img src=\"tmppg_ypy00.png\" />",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-2-A.svg\" />",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "O>NnemO)Oo",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17afbd92192d47b5b36365588f262a58-oa-3",
+                "",
+                "<img src=\"tmppg_ypy00.png\" />",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-3-A.svg\" />",
+                "<img src=\"17afbd92192d47b5b36365588f262a58-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "njd4K4/<g+",
+            "newlyAdded": false,
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        }
+    ]
+}
