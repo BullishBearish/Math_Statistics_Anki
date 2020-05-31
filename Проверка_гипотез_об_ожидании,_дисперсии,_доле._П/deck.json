@@ -61,7 +61,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
                     "font": "Arial",
@@ -160,12 +160,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Какое распределение имеет статистика&nbsp;\\(\\dfrac{\\bar X - \\mu_0}{\\hat{\\sigma} / \\sqrt{n}}\\)?",
+                "Какое распределение имеет статистика&nbsp;\\(\\dfrac{\\bar X - \\mu_0}{\\hat{\\sigma} / \\sqrt{n}}\\) при небольшой выборке?",
                 "Распределение Стьюдента"
             ],
             "flags": 0,
             "guid": "D2aLd2|H|{",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -177,7 +176,6 @@
             ],
             "flags": 0,
             "guid": "vY2&>T}#Sz",
-            "newlyAdded": false,
             "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
             "tags": []
         },
@@ -189,7 +187,6 @@
             ],
             "flags": 0,
             "guid": "n?(5o7@-qk",
-            "newlyAdded": false,
             "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
             "tags": []
         },
@@ -202,7 +199,6 @@
             ],
             "flags": 0,
             "guid": "f>i{ihi%R0",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -210,11 +206,10 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<div>\\(X_1,..,X_n \\sim F\\) \\((E(X_1) &lt; \\infty; D(X_1) &lt; \\infty)\\)</div>\\(\\dfrac{\\bar X - \\mu_0}{\\hat{\\sigma} / \\sqrt{n}} \\xrightarrow[n\\rightarrow \\infty]{F} {{c1::N(0,1)}}\\)"
+                "<div>\\(X_1,..,X_n \\sim F\\), \\((E(X_1) &lt; \\infty; D(X_1) &lt; \\infty)\\)</div>\\(\\dfrac{\\bar X - \\mu_0}{\\hat{\\sigma} / \\sqrt{n}} \\xrightarrow[n\\rightarrow \\infty]{F} {{c1::N(0,1)}}\\)"
             ],
             "flags": 0,
             "guid": "oc4P[`6/+O",
-            "newlyAdded": false,
             "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
             "tags": []
         },
@@ -226,7 +221,6 @@
             ],
             "flags": 0,
             "guid": "I>1GVJgl%g",
-            "newlyAdded": false,
             "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
             "tags": []
         }

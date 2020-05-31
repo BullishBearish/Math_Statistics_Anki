@@ -60,7 +60,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
                     "font": "Arial",
@@ -121,7 +121,6 @@
             ],
             "flags": 0,
             "guid": "hZ0ZG,;e9]",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -134,7 +133,6 @@
             ],
             "flags": 0,
             "guid": "Fs7eE98&Mz",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": [
                 "ДИ"
@@ -149,7 +147,6 @@
             ],
             "flags": 0,
             "guid": "NnU_FL8o:)",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": [
                 "ДИ"
@@ -164,7 +161,6 @@
             ],
             "flags": 0,
             "guid": "wNtrqDyIU1",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": [
                 "ДИ"
@@ -179,7 +175,6 @@
             ],
             "flags": 0,
             "guid": "fa@s=sOe3@",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": [
                 "ДИ",
@@ -195,7 +190,6 @@
             ],
             "flags": 0,
             "guid": "NxJm.sMg~}",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": [
                 "ДИ",
@@ -211,7 +205,6 @@
             ],
             "flags": 0,
             "guid": "J<,D{=C(U5",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": [
                 "ДИ"
@@ -226,7 +219,6 @@
             ],
             "flags": 0,
             "guid": "Q(J3#q~eCE",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": [
                 "ДИ"
@@ -241,7 +233,6 @@
             ],
             "flags": 0,
             "guid": "o7zD[}JzG_",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": [
                 "ДИ"

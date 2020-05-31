@@ -66,7 +66,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
                     "font": "Arial",
@@ -127,9 +127,10 @@
             ],
             "flags": 0,
             "guid": "w9h9]%T@+=",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
+            "tags": [
+                "минимум"
+            ]
         },
         {
             "__type__": "Note",
@@ -140,9 +141,10 @@
             ],
             "flags": 0,
             "guid": "oX]l*#T](T",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
+            "tags": [
+                "минимум"
+            ]
         },
         {
             "__type__": "Note",
@@ -153,7 +155,6 @@
             ],
             "flags": 0,
             "guid": "p2njtf6UO+",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -166,7 +167,6 @@
             ],
             "flags": 0,
             "guid": "m6^+n]iFq<",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -179,7 +179,6 @@
             ],
             "flags": 0,
             "guid": "EF6jUSLpuK",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -192,9 +191,10 @@
             ],
             "flags": 0,
             "guid": "Gx:05E|Y7t",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
+            "tags": [
+                "минимум"
+            ]
         },
         {
             "__type__": "Note",
@@ -205,9 +205,10 @@
             ],
             "flags": 0,
             "guid": "DByYed:.7K",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
+            "tags": [
+                "минимум"
+            ]
         },
         {
             "__type__": "Note",
@@ -218,9 +219,10 @@
             ],
             "flags": 0,
             "guid": "qq,@,u~laj",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
+            "tags": [
+                "минимум"
+            ]
         },
         {
             "__type__": "Note",
@@ -231,9 +233,10 @@
             ],
             "flags": 0,
             "guid": "cqe)Mcguqf",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
+            "tags": [
+                "минимум"
+            ]
         },
         {
             "__type__": "Note",
@@ -244,9 +247,10 @@
             ],
             "flags": 0,
             "guid": "x?B.@HpUQb",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
+            "tags": [
+                "минимум"
+            ]
         },
         {
             "__type__": "Note",
@@ -257,9 +261,10 @@
             ],
             "flags": 0,
             "guid": "NnKu#~t_bb",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
+            "tags": [
+                "минимум"
+            ]
         }
     ]
 }
