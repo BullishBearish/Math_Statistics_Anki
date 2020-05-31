@@ -104,7 +104,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
                     "font": "Arial",
@@ -164,7 +164,6 @@
             ],
             "flags": 0,
             "guid": "O~6qgKq111",
-            "newlyAdded": false,
             "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
             "tags": []
         },
@@ -177,7 +176,6 @@
             ],
             "flags": 0,
             "guid": "xDN/=rFkcF",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -190,7 +188,6 @@
             ],
             "flags": 0,
             "guid": "RjNqW]0`1D",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -203,7 +200,6 @@
             ],
             "flags": 0,
             "guid": "gbM80elK{b",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -216,7 +212,6 @@
             ],
             "flags": 0,
             "guid": "rZxwFGd@I+",
-            "newlyAdded": false,
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         }
