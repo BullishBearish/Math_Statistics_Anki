@@ -115,6 +115,49 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze-8a0a5",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<br>\n<br>\n{{cloze:Text}}\n<br>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<br>\n<br>\n{{cloze:Text}}\n<br>"
+                }
+            ],
+            "type": 1,
+            "vers": []
         }
     ],
     "notes": [
@@ -136,8 +179,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Дайте определение нормально распределённой случайной величины. Для неё укажите диапазон возможных значений, функцию плотности, ожидание, дисперсию",
-                "\\(X \\sim N(\\mu, \\sigma^2)\\), если \\(f(x)=\\frac{1}{\\sqrt{2 \\pi \\sigma^2}}e^{-\\frac{1}{2} \\frac{(x-\\mu)^2}{\\sigma^2}}, x \\in (-\\infty, +\\infty)\\)<br><br>\\(\\mu=E(X), \\sigma^2=D(X)\\)"
+                "Дайте определение нормально распределённой случайной величины. Для неё укажите диапазон возможных значений, функцию плотности, ожидание, дисперсию.",
+                "\\(X \\sim N(\\mu, \\sigma^2)\\), если \\(f(x)=\\frac{1}{\\sqrt{2 \\pi \\sigma^2}}e^{-\\frac{1}{2} \\frac{(x-\\mu)^2}{\\sigma^2}}\\)<div>\\(x \\in (-\\infty, +\\infty)\\)<br>\\(\\mu=E(X), \\sigma^2=D(X)\\)</div>"
             ],
             "flags": 0,
             "guid": "oX]l*#T](T",
@@ -167,18 +210,6 @@
             ],
             "flags": 0,
             "guid": "m6^+n]iFq<",
-            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Свойства многомерного нормального распределения",
-                "1) любой подвектор нормального вектора нормальный<div>2) для многомерного нормального распределения из некоррелированности его компонент следует их независимость</div><div>3) \\(X \\sim N(\\mu,C), Y=BX+b \\implies Y \\sim N(B\\mu+b,BCB^T)\\)</div><div>4) \\(\\begin{pmatrix}<br>X_1 \\\\<br>X_2<br>\\end{pmatrix}<br>\\sim N\\) \\(\\left(\\begin{pmatrix}<br>\\mu_1 \\\\<br>\\mu_2<br>\\end{pmatrix},\\begin{pmatrix}<br>\\sigma_1^2 &amp; \\rho\\sigma_1\\sigma_2 \\\\<br>\\rho\\sigma_1\\sigma_2 &amp; \\sigma_2^2<br>\\end{pmatrix}\\right) \\implies\\)</div><div>\\(X_1 | X_2 = x \\sim<br>N\\left(\\mu_1+\\rho \\sigma_1\\dfrac{x-\\mu_2}{\\sigma_2}<br>\\begin{pmatrix}<br>\\mu_1 \\\\<br>\\mu_2<br>\\end{pmatrix}, \\sigma_1^2(1-\\rho^2)\\right)\\)</div>"
-            ],
-            "flags": 0,
-            "guid": "EF6jUSLpuK",
             "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
             "tags": []
         },
@@ -243,7 +274,7 @@
             "data": "",
             "fields": [
                 "С помощью нормальных случайных величин дайте определение случайной величины, имеющей распределение Фишера. Для неё укажите диапазон возможных значений и два свойства.",
-                "\\(\\xi \\sim F_{k_1,k_2}\\), если \\(\\xi = \\dfrac{\\gamma_1/k_1}{\\gamma_2/k_2}\\), где \\(\\gamma_1 \\sim \\chi_{k_1}^2, \\gamma_2 \\sim \\chi_{k_2}^2\\), \\(\\gamma_1\\) и \\(\\gamma_2\\) независимы<br>\\(x \\in (-\\infty, +\\infty)\\)<br>1) \\(\\frac{1}{\\xi} \\sim F_{k_2,k_1}\\)<br>2) \\((T)^2 \\sim F_{1,k}\\)"
+                "\\(\\xi \\sim F_{k_1,k_2}\\), если \\(\\xi = \\dfrac{\\gamma_1/k_1}{\\gamma_2/k_2}\\), где \\(\\gamma_1 \\sim \\chi_{k_1}^2, \\gamma_2 \\sim \\chi_{k_2}^2\\), \\(\\gamma_1\\) и \\(\\gamma_2\\) независимы<br>\\(x \\in [0, +\\infty)\\)<br>1) \\(\\frac{1}{\\xi} \\sim F_{k_2,k_1}\\)<br>2) \\((T)^2 \\sim F_{1,k}\\)"
             ],
             "flags": 0,
             "guid": "x?B.@HpUQb",
@@ -265,6 +296,28 @@
             "tags": [
                 "минимум"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Свойства многомерного нормального распределения<div>1) {{c1::любой подвектор нормального вектора нормальный}}<div>2) {{c2::для многомерного нормального распределения из некоррелированности его компонент следует их независимость}}</div><div>3) {{c3::\\(X \\sim N(\\mu,C), Y=BX+b \\implies Y \\sim N(B\\mu+b,BCB^T)\\)}}</div><div>4) {{c4::<br></div><div>\\(\\begin{pmatrix}<br>X_1 \\\\<br>X_2<br>\\end{pmatrix}<br>\\sim N\\) \\(\\left(\\begin{pmatrix}<br>\\mu_1 \\\\<br>\\mu_2<br>\\end{pmatrix},\\begin{pmatrix}<br>\\sigma_1^2 &amp; \\rho\\sigma_1\\sigma_2 \\\\<br>\\rho\\sigma_1\\sigma_2 &amp; \\sigma_2^2<br>\\end{pmatrix}\\right) \\implies\\)</div><div>\\(X_1 | X_2 = x \\sim&nbsp;<br>N\\left(\\mu_1+\\rho \\sigma_1\\dfrac{x-\\mu_2}{\\sigma_2}<br>\\begin{pmatrix}<br>\\mu_1 \\\\<br>\\mu_2<br>\\end{pmatrix}, \\sigma_1^2(1-\\rho^2)\\right)\\)</div>}}</div>"
+            ],
+            "flags": 0,
+            "guid": "k;Yywow6/i",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Функция плотности многомерного нормального распределения<br></div>\\(f(x_1,..,x_n)=\\frac{1}{(\\sqrt{2\\pi})^n}\\frac{1}{\\sqrt{ {{c1::detC}} }}e^{-\\frac{1}{2}{{c2::((x-\\mu)^T C^{-1}(x-\\mu))}} }\\)"
+            ],
+            "flags": 0,
+            "guid": "wpk=j9lcJ&",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
         }
     ]
 }

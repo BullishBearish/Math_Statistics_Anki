@@ -55,7 +55,7 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [],
-    "mid": "1589915209506",
+    "mid": "1589816686489",
     "name": "Критерий отношения правдоподобия. Проверка гипотезы о независимости признаков. П",
     "note_models": [
         {
@@ -160,7 +160,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Критерий отношения правдоподобия<div>\\(H_0: \\theta \\in \\Theta_0\\)</div><div>\\(H_1: \\theta \\in \\Theta_1\\)</div><div>\\(dim\\Theta = s\\)<br>\\(dim\\Theta_0 = r\\)<br>\\(\\mathscr{X}_{1\\alpha} = \\{x: {{c1::-2ln\\dfrac{\\underset{\\theta \\in \\Theta_0}{\\sup}L(x;\\theta)}{\\underset{\\theta \\in \\Theta}{\\sup}L(x;\\theta)} \\ge \\chi_{\\alpha; s-r}^2}} \\}\\)</div>"
+                "Критерий отношения правдоподобия<div>\\(H_0: \\theta \\in \\Theta_0\\)</div><div>\\(H_1: \\theta \\in \\Theta_1\\)</div><div>\\(dim\\Theta = s\\)<br>\\(dim\\Theta_0 = r\\)<br>\\(\\mathscr{X}_{1\\alpha} = \\{x: {{c1::-2ln\\dfrac{\\underset{\\theta \\in \\Theta_0}{\\sup}L(x;\\theta)}{\\underset{\\theta \\in \\Theta}{\\sup}L(x;\\theta)} }} \\ge \\chi_{{{c2::\\alpha; s-r}} }^2 \\}\\)</div>"
             ],
             "flags": 0,
             "guid": "O~6qgKq111",
@@ -207,12 +207,22 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Критическая область для критерия отношения правдоподобия",
-                "\\(\\mathscr{X}_{1\\alpha}=\\{-2\\sum_{j=1}^s \\nu_j [ln(n p_j^0)-ln\\nu_j] \\ge \\chi_{\\alpha; s-1}^2\\}\\)"
+                "<div>Статистика для проверки гипотезы о независимости признаков</div>\\(\\gamma = \\sum_{i=1}^{ {{c2::k}} } \\sum_{j=1}^{ {{c2::m}} } {{c3::\\dfrac{(\\nu_{ij}-\\frac{\\nu_{1\\bullet} \\times \\nu_{\\bullet 1} }{n})^2}{\\frac{\\nu_{1\\bullet} \\times \\nu_{\\bullet 1} }{n} } }} \\xrightarrow[n\\rightarrow \\infty]{F} {{c1::\\chi_{(k-1)(m-1)}^2}}\\)"
             ],
             "flags": 0,
-            "guid": "rZxwFGd@I+",
-            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "guid": "fx6zsBBYEt",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Критическая область для критерия отношения правдоподобия<br></div>\\(\\mathscr{X}_{1\\alpha}=\\{-2\\sum_{j=1}^{ {{c3::s}} } {{c1::\\nu_j [ln(n p_j^0)-ln\\nu_j]}} \\ge \\chi_{{{c2::\\alpha; s-1}} }^2\\}\\)"
+            ],
+            "flags": 0,
+            "guid": "M75a9iZxm]",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
             "tags": []
         }
     ]
