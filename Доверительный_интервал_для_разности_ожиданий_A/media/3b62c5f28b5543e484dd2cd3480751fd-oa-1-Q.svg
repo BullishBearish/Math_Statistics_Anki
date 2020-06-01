@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="945" height="349">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="3b62c5f28b5543e484dd2cd3480751fd-oa-1" class="qshape">
+   <rect height="93.83562" width="262.32878" y="171.27396" x="91.02743" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="93.83562" width="262.32878" y="169.21919" x="494.45202" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="34.93151" width="52.73973" y="297.9863" x="71.84935" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="26.71233" width="38.35617" y="295.9315" x="301.30141" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="27.39726" width="216.43836" y="295.9315" x="343.08224" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+ </g>
+</svg>

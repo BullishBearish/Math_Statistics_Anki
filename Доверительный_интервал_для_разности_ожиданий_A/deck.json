@@ -1,0 +1,788 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "f5c70c2a-a3f3-11ea-bc9e-28c63fc5d0c2",
+    "deck_config_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 1,
+            "autoAnswer": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "601220a2-3bcc-11ea-813c-f9a7690c507d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    30,
+                    1440,
+                    1440
+                ],
+                "leechAction": 1,
+                "leechFails": 4,
+                "minInt": 1,
+                "mult": 0.2
+            },
+            "maxTaken": 1800,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    40,
+                    1440,
+                    2880,
+                    7200,
+                    14400
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    7,
+                    7
+                ],
+                "order": 0,
+                "perDay": 9999,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 180,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "17faf0fbcde24f1aa8329e8eb750bc23-oa-1-A.svg",
+        "17faf0fbcde24f1aa8329e8eb750bc23-oa-1-Q.svg",
+        "17faf0fbcde24f1aa8329e8eb750bc23-oa-O.svg",
+        "28f0f6a651a6460ab4744ae570e2d1d3-oa-1-A.svg",
+        "28f0f6a651a6460ab4744ae570e2d1d3-oa-1-Q.svg",
+        "28f0f6a651a6460ab4744ae570e2d1d3-oa-O.svg",
+        "381aa24aa9c54145a9ae5e06ff1f2cab-oa-1-A.svg",
+        "381aa24aa9c54145a9ae5e06ff1f2cab-oa-1-Q.svg",
+        "381aa24aa9c54145a9ae5e06ff1f2cab-oa-O.svg",
+        "3b62c5f28b5543e484dd2cd3480751fd-oa-1-A.svg",
+        "3b62c5f28b5543e484dd2cd3480751fd-oa-1-Q.svg",
+        "3b62c5f28b5543e484dd2cd3480751fd-oa-O.svg",
+        "51f50dce47054d7faa7a8831dcc4576e-oa-1-A.svg",
+        "51f50dce47054d7faa7a8831dcc4576e-oa-1-Q.svg",
+        "51f50dce47054d7faa7a8831dcc4576e-oa-2-A.svg",
+        "51f50dce47054d7faa7a8831dcc4576e-oa-2-Q.svg",
+        "51f50dce47054d7faa7a8831dcc4576e-oa-O.svg",
+        "6609ac3f9fb3473891ae2f0c8acfe6ba-oa-1-A.svg",
+        "6609ac3f9fb3473891ae2f0c8acfe6ba-oa-1-Q.svg",
+        "6609ac3f9fb3473891ae2f0c8acfe6ba-oa-O.svg",
+        "685206a3482a49d79d2574ca0d5cf1cd-oa-1-A.svg",
+        "685206a3482a49d79d2574ca0d5cf1cd-oa-1-Q.svg",
+        "685206a3482a49d79d2574ca0d5cf1cd-oa-O.svg",
+        "87a22bad7d6445c48bfbfd3621aacdd6-oa-1-A.svg",
+        "87a22bad7d6445c48bfbfd3621aacdd6-oa-1-Q.svg",
+        "87a22bad7d6445c48bfbfd3621aacdd6-oa-O.svg",
+        "ab139f33d7cd4171a04ecb30844d94cd-oa-1-A.svg",
+        "ab139f33d7cd4171a04ecb30844d94cd-oa-1-Q.svg",
+        "ab139f33d7cd4171a04ecb30844d94cd-oa-O.svg",
+        "ccb8378b40ed481bbd5596392e3488cc-oa-1-A.svg",
+        "ccb8378b40ed481bbd5596392e3488cc-oa-1-Q.svg",
+        "ccb8378b40ed481bbd5596392e3488cc-oa-O.svg",
+        "d73c215d618549ea9e9cb7ccae67dc67-ao-1-A.svg",
+        "d73c215d618549ea9e9cb7ccae67dc67-ao-1-Q.svg",
+        "d73c215d618549ea9e9cb7ccae67dc67-ao-2-A.svg",
+        "d73c215d618549ea9e9cb7ccae67dc67-ao-2-Q.svg",
+        "d73c215d618549ea9e9cb7ccae67dc67-ao-O.svg",
+        "tmp9_hyh4yo.png",
+        "tmpfn2kmvv6.png",
+        "tmpol45mkst.png",
+        "tmpytwre8qc.png"
+    ],
+    "mid": "1590241629090",
+    "name": "Доверительный интервал для разности ожиданий A",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "Line alone": false,
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Add Reverse",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra1",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra2",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra3",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra4",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "#Basic_MaJx_OptRev",
+            "number of columns": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n<br>\n<hr id=answer>\n\n{{Back}}\n<br><br>\n{{Extra1}}\n<br><br>\n{{Extra2}}\n<br><br>\n{{Extra3}}\n<br><br>\n{{Extra4}}\n\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "\n{{Front}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "#Close_Math_Jax",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: darkslategray;\n background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Header",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Image",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Footer",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Remarks",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sources",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Image Occlusion Enhanced",
+            "number of columns": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Основное следствие леммы Фишера&nbsp;</b>",
+                "<div>Пусть \\( X_1 ... X_n \\) - независимы и нормально распределены \\(N(\\mu,\\sigma^2)\\)<br></div><div></div><div><div><br></div><div>Тогда</div><div><br></div><div>1) \\(&nbsp; \\frac{\\bar{X} - \\mu}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{ \\color{red}{ \\sigma}/ \\sqrt n}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;N(0,1)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\)</div><div><br></div><div>2.1) \\(&nbsp; \\color{green}{n}&nbsp; &nbsp; \\frac{\\color{green}{S^2}}&nbsp; &nbsp; {\\sigma^2}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\chi_{\\color{green}{n-1}}^2 ,\\)</div><div><br></div><div>2.2) \\(&nbsp; &nbsp; \\color{purple}{(n-1)}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\frac{\\color{purple}{\\hat\\sigma^2}}&nbsp; &nbsp; &nbsp; {\\sigma^2}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\chi_{\\color{purple}{n-1}}^2&nbsp;&nbsp;\\)</div><div><br></div><div>3) \\( \\bar X&nbsp; \\) и \\(S^2(\\hat\\sigma^2)\\) независимы</div><div><br></div><div><b>Следствие</b></div><div><b><br></b></div><div>\\(\\frac{\\bar{X} - \\mu}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{ \\color{red}{ \\hat \\sigma} /&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\sqrt n}&nbsp; &nbsp; &nbsp; &nbsp;\\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;t_{n-k} \\)<br></div></div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "CeWH<^$$sH",
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Основное следствие леммы Фишера&nbsp;</b><div><b><br></b></div><div><div>Пусть \\( X_1 ... X_n \\) - независимы и {{c1::</div><div>нормально распределены \\(N(\\mu,\\sigma^2)\\)}}</div><div><div>Тогда</div><div><br></div><div>1) \\(&nbsp; {{c5::\\frac{\\bar{X} - \\mu}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{ \\color{red}{ \\sigma}/ \\sqrt n} }}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{c5::N(0,1)&nbsp; &nbsp;}} &nbsp; &nbsp; &nbsp; &nbsp; \\)</div><div><br></div><div>2.1) \\(&nbsp; {{c2::\\color{green}{n}&nbsp; &nbsp; \\frac{\\color{green}{S^2} }&nbsp; &nbsp;{\\sigma^2}&nbsp;}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\chi_{\\color{green}{n-1}}^2 ,\\)</div><div><br></div><div>2.2) \\(&nbsp; &nbsp; {{c3::\\color{purple}{(n-1)}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\frac{\\color{purple}{\\hat\\sigma^2} }&nbsp; &nbsp; &nbsp; {\\sigma^2}&nbsp;}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\chi_{\\color{purple}{n-1}}^2&nbsp;&nbsp;\\)</div><div><br></div><div>3) \\( {{c4::\\bar X&nbsp; \\) и \\(S^2(\\hat\\sigma^2)}}\\) независимы</div><div><br></div><div><b>Следствие</b></div><div><b><br></b></div><div>\\(&nbsp; &nbsp; &nbsp; {{c5::\\frac{\\bar{X} - \\mu}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{ \\color{red}{ \\hat \\sigma} /&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\sqrt n}&nbsp;}} &nbsp; &nbsp; &nbsp;\\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {{c5::&nbsp;t_{n-k} }} \\)</div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vH,CQ~ndzj",
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Основное следствие леммы Фишера&nbsp;</b><div><b><br></b></div><div><div>Пусть \\( X_1 ... X_n \\) - независимы и {{c1::</div><div>нормально распределены \\(N(\\mu,\\sigma^2)\\)}}</div><div><div>Тогда</div><div><br></div><div>1) \\(&nbsp; {{c1::\\frac{\\bar{X} - \\mu}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{ \\color{red}{ \\sigma}/ \\sqrt n} }}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{c1::N(0,1)&nbsp; &nbsp;}} &nbsp; &nbsp; &nbsp; &nbsp; \\)</div><div><br></div><div>2.1) \\(&nbsp; {{c1::\\color{green}{n}&nbsp; &nbsp; \\frac{\\color{green}{S^2} }&nbsp; &nbsp;{\\sigma^2}&nbsp;}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\chi_{\\color{green}{n-1}}^2 ,\\)</div><div><br></div><div>2.2) \\(&nbsp; &nbsp; {{c1::\\color{purple}{(n-1)}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\frac{\\color{purple}{\\hat\\sigma^2} }&nbsp; &nbsp; &nbsp; {\\sigma^2}&nbsp;}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\chi_{\\color{purple}{n-1}}^2&nbsp;&nbsp;\\)</div><div><br></div><div>3) \\( {{c1::\\bar X&nbsp; \\) и \\(S^2(\\hat\\sigma^2)}}\\) независимы</div><div><br></div><div><b>Следствие</b></div><div><b><br></b></div><div>\\(&nbsp; &nbsp; &nbsp; {{c1::\\frac{\\bar{X} - \\mu}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{ \\color{red}{ \\hat \\sigma} /&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\sqrt n}&nbsp;}} &nbsp; &nbsp; &nbsp;\\sim&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {{c1::&nbsp;t_{n-k} }} \\)</div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M#y~T?U)k}",
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Доверительные интервалы <b>для математического ожидания </b>нормального распределения<div><br></div><div><b>При известной дисперсии</b></div>",
+                "Пусть \\(&nbsp; X_1 ... X_n \\) - выборка из нормального распределения \\( N(\\mu, \\sigma^2) \\)<div><br></div><div>\\[ P( \\bar X - z_{\\alpha / 2} \\cdot \\frac {\\sigma}{\\sqrt n} &lt; \\mu &lt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\bar X + z_{\\alpha / 2} \\cdot \\frac {\\sigma}{\\sqrt n} ) = 1 - \\alpha \\]</div><div><br></div><div>\\[ \\Phi(z_{\\alpha / 2})&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = 1 - \\alpha /2 \\]</div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M})*@u!]jR",
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Доверительные интервалы <b>для математического ожидания </b>нормального распределения<div><br></div><div><b>При неизвестной дисперсии</b></div>",
+                "Пусть \\(&nbsp; X_1 ... X_n \\) - выборка из нормального распределения \\( N(\\mu, \\sigma^2) \\)<div><br></div><div>\\[ P( \\bar X - t_{n-1; \\alpha/2} \\cdot \\frac {\\hat \\sigma}{\\sqrt n} &lt; \\mu &lt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\bar X + t_{n-1; \\alpha/2} \\cdot \\frac {\\hat \\sigma}{\\sqrt n}&nbsp;) = 1 - \\alpha \\]</div><div><br></div><div>\\[ \\hat \\sigma = \\sqrt{\\frac{1}{n-1} \\sum_{i=1}^{n}{(X_i - \\bar X)^2} }\\]</div><div><br></div><div><br></div><div>где&nbsp; \\( t_{n-1, \\alpha / 2} \\)&nbsp; &nbsp;- квантиль уровня \\(&nbsp; \\frac{1-\\alpha}{2} \\) для распределения Стьюдента с \\( n-1 \\) степенью свободы</div>",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "AMIOze*Mbt",
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Доверительные интервалы&nbsp;<b>для математического ожидания&nbsp;</b>нормального распределения<div><br></div><div><b>При известной дисперсии</b></div><div><b><br></b></div><div>Пусть \\(&nbsp; X_1 ... X_n \\) - выборка из нормального распределения \\( N(\\mu, \\sigma^2) \\)<div><br></div><div>\\[ P( \\bar X - \\color{blue}{ {{c1::z_{\\alpha / 2} \\cdot \\frac {\\sigma}{\\sqrt n} }} } &lt; \\mu &lt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\bar X + \\color{blue}{ {{c1::z_{\\alpha / 2} \\cdot \\frac {\\sigma}{\\sqrt n} }} }) = 1 - \\alpha \\]</div><div><br></div><div>\\[ \\Phi(z_{\\alpha / 2})&nbsp; &nbsp; = \\color{blue}{ {{c2::1 - \\frac{\\alpha}{2} }} } \\]</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E9WYv?>C6e",
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Доверительные интервалы&nbsp;<b>для математического ожидания&nbsp;</b>нормального распределения<div><br></div><div><b>При неизвестной дисперсии</b></div><div><b><br></b></div><div>Пусть \\(&nbsp; X_1 ... X_n \\) - выборка из нормального распределения \\( N(\\mu, \\sigma^2) \\)<div><br></div><div>\\[ P( \\bar X - {{c1::t_{n-1; \\alpha/2} \\cdot \\frac {\\hat \\sigma}{\\sqrt n} }} &lt; \\mu &lt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\bar X + {{c1::t_{n-1; \\alpha/2} \\cdot \\frac {\\hat \\sigma}{\\sqrt n} }}&nbsp;) = 1 - \\alpha \\]</div><div><br></div><div>\\[ \\hat \\sigma = {{c3::\\sqrt{\\frac{1}{n-1} \\sum_{i=1}^{n}{(X_i - \\bar X)^2} } }}\\]</div><div><br></div><div><br></div><div>где&nbsp; \\( t_{n-1, \\alpha / 2} \\)&nbsp; &nbsp;- квантиль {{c2::уровня&nbsp; \\(&nbsp; \\frac{1-\\alpha}{2} \\)::какого уровня?}} для {{c2::распределения Стьюдента с \\( n-1 \\) степенью свободы::какого распределения?}}</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "G<m{z6Eb5,",
+            "note_model_uuid": "a59a6850-9f5c-11ea-8541-28c63fc5d0c2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "d73c215d618549ea9e9cb7ccae67dc67-ao-1",
+                "ДИ дисперсии",
+                "<img src=\"tmpol45mkst.png\" />",
+                "<img src=\"d73c215d618549ea9e9cb7ccae67dc67-ao-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"d73c215d618549ea9e9cb7ccae67dc67-ao-1-A.svg\" />",
+                "<img src=\"d73c215d618549ea9e9cb7ccae67dc67-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "orq+e/$OH.",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "d73c215d618549ea9e9cb7ccae67dc67-ao-2",
+                "ДИ дисперсии",
+                "<img src=\"tmpol45mkst.png\" />",
+                "<img src=\"d73c215d618549ea9e9cb7ccae67dc67-ao-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"d73c215d618549ea9e9cb7ccae67dc67-ao-2-A.svg\" />",
+                "<img src=\"d73c215d618549ea9e9cb7ccae67dc67-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "uGg>%>%*QV",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6609ac3f9fb3473891ae2f0c8acfe6ba-oa-1",
+                "ДИ дисперсии",
+                "<img src=\"tmpol45mkst.png\" />",
+                "<img src=\"6609ac3f9fb3473891ae2f0c8acfe6ba-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"6609ac3f9fb3473891ae2f0c8acfe6ba-oa-1-A.svg\" />",
+                "<img src=\"6609ac3f9fb3473891ae2f0c8acfe6ba-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "L06GltSY-d",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17faf0fbcde24f1aa8329e8eb750bc23-oa-1",
+                "ДИ дисперсии",
+                "<img src=\"tmpol45mkst.png\" />",
+                "<img src=\"17faf0fbcde24f1aa8329e8eb750bc23-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"17faf0fbcde24f1aa8329e8eb750bc23-oa-1-A.svg\" />",
+                "<img src=\"17faf0fbcde24f1aa8329e8eb750bc23-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "Idp^sU?2u:",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "28f0f6a651a6460ab4744ae570e2d1d3-oa-1",
+                "ДИ разность матожиданий, связанные пары",
+                "<img src=\"tmpfn2kmvv6.png\" />",
+                "<img src=\"28f0f6a651a6460ab4744ae570e2d1d3-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"28f0f6a651a6460ab4744ae570e2d1d3-oa-1-A.svg\" />",
+                "<img src=\"28f0f6a651a6460ab4744ae570e2d1d3-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "csW0nFfJ3=",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ccb8378b40ed481bbd5596392e3488cc-oa-1",
+                "ДИ разность матожиданий, связанные пары",
+                "<img src=\"tmpfn2kmvv6.png\" />",
+                "<img src=\"ccb8378b40ed481bbd5596392e3488cc-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"ccb8378b40ed481bbd5596392e3488cc-oa-1-A.svg\" />",
+                "<img src=\"ccb8378b40ed481bbd5596392e3488cc-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "o0,b^pjjTL",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ab139f33d7cd4171a04ecb30844d94cd-oa-1",
+                "ДИ разность матожиданий, связанные пары",
+                "<img src=\"tmpfn2kmvv6.png\" />",
+                "<img src=\"ab139f33d7cd4171a04ecb30844d94cd-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"ab139f33d7cd4171a04ecb30844d94cd-oa-1-A.svg\" />",
+                "<img src=\"ab139f33d7cd4171a04ecb30844d94cd-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "MA3%MaSwn@",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "87a22bad7d6445c48bfbfd3621aacdd6-oa-1",
+                "ДИ разность матожиданий, известные дисперсии",
+                "<img src=\"tmpytwre8qc.png\" />",
+                "<img src=\"87a22bad7d6445c48bfbfd3621aacdd6-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"87a22bad7d6445c48bfbfd3621aacdd6-oa-1-A.svg\" />",
+                "<img src=\"87a22bad7d6445c48bfbfd3621aacdd6-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "r2OPFk7`R%",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "3b62c5f28b5543e484dd2cd3480751fd-oa-1",
+                "ДИ разность матожиданий, известные дисперсии",
+                "<img src=\"tmpytwre8qc.png\" />",
+                "<img src=\"3b62c5f28b5543e484dd2cd3480751fd-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"3b62c5f28b5543e484dd2cd3480751fd-oa-1-A.svg\" />",
+                "<img src=\"3b62c5f28b5543e484dd2cd3480751fd-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "P}Q>w)&r[M",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "51f50dce47054d7faa7a8831dcc4576e-oa-1",
+                "ДИ разность матожиданий, неизвестные, но равные дисперсии",
+                "<img src=\"tmp9_hyh4yo.png\" />",
+                "<img src=\"51f50dce47054d7faa7a8831dcc4576e-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"51f50dce47054d7faa7a8831dcc4576e-oa-1-A.svg\" />",
+                "<img src=\"51f50dce47054d7faa7a8831dcc4576e-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "dACSi/P_qh",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "51f50dce47054d7faa7a8831dcc4576e-oa-2",
+                "ДИ разность матожиданий, неизвестные, но равные дисперсии",
+                "<img src=\"tmp9_hyh4yo.png\" />",
+                "<img src=\"51f50dce47054d7faa7a8831dcc4576e-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"51f50dce47054d7faa7a8831dcc4576e-oa-2-A.svg\" />",
+                "<img src=\"51f50dce47054d7faa7a8831dcc4576e-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "zuGk3mJ,n!",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "685206a3482a49d79d2574ca0d5cf1cd-oa-1",
+                "ДИ разность матожиданий, неизвестные, но равные дисперсии",
+                "<img src=\"tmp9_hyh4yo.png\" />",
+                "<img src=\"685206a3482a49d79d2574ca0d5cf1cd-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"685206a3482a49d79d2574ca0d5cf1cd-oa-1-A.svg\" />",
+                "<img src=\"685206a3482a49d79d2574ca0d5cf1cd-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "u-=vg4!y1h",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "381aa24aa9c54145a9ae5e06ff1f2cab-oa-1",
+                "ДИ разность матожиданий, неизвестные, но равные дисперсии",
+                "<img src=\"tmp9_hyh4yo.png\" />",
+                "<img src=\"381aa24aa9c54145a9ae5e06ff1f2cab-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"381aa24aa9c54145a9ae5e06ff1f2cab-oa-1-A.svg\" />",
+                "<img src=\"381aa24aa9c54145a9ae5e06ff1f2cab-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "g/j$X#>=6[",
+            "note_model_uuid": "60124755-3bcc-11ea-b5c5-f9a7690c507d",
+            "tags": []
+        }
+    ]
+}

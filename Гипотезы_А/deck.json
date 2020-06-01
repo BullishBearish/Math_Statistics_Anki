@@ -30,7 +30,6 @@
                 "delays": [
                     40,
                     1440,
-                    1440,
                     2880,
                     7200,
                     14400
@@ -157,9 +156,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "Критерии_согласия"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
@@ -270,13 +267,13 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n<br>\n<hr id=answer>\n\n{{Back}}\n<br><br>\n{{Extra1}}\n<br><br>\n{{Extra2}}\n<br><br>\n{{Extra3}}\n<br><br>\n{{Extra4}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "afmt": "{{FrontSide}}\n<br>\n<hr id=answer>\n\n{{Back}}\n<br><br>\n{{Extra1}}\n<br><br>\n{{Extra2}}\n<br><br>\n{{Extra3}}\n<br><br>\n{{Extra4}}\n\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "\n{{Front}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
+                    "qfmt": "\n{{Front}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",

@@ -30,7 +30,6 @@
                 "delays": [
                     40,
                     1440,
-                    1440,
                     2880,
                     7200,
                     14400
@@ -164,18 +163,16 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "Критерии_согласия-критерий_Колмогорова"
-            ],
+            "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n<br>\n<hr id=answer>\n\n{{Back}}\n<br><br>\n{{Extra1}}\n<br><br>\n{{Extra2}}\n<br><br>\n{{Extra3}}\n<br><br>\n{{Extra4}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "afmt": "{{FrontSide}}\n<br>\n<hr id=answer>\n\n{{Back}}\n<br><br>\n{{Extra1}}\n<br><br>\n{{Extra2}}\n<br><br>\n{{Extra3}}\n<br><br>\n{{Extra4}}\n\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "\n{{Front}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
+                    "qfmt": "\n{{Front}}\n\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>"
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
@@ -227,9 +224,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "Критерии_согласия-критерий_Колмогорова"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle:\"none\",\nshowProcessingMessages:false,\ntex2jax:{\ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\nprocessEscapes:true\n}\n});\n</script>\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full';\ndocument.body.appendChild(script);\n})();\n</script>",
@@ -406,7 +401,7 @@
             "data": "",
             "fields": [
                 "Лемма Неймана - Пирсона",
-                "Критерий \\(\\exists\\), если \\(H_0\\) и \\(H_1&nbsp;\\) простые:<div><br><div>\\(H_0 : \\theta = \\theta_0\\)</div><div>\\(H_1 : \\theta = \\theta_1\\)<br></div><div><br></div><div>\\( \\mathscr{X}_{1\\alpha}^* = \\{ x : \\frac{L(x;\\theta_1)}{L(x;\\theta_0)} \\geq c_\\alpha \\} \\)</div><div><br></div><div>\\( c_\\alpha : P( x \\in \\mathscr{X}_{1\\alpha}^* \\ | \\ \\theta = \\theta_0) \\leq \\alpha \\)</div><div><br></div><div>Область отвержения наиболее мощного критерия&nbsp; - это то значения выборочного пространоства, для которых отношение функций правдоподобия при \\(\\theta_1\\) и \\(\\theta_0\\) больше некоторой константы \\(c_\\alpha\\), которая определяется таким образом, чтобы ошибка 1 рода не превосходила \\(\\alpha\\)</div></div><div><br></div><div><hr>Определяем \\(c_\\alpha\\) из \\(\\alpha\\), потом определяем критическую область \\( \\mathscr{X}_{1\\alpha}^* \\)</div>",
+                "Критерий \\(\\exists\\), если \\(H_0\\) и \\(H_1&nbsp;\\) простые:<div><br><div>\\(H_0 : \\theta = \\theta_0\\)</div><div>\\(H_1 : \\theta = \\theta_1\\)<br></div><div><br></div><div>\\( \\mathscr{X}_{1\\alpha}^* = \\{ x : \\frac{L(x;\\theta_1)}{L(x;\\theta_0)} \\geq c_\\alpha \\} \\)</div><div><br></div><div>\\( c_\\alpha : P( x \\in \\mathscr{X}_{1\\alpha}^* \\ | \\ \\theta = \\theta_0) \\leq \\alpha \\)</div><div><br></div><div><span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span>Область отвержения наиболее мощного критерия&nbsp; - это то значения выборочного пространоства, для которых отношение функций правдоподобия при \\(\\theta_1\\) и \\(\\theta_0\\) больше некоторой константы \\(c_\\alpha\\), которая определяется таким образом, чтобы ошибка 1 рода не превосходила \\(\\alpha\\)&nbsp;<span style=\"background-color: rgb(255, 240, 241); color: rgb(255, 0, 0);\">\"</span></div></div><div><br></div><div><hr>Определяем \\(c_\\alpha\\) из \\(\\alpha\\), потом определяем критическую область \\( \\mathscr{X}_{1\\alpha}^* \\)</div>",
                 "",
                 "",
                 "",
@@ -868,6 +863,24 @@
             "tags": [
                 "Критерии_согласия-критерий_Колмогорова"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "(\\ \\theta\\)",
+                "U",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Dv;]uD*z8=",
+            "newlyAdded": false,
+            "note_model_uuid": "a59a91d4-9f5c-11ea-90e1-28c63fc5d0c2",
+            "tags": []
         }
     ]
 }

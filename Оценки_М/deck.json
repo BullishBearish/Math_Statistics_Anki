@@ -1,0 +1,626 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "6e4bca14-a3f5-11ea-8fce-6030d4704a9e",
+    "deck_config_uuid": "4b38c202-a3f5-11ea-8fce-6030d4704a9e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "4b38c202-a3f5-11ea-8fce-6030d4704a9e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "0916c9feee9840d0bb77933b4ad29cae-oa-1-A.svg",
+        "0916c9feee9840d0bb77933b4ad29cae-oa-1-Q.svg",
+        "0916c9feee9840d0bb77933b4ad29cae-oa-O.svg",
+        "f22db5c627344e3fa7b4bb1e44924a9f-oa-1-A.svg",
+        "f22db5c627344e3fa7b4bb1e44924a9f-oa-1-Q.svg",
+        "f22db5c627344e3fa7b4bb1e44924a9f-oa-O.svg",
+        "fa38aeebeffd44b08b6216ca77bc22fd-oa-1-A.svg",
+        "fa38aeebeffd44b08b6216ca77bc22fd-oa-1-Q.svg",
+        "fa38aeebeffd44b08b6216ca77bc22fd-oa-O.svg",
+        "Снимок экрана 2020-05-31 в 01.25.43.png",
+        "Снимок экрана 2020-05-31 в 01.40.23.png",
+        "Снимок экрана 2020-05-31 в 01.40.26.png"
+    ],
+    "mid": "1589902576530",
+    "name": "Оценки_М",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze-8a0a5",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "оценки"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<br>\n{{cloze:Text}}\n<br>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<br>\n{{cloze:Text}}\n<br>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Header",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Image",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Footer",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Remarks",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sources",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Image Occlusion Enhanced",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<br>\n{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "<br>\n{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic Math Jax",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "гипотезы"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\ndocument.body.appendChild(script);\n})();\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n\n<script type=\"text/x-mathjax-config\">\nMathJax.Hub.processSectionDelay = 0;\nMathJax.Hub.Config({\nmessageStyle: 'none',\nshowProcessingMessages: false,\ntex2jax: {\ninlineMath: [['$', '$']],\ndisplayMath: [['$$', '$$']],\nprocessEscapes: true\n}\n});\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6e4c0c40-a3f5-11ea-8fce-6030d4704a9e",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Текст",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Задание с пропусками",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Текст}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Задание с пропусками",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Текст}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Статистика \\(\\theta^{*}=\\theta^{*}\\left(X_{1}, \\ldots, X_{n}\\right)\\) называется {{c1::состоятельной}}&nbsp;оценкой параметра \\(\\theta\\), если для любого \\(\\theta \\in \\Theta\\) имеет место&nbsp;сходимость \\(\\theta^{*} \\stackrel{\\mathrm{p}}{\\longrightarrow} \\theta\\) при \\(n \\rightarrow \\infty\\)"
+            ],
+            "flags": 0,
+            "guid": "MDe8YYJW<w",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "f22db5c627344e3fa7b4bb1e44924a9f-oa-1",
+                "",
+                "<img src=\"Снимок экрана 2020-05-31 в 01.25.43.png\" />",
+                "<img src=\"f22db5c627344e3fa7b4bb1e44924a9f-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"f22db5c627344e3fa7b4bb1e44924a9f-oa-1-A.svg\" />",
+                "<img src=\"f22db5c627344e3fa7b4bb1e44924a9f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "xN}~e^>-3N",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Статистика \\(\\theta^{*}=\\theta^{*}\\left(X_{1}, \\ldots, X_{n}\\right)\\) называется {{c1::несмещенной}}&nbsp;оценкой параметра \\(\\theta\\), если для любого \\(\\theta \\in \\Theta\\) выполнено&nbsp;равенство \\(\\mathrm{E} \\theta^{*}=\\theta\\)"
+            ],
+            "flags": 0,
+            "guid": "Rf3xma)sE;",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "fa38aeebeffd44b08b6216ca77bc22fd-oa-1",
+                "",
+                "<img src=\"Снимок экрана 2020-05-31 в 01.40.23.png\" />",
+                "<img src=\"fa38aeebeffd44b08b6216ca77bc22fd-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"fa38aeebeffd44b08b6216ca77bc22fd-oa-1-A.svg\" />",
+                "<img src=\"fa38aeebeffd44b08b6216ca77bc22fd-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "p8C@8rh-S8",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Статистика \\(\\theta^{*}=\\theta^{*}\\left(X_{1}, \\ldots, X_{n}\\right)\\) называется {{c1::асимптотически несмещённой}} ощенкой параметра \\(\\theta\\), если для любого \\(\\theta \\in \\Theta\\) имеет место сходимость \\(\\mathrm{E} \\theta^{*} \\rightarrow \\theta\\) при \\(n \\rightarrow \\infty\\)"
+            ],
+            "flags": 0,
+            "guid": "y6]pRkd}xJ",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": [
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "0916c9feee9840d0bb77933b4ad29cae-oa-1",
+                "",
+                "<img src=\"Снимок экрана 2020-05-31 в 01.40.26.png\" />",
+                "<img src=\"0916c9feee9840d0bb77933b4ad29cae-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"0916c9feee9840d0bb77933b4ad29cae-oa-1-A.svg\" />",
+                "<img src=\"0916c9feee9840d0bb77933b4ad29cae-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "J/KxSYx<qu",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": [
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Оценкой (или статистикой) параметра \\(\\theta\\) называется",
+                "любая функция от выборки, не зависящая от \\(\\theta\\).<div><br></div><div>Обозначается&nbsp;\\(\\hat{\\theta}\\) или \\(T\\left(x_{1}, \\ldots x_{n}\\right)\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "FWk6VS}@V+",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "определение",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Какую оценку называют эффективной?&nbsp;<br><br>Сколько эффективных оценок существует?",
+                "Оценка&nbsp;\\(\\hat{\\theta}\\) называется эффективной (оптимальной) в классе несмещенных оценок, если&nbsp;\\(\\forall \\tilde{\\theta} \\in \\mathscr{K}: E(\\hat{\\theta}-\\theta)^{2} \\leq E(\\tilde{\\theta}-\\theta)^{2}\\)<div><br></div><div>Если эффективная оценка существует, то она единственная.</div>"
+            ],
+            "flags": 0,
+            "guid": "LM#5<(@<9:",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "минимум3",
+                "определение",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Лемма: если \\(\\hat{\\theta}\\)&nbsp;несмещенная и {{c1::\\(Var(\\hat{\\theta}) \\stackrel{n \\rightarrow \\infty}{\\longrightarrow} 0 \\)}}, то \\(\\hat{\\theta}\\) состоятельна."
+            ],
+            "flags": 0,
+            "guid": "K:B7%;ThB-",
+            "note_model_uuid": "6e4c0c40-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": [
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Лемма: если \\(\\hat{\\theta}\\)&nbsp;несмещенная и \\(Var(\\hat{\\theta}) \\stackrel{n \\rightarrow \\infty}{\\longrightarrow} 0 \\), то \\(\\hat{\\theta}\\) {{c1::состоятельна}}."
+            ],
+            "flags": 0,
+            "guid": "d_XGib8VW$",
+            "note_model_uuid": "6e4c0c40-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": [
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Метод Пирсона (оценка метода моментов (ОММ))<div><br></div><div>Основные <font color=\"#0000ff\">шаги</font> и <font color=\"#800080\">свойства оценкок в общем случае</font></div>",
+                "\\(x_{1}, \\ldots x_{n} \\sim F(\\theta)\\)<div><br></div><div><font color=\"#0000ff\">1)</font> вычисляем теоретические моменты, как функции от \\(\\theta\\)</div><div>(число моментов = число неизвестных параметров)</div><div><br></div><div><font color=\"#0000ff\">2)</font> теоретические моменты приравниваются к выборочным</div><div><br></div><div><br></div><div><font color=\"#800080\">Свойства:</font></div><div><font color=\"#800080\">1)</font> состоятельность</div><div><font color=\"#800080\">2)</font> асимптотическая несмещенность</div><div><font color=\"#800080\">3)</font> асимптотическая нормальность</div>"
+            ],
+            "flags": 0,
+            "guid": "N4}L853i&`",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Метод максимального правдоподобия (ММП)",
+                "\\(\\vec{X}=\\left(X_{1}, \\ldots, X_{n}\\right)\\) - выборка<div><br></div><div>1) Находим функцию правдоподобия</div><div><br></div><div>Для абсолютно непрерывного распределения:&nbsp;\\(f(\\vec{X} ; \\theta)=f_{\\theta}\\left(X_{1}\\right) \\cdot f_{\\theta}\\left(X_{2}\\right) \\cdot \\ldots \\cdot f_{\\theta}\\left(X_{n}\\right)=\\prod_{i=1}^{n} f_{\\theta}\\left(X_{i}\\right)\\)</div><div><br></div><div>Для дискретного распределения: \\(f(\\vec{x} ; \\theta)=\\prod_{i=1}^{n} f_{\\theta}\\left(x_{i}\\right)&nbsp; = \\mathrm{P}_{\\theta}\\left(X_{1}=x_{1}\\right) \\cdot \\ldots \\cdot \\mathrm{P}_{\\theta}\\left(X_{n}=x_{n}\\right) = \\mathrm{P}_{\\theta}\\left(X_{1}=x_{1}, \\ldots, X_{n}=x_{n}\\right)\\)</div><div><br></div><div>2) Находим максимум функции правдоподобия (будет совпадать с максимумом <font color=\"#800080\">логарифмической функции правдоподобия</font>)</div><div><br></div><div><font color=\"#800080\">\\(L(\\vec{X} ; \\theta)=\\ln f(\\vec{X} ; \\theta)=\\sum_{i=1}^{n} \\ln f_{\\theta}\\left(X_{i}\\right)\\)</font><br></div>"
+            ],
+            "flags": 0,
+            "guid": "MzWw&nmIAA",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Информация Фишера&nbsp;<div><br></div><div>(2 варианта формулы <u>большой</u> информации фишера)</div>",
+                "Информация о \\(\\theta\\), содержащаяся в выборке<div><br></div><div>1) \\(I(\\theta) = E \\left(\\frac{\\partial ln L}{\\partial \\theta}\\right)^{2}\\)</div><div><br></div><div>2) \\(I(\\theta) = - E \\left(\\frac{\\partial^{2} ln L}{\\partial \\theta \\partial \\theta^{'}}\\right)\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "HGzYHD*8Uu",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Информация Фишера&nbsp;<div><br></div><div>(2 варианта формулы <u>малой</u> информации Фишера)</div>",
+                "Информация о \\(\\theta\\), содержащаяся в одном наблюдении<div><br></div><div>1) \\(I_{1} = i(\\theta) = E \\left(\\frac{\\partial ln f}{\\partial \\theta}\\right)^{2}\\)</div><div><br></div><div>2) \\(I_{1} = i(\\theta) =&nbsp;- E \\left(\\frac{\\partial^{2} ln f}{\\partial \\theta \\partial \\theta^{'}}\\right)\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "m0[AGDqxor",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Неравенство Рао-Крамера-Фреше<div><br></div><div>Формула <font color=\"#800080\">для несмещенных оценок</font></div>",
+                "<div><font color=\"#800080\">Для несмещенных оценок:&nbsp;</font>\\(Var(\\hat{\\theta}) = \\frac{1}{I(\\theta)}\\)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "mg5!AZsxA$",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "минимум3",
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Неравенство Рао-Крамера-Фреше<div><br></div><div>Формула&nbsp;<font color=\"#0000ff\">для регулярного случая</font></div>",
+                "<font color=\"#0000ff\">Для регулярного случая:</font>&nbsp;\\(E\\left(\\hat{\\theta}-\\theta\\right)^{2} \\geqslant \\frac{\\left[1+b^{\\prime}(\\theta)\\right]^{2}}{I(\\theta)}\\) или&nbsp;<div>\\(D(\\hat{\\theta}) \\geqslant \\frac{\\left[1+b^{\\prime}(\\theta)\\right]^{2}}{I(\\theta)}\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "z0;#o0-ru7",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Формула зависимости большой и малой информации Фишера",
+                "\\(I(\\theta) = n * i(\\theta)\\)"
+            ],
+            "flags": 0,
+            "guid": "Df_RH0;~K.",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": [
+                "оценки"
+            ]
+        }
+    ]
+}
