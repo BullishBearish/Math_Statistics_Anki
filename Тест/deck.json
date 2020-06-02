@@ -1,0 +1,182 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "be947f3a-a4ee-11ea-9340-6030d4704a9e",
+    "deck_config_uuid": "4b38c202-a3f5-11ea-8fce-6030d4704a9e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "4b38c202-a3f5-11ea-8fce-6030d4704a9e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "Тест",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-a7180",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "\n{{FrontSide}}\n<br> \n<hr id=answer>\n<br> \n{{Back}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<br> \n{{Front}}\n<br> "
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze-8a0a5",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}\n<br> \n\n \n<script type=\"text/x-mathjax-config\"> \nMathJax.Hub.processSectionDelay = 0; \nMathJax.Hub.Config({ \nmessageStyle:\"none\", \nshowProcessingMessages:false, \ntex2jax:{ \ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \nprocessEscapes:true \n} \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \nif (window.MathJax != null) { \nvar card = document.querySelector('.card'); \nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \nreturn; \n} \nvar script = document.createElement('script'); \nscript.type = 'text/javascript'; \nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \ndocument.body.appendChild(script); \n})(); \n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}} \n \n<script type=\"text/x-mathjax-config\"> \nMathJax.Hub.processSectionDelay = 0; \nMathJax.Hub.Config({ \nmessageStyle:\"none\", \nshowProcessingMessages:false, \ntex2jax:{ \ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \nprocessEscapes:true \n} \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \nif (window.MathJax != null) { \nvar card = document.querySelector('.card'); \nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \nreturn; \n} \nvar script = document.createElement('script'); \nscript.type = 'text/javascript'; \nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \ndocument.body.appendChild(script); \n})(); \n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "приветули",
+                "всем"
+            ],
+            "flags": 0,
+            "guid": "z:2<<t_Bph",
+            "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "здравс{{c1::твуйте}}"
+            ],
+            "flags": 0,
+            "guid": "c~mL9`_wCz",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        }
+    ]
+}
