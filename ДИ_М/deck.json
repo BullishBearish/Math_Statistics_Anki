@@ -68,8 +68,6 @@
         "6455db4e1d9440ed905ac093433ac462-oa-O.svg",
         "75a8378ece244f059e2a59d0ae035dd2-ao-1-A.svg",
         "75a8378ece244f059e2a59d0ae035dd2-ao-1-Q.svg",
-        "75a8378ece244f059e2a59d0ae035dd2-ao-2-A.svg",
-        "75a8378ece244f059e2a59d0ae035dd2-ao-2-Q.svg",
         "75a8378ece244f059e2a59d0ae035dd2-ao-O.svg",
         "7c4f541280174570badd82cf364983d1-oa-1-A.svg",
         "7c4f541280174570badd82cf364983d1-oa-1-Q.svg",
@@ -86,13 +84,9 @@
         "841d22a7358e45daabc8124c7c3537da-oa-O.svg",
         "86a7af176ef349788272fb507547d69a-ao-1-A.svg",
         "86a7af176ef349788272fb507547d69a-ao-1-Q.svg",
-        "86a7af176ef349788272fb507547d69a-ao-2-A.svg",
-        "86a7af176ef349788272fb507547d69a-ao-2-Q.svg",
         "86a7af176ef349788272fb507547d69a-ao-O.svg",
         "aff76ce5a512438aa2e01c4fa5f6f128-ao-1-A.svg",
         "aff76ce5a512438aa2e01c4fa5f6f128-ao-1-Q.svg",
-        "aff76ce5a512438aa2e01c4fa5f6f128-ao-2-A.svg",
-        "aff76ce5a512438aa2e01c4fa5f6f128-ao-2-Q.svg",
         "aff76ce5a512438aa2e01c4fa5f6f128-ao-O.svg",
         "c1436322173b416a89bdd164697f3f43-oa-1-A.svg",
         "c1436322173b416a89bdd164697f3f43-oa-1-Q.svg",
@@ -101,8 +95,6 @@
         "c1436322173b416a89bdd164697f3f43-oa-O.svg",
         "d1ef174ca562498b830a5d20058d764e-ao-1-A.svg",
         "d1ef174ca562498b830a5d20058d764e-ao-1-Q.svg",
-        "d1ef174ca562498b830a5d20058d764e-ao-2-A.svg",
-        "d1ef174ca562498b830a5d20058d764e-ao-2-Q.svg",
         "d1ef174ca562498b830a5d20058d764e-ao-O.svg",
         "e33c6ef270ba45ab85e2cc0d1950002e-oa-1-A.svg",
         "e33c6ef270ba45ab85e2cc0d1950002e-oa-1-Q.svg",
@@ -305,52 +297,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "75a8378ece244f059e2a59d0ae035dd2-ao-1",
-                "",
-                "<img src=\"Снимок экрана 2020-06-01 в 12.40.11.png\" />",
-                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-1-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-1-A.svg\" />",
-                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-O.svg\" />"
-            ],
-            "flags": 0,
-            "guid": "j*x+*|Q#=:",
-            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
-            "tags": [
-                "оценки"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "75a8378ece244f059e2a59d0ae035dd2-ao-2",
-                "",
-                "<img src=\"Снимок экрана 2020-06-01 в 12.40.11.png\" />",
-                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-2-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-2-A.svg\" />",
-                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-O.svg\" />"
-            ],
-            "flags": 0,
-            "guid": "L&nQQ=k~Yr",
-            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
-            "tags": [
-                "оценки"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "7c4f541280174570badd82cf364983d1-oa-1",
                 "",
                 "<img src=\"Снимок экрана 2020-06-01 в 12.40.11.png\" />",
@@ -420,52 +366,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "d1ef174ca562498b830a5d20058d764e-ao-1",
-                "",
-                "<img src=\"Снимок экрана 2020-06-01 в 12.40.11.png\" />",
-                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-1-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-1-A.svg\" />",
-                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-O.svg\" />"
-            ],
-            "flags": 0,
-            "guid": "yvmQn2h;X{",
-            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
-            "tags": [
-                "ДИ"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "d1ef174ca562498b830a5d20058d764e-ao-2",
-                "",
-                "<img src=\"Снимок экрана 2020-06-01 в 12.40.11.png\" />",
-                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-2-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-2-A.svg\" />",
-                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-O.svg\" />"
-            ],
-            "flags": 0,
-            "guid": "eAM$s%{e~]",
-            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
-            "tags": [
-                "ДИ"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "841d22a7358e45daabc8124c7c3537da-oa-1",
                 "",
                 "<img src=\"Снимок экрана 2020-06-01 в 12.47.34.png\" />",
@@ -512,52 +412,6 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "aff76ce5a512438aa2e01c4fa5f6f128-ao-1",
-                "",
-                "<img src=\"Снимок экрана 2020-06-01 в 12.47.34-63784f24b0a41e6731c1bc8324b1214c17907534.png\" />",
-                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-1-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-1-A.svg\" />",
-                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-O.svg\" />"
-            ],
-            "flags": 0,
-            "guid": "pck~Yg#`Zt",
-            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
-            "tags": [
-                "ДИ"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "aff76ce5a512438aa2e01c4fa5f6f128-ao-2",
-                "",
-                "<img src=\"Снимок экрана 2020-06-01 в 12.47.34-63784f24b0a41e6731c1bc8324b1214c17907534.png\" />",
-                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-2-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-2-A.svg\" />",
-                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-O.svg\" />"
-            ],
-            "flags": 0,
-            "guid": "A&lsld_Qw*",
-            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
-            "tags": [
-                "ДИ"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
                 "e33c6ef270ba45ab85e2cc0d1950002e-oa-1",
                 "Лемма Фишера",
                 "<img src=\"Снимок экрана 2020-06-01 в 12.57.19.png\" />",
@@ -572,29 +426,6 @@
             ],
             "flags": 0,
             "guid": "qF;*B.&b,9",
-            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
-            "tags": [
-                "ДИ"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "e33c6ef270ba45ab85e2cc0d1950002e-oa-2",
-                "Лемма Фишера",
-                "<img src=\"Снимок экрана 2020-06-01 в 12.57.19.png\" />",
-                "<img src=\"e33c6ef270ba45ab85e2cc0d1950002e-oa-2-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"e33c6ef270ba45ab85e2cc0d1950002e-oa-2-A.svg\" />",
-                "<img src=\"e33c6ef270ba45ab85e2cc0d1950002e-oa-O.svg\" />"
-            ],
-            "flags": 0,
-            "guid": "g?-w),x1jd",
             "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
             "tags": [
                 "ДИ"
@@ -742,6 +573,52 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "75a8378ece244f059e2a59d0ae035dd2-ao-1",
+                "",
+                "<img src=\"Снимок экрана 2020-06-01 в 12.40.11.png\" />",
+                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-1-A.svg\" />",
+                "<img src=\"75a8378ece244f059e2a59d0ae035dd2-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "LonD2&%qz>",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": [
+                "оценки"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "d1ef174ca562498b830a5d20058d764e-ao-1",
+                "",
+                "<img src=\"Снимок экрана 2020-06-01 в 12.40.11.png\" />",
+                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-1-A.svg\" />",
+                "<img src=\"d1ef174ca562498b830a5d20058d764e-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "c}:w{Vfv12",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": [
+                "ДИ"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "86a7af176ef349788272fb507547d69a-ao-1",
                 "Следствие леммы Фишера",
                 "<img src=\"Снимок экрана 2020-06-01 в 12.59.24.png\" />",
@@ -755,7 +632,7 @@
                 "<img src=\"86a7af176ef349788272fb507547d69a-ao-O.svg\" />"
             ],
             "flags": 0,
-            "guid": "IQ!w5O9E/s",
+            "guid": ";o4msfPvT",
             "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
             "tags": [
                 "ДИ"
@@ -765,20 +642,43 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "86a7af176ef349788272fb507547d69a-ao-2",
-                "Следствие леммы Фишера",
-                "<img src=\"Снимок экрана 2020-06-01 в 12.59.24.png\" />",
-                "<img src=\"86a7af176ef349788272fb507547d69a-ao-2-Q.svg\" />",
+                "e33c6ef270ba45ab85e2cc0d1950002e-oa-2",
+                "Лемма Фишера",
+                "<img src=\"Снимок экрана 2020-06-01 в 12.57.19.png\" />",
+                "<img src=\"e33c6ef270ba45ab85e2cc0d1950002e-oa-2-Q.svg\" />",
                 "",
                 "",
                 "",
                 "",
                 "",
-                "<img src=\"86a7af176ef349788272fb507547d69a-ao-2-A.svg\" />",
-                "<img src=\"86a7af176ef349788272fb507547d69a-ao-O.svg\" />"
+                "<img src=\"e33c6ef270ba45ab85e2cc0d1950002e-oa-2-A.svg\" />",
+                "<img src=\"e33c6ef270ba45ab85e2cc0d1950002e-oa-O.svg\" />"
             ],
             "flags": 0,
-            "guid": "DK[I~Vl+Mf",
+            "guid": "Db~F<,3?nc",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": [
+                "ДИ"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "aff76ce5a512438aa2e01c4fa5f6f128-ao-1",
+                "",
+                "<img src=\"Снимок экрана 2020-06-01 в 12.47.34-63784f24b0a41e6731c1bc8324b1214c17907534.png\" />",
+                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-1-A.svg\" />",
+                "<img src=\"aff76ce5a512438aa2e01c4fa5f6f128-ao-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "b3a#@S@46X",
             "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
             "tags": [
                 "ДИ"

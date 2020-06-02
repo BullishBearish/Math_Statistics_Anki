@@ -103,9 +103,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "гипотезы"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\ndocument.body.appendChild(script);\n})();\n</script>",
@@ -148,21 +146,72 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "оценки"
-            ],
+            "tags": [],
             "tmpls": [
                 {
-                    "afmt": "<br>\n{{cloze:Text}}\n<br>",
+                    "afmt": "{{cloze:Text}}\n<br> \n\n \n<script type=\"text/x-mathjax-config\"> \nMathJax.Hub.processSectionDelay = 0; \nMathJax.Hub.Config({ \nmessageStyle:\"none\", \nshowProcessingMessages:false, \ntex2jax:{ \ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \nprocessEscapes:true \n} \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \nif (window.MathJax != null) { \nvar card = document.querySelector('.card'); \nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \nreturn; \n} \nvar script = document.createElement('script'); \nscript.type = 'text/javascript'; \nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \ndocument.body.appendChild(script); \n})(); \n</script>",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Cloze",
                     "ord": 0,
-                    "qfmt": "<br>\n{{cloze:Text}}\n<br>"
+                    "qfmt": "{{cloze:Text}} \n \n<script type=\"text/x-mathjax-config\"> \nMathJax.Hub.processSectionDelay = 0; \nMathJax.Hub.Config({ \nmessageStyle:\"none\", \nshowProcessingMessages:false, \ntex2jax:{ \ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \nprocessEscapes:true \n} \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \nif (window.MathJax != null) { \nvar card = document.querySelector('.card'); \nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \nreturn; \n} \nvar script = document.createElement('script'); \nscript.type = 'text/javascript'; \nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \ndocument.body.appendChild(script); \n})(); \n</script>"
                 }
             ],
             "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-a7180",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "\n{{FrontSide}}\n<br> \n<hr id=answer>\n<br> \n{{Back}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<br> \n{{Front}}\n<br> "
+                }
+            ],
+            "type": 0,
             "vers": []
         }
     ],
@@ -180,32 +229,6 @@
             "tags": [
                 "гипотезы",
                 "определение"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Для выборки \\(x_{1}, \\ldots, x_{n}\\) гипотеза о <font color=\"#0000ff\">распределении</font> может формулироваться 2-мя способами:<div><br></div><div>1)&nbsp;\\(\\mathrm{H}_{0}: F_{x_{1}}(x)=F_{0}(x)\\)<br></div><div>&nbsp;<div>2) ?</div></div>",
-                "&nbsp;\\(H_{0}: \\mathrm{F}_{\\mathrm{X}_{1}}(x) \\in \\mathcal{F}_{\\mathrm{\\theta}}=\\left\\{F_{\\theta}(x), x \\in(-\\infty; \\infty), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\right\\}\\)<div><div><br></div><div>\"Функция распределений \\(\\mathrm{F}_{\\mathrm{X}_{1}}(x)\\) принадлежит множеству распределений \\(\\mathcal{F}_{\\mathrm{\\theta}}\\), которое состоит из распределений \\(F_{\\theta}(x)\\), зависящих от параметра \\(\\theta\\), и \\(x \\in(-\\infty; \\infty), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\)\"<br></div></div>"
-            ],
-            "flags": 0,
-            "guid": "DF+(ds^jdM",
-            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "<div>Для выборки \\(x_{1}, \\ldots, x_{n}\\) гипотеза о&nbsp;<font color=\"#0000ff\">распределении</font>&nbsp;может формулироваться 2-мя способами:</div><div><br><div>1)&nbsp; \\(H_{0}: \\mathrm{F}_{\\mathrm{X}_{1}}(x) \\in \\mathcal{F}_{\\mathrm{\\theta}}=\\left\\{F_{\\theta}(x), x \\in(-\\infty; \\infty), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\right\\}\\)</div></div><div><br></div><div>2) ?</div>",
-                "\\(\\mathrm{H}_{0}: F_{x_{1}}(x)=F_{0}(x)\\)<br><br><br>\"Распределение тех наблюдений, которые мы имеем, это есть некоторое заданное распределение\""
-            ],
-            "flags": 0,
-            "guid": "M{vdGR^sFQ",
-            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
-            "tags": [
-                "гипотезы"
             ]
         },
         {
@@ -338,7 +361,7 @@
             "data": "",
             "fields": [
                 "Что такое уровень значимости в параметрических гипотезах?",
-                "<div>Уровень, который не должна превосходить ошибка 1го рода.&nbsp;</div><div><br></div><div>Выбирается самим исследователем<br></div><div><br></div><div>Обозначается \\(\\alpha; P\\)(ош. 1 рода)&nbsp;\\(\\leq \\alpha\\)</div>"
+                "<div>Уровень, который не должна превосходить ошибка 1го рода.&nbsp;</div><div><br></div><div>Выбирается самим исследователем<br></div><div><br></div><div>Обозначается \\(\\alpha\\)</div><div><br></div><div>P(ош. 1 рода)&nbsp;\\(\\leq \\alpha\\)</div>"
             ],
             "flags": 0,
             "guid": "J<v!1KhxI[",
@@ -365,8 +388,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Что такое функция мощности в параметрических гипотезах?<div><br></div><div><font color=\"#0000ff\">Выразите ошибку 2-го рода через функцию мощности</font></div>",
-                "<div>Вероятность попадания выборки в критическую область (основная гипотеза будет отвергнута), то есть вероятность ошибки 1-го рода</div><div><br></div><div>\\(W\\left(\\mathscr{X}_{1}, \\theta\\right) = P(X \\in \\mathscr{X}_{1})\\)<br></div><div><br></div><div><font color=\"#0000ff\">P(ош. 2 рода) \\(= 1 - W\\left(\\mathscr{X}_{1}, \\theta\\right)\\)</font></div>"
+                "Что такое функция мощности в параметрических гипотезах?",
+                "<div>Вероятность попадания выборки в критическую область (основная гипотеза будет отвергнута), то есть вероятность ошибки 1-го рода</div><div><br></div><div>\\(W\\left(\\mathscr{X}_{1}, \\theta\\right) = P(X \\in \\mathscr{X}_{1})\\)</div>"
             ],
             "flags": 0,
             "guid": "cKND:Clo>E",
@@ -388,6 +411,40 @@
             "tags": [
                 "гипотезы"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Для выборки \\(x_{1}, \\ldots, x_{n}\\) гипотеза о&nbsp;<font color=\"#0000ff\">распределении</font>&nbsp;может формулироваться 2-мя способами:<div><br></div><div>1) \\(\\mathrm{H}_{0}: F_{x_{1}}(x)=F_{0}(x)\\)</div><div>\"Распределение тех наблюдений, которые мы имеем, это есть некоторое заданное распределение\"&nbsp;</div><div>&nbsp;<div>2) \\(H_{0}: \\mathrm{F}_{\\mathrm{X}_{1}}(x) \\in \\mathcal{F}_{\\mathrm{\\theta}}=\\left\\{F_{\\theta}(x), x \\in(-\\infty; \\infty), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\right\\}\\)</div><div><div><br></div><div>\"Функция распределений \\(\\mathrm{F}_{\\mathrm{X}_{1}}(x)\\) принадлежит множеству распределений \\(\\mathcal{F}_{\\mathrm{\\theta}}\\), которое состоит из распределений \\(F_{\\theta}(x)\\), зависящих от параметра \\(\\theta\\), и \\(x \\in(-\\infty; \\infty), \\theta \\in \\require{enclose}\\enclose{circle}{н}\\)\"</div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "k2R1KdWFS2",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Равномерно наиболее мощный критерий (РНМК) удовлетворяет 2м условиям:<div><br></div><div><div>1) {{c1::\\(W\\left(\\mathscr{X}_{1}, \\theta\\right) \\leq \\alpha, \\theta \\in \\Theta_{0}\\)}}</div><div><br></div><div>2) {{c2::\\(W\\left(\\mathscr{X}_{1}^{*}, \\theta\\right) \\geqslant W\\left(\\mathscr{X}_{1}, \\theta\\right), \\theta \\in \\Theta_{1}\\)}}</div><div>причем хотя бы для одного \\(\\theta\\) {{c3::неравенство является строгим}}</div></div>"
+            ],
+            "flags": 0,
+            "guid": "DSzh]dL4us",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Выразите ошибку 2-го рода через функцию мощности",
+                "P(ош. 2 рода) \\(= 1 - W\\left(\\mathscr{X}_{1}, \\theta\\right)\\)"
+            ],
+            "flags": 0,
+            "guid": "HPNK(Vf415",
+            "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+            "tags": []
         }
     ]
 }

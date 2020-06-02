@@ -58,6 +58,35 @@
         "0916c9feee9840d0bb77933b4ad29cae-oa-1-A.svg",
         "0916c9feee9840d0bb77933b4ad29cae-oa-1-Q.svg",
         "0916c9feee9840d0bb77933b4ad29cae-oa-O.svg",
+        "4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-1-A.svg",
+        "4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-1-Q.svg",
+        "4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-2-A.svg",
+        "4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-2-Q.svg",
+        "4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-O.svg",
+        "6bc8e24c72a449518a540dbab6cb5e9a-oa-1-A.svg",
+        "6bc8e24c72a449518a540dbab6cb5e9a-oa-1-Q.svg",
+        "6bc8e24c72a449518a540dbab6cb5e9a-oa-2-A.svg",
+        "6bc8e24c72a449518a540dbab6cb5e9a-oa-2-Q.svg",
+        "6bc8e24c72a449518a540dbab6cb5e9a-oa-3-A.svg",
+        "6bc8e24c72a449518a540dbab6cb5e9a-oa-3-Q.svg",
+        "6bc8e24c72a449518a540dbab6cb5e9a-oa-O.svg",
+        "83fb0e61203a44b499c00dc2b833257f-oa-1-A.svg",
+        "83fb0e61203a44b499c00dc2b833257f-oa-1-Q.svg",
+        "83fb0e61203a44b499c00dc2b833257f-oa-2-A.svg",
+        "83fb0e61203a44b499c00dc2b833257f-oa-2-Q.svg",
+        "83fb0e61203a44b499c00dc2b833257f-oa-3-A.svg",
+        "83fb0e61203a44b499c00dc2b833257f-oa-3-Q.svg",
+        "83fb0e61203a44b499c00dc2b833257f-oa-O.svg",
+        "ab932c45ac6a415a8a4c2cdef9a18c08-oa-1-A.svg",
+        "ab932c45ac6a415a8a4c2cdef9a18c08-oa-1-Q.svg",
+        "ab932c45ac6a415a8a4c2cdef9a18c08-oa-2-A.svg",
+        "ab932c45ac6a415a8a4c2cdef9a18c08-oa-2-Q.svg",
+        "ab932c45ac6a415a8a4c2cdef9a18c08-oa-O.svg",
+        "baa231856e3048d19844479e4683e93a-oa-1-A.svg",
+        "baa231856e3048d19844479e4683e93a-oa-1-Q.svg",
+        "baa231856e3048d19844479e4683e93a-oa-2-A.svg",
+        "baa231856e3048d19844479e4683e93a-oa-2-Q.svg",
+        "baa231856e3048d19844479e4683e93a-oa-O.svg",
         "f22db5c627344e3fa7b4bb1e44924a9f-oa-1-A.svg",
         "f22db5c627344e3fa7b4bb1e44924a9f-oa-1-Q.svg",
         "f22db5c627344e3fa7b4bb1e44924a9f-oa-O.svg",
@@ -66,9 +95,14 @@
         "fa38aeebeffd44b08b6216ca77bc22fd-oa-O.svg",
         "Снимок экрана 2020-05-31 в 01.25.43.png",
         "Снимок экрана 2020-05-31 в 01.40.23.png",
-        "Снимок экрана 2020-05-31 в 01.40.26.png"
+        "Снимок экрана 2020-05-31 в 01.40.26.png",
+        "Снимок экрана 2020-06-02 в 14.19.38.png",
+        "Снимок экрана 2020-06-02 в 16.02.19.png",
+        "Снимок экрана 2020-06-02 в 16.08.50.png",
+        "Снимок экрана 2020-06-02 в 16.09.14.png",
+        "Снимок экрана 2020-06-02 в 16.09.55.png"
     ],
-    "mid": "1589902576530",
+    "mid": "1589869271710",
     "name": "Оценки_М",
     "note_models": [
         {
@@ -99,18 +133,16 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "оценки"
-            ],
+            "tags": [],
             "tmpls": [
                 {
-                    "afmt": "<br>\n{{cloze:Text}}\n<br>",
+                    "afmt": "{{cloze:Text}}\n<br> \n\n \n<script type=\"text/x-mathjax-config\"> \nMathJax.Hub.processSectionDelay = 0; \nMathJax.Hub.Config({ \nmessageStyle:\"none\", \nshowProcessingMessages:false, \ntex2jax:{ \ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \nprocessEscapes:true \n} \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \nif (window.MathJax != null) { \nvar card = document.querySelector('.card'); \nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \nreturn; \n} \nvar script = document.createElement('script'); \nscript.type = 'text/javascript'; \nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \ndocument.body.appendChild(script); \n})(); \n</script>",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
                     "name": "Cloze",
                     "ord": 0,
-                    "qfmt": "<br>\n{{cloze:Text}}\n<br>"
+                    "qfmt": "{{cloze:Text}} \n \n<script type=\"text/x-mathjax-config\"> \nMathJax.Hub.processSectionDelay = 0; \nMathJax.Hub.Config({ \nmessageStyle:\"none\", \nshowProcessingMessages:false, \ntex2jax:{ \ninlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ], \ndisplayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ], \nprocessEscapes:true \n} \n}); \n</script> \n<script type=\"text/javascript\"> \n(function() { \nif (window.MathJax != null) { \nvar card = document.querySelector('.card'); \nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]); \nreturn; \n} \nvar script = document.createElement('script'); \nscript.type = 'text/javascript'; \nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG-full'; \ndocument.body.appendChild(script); \n})(); \n</script>"
                 }
             ],
             "type": 1,
@@ -287,9 +319,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "гипотезы"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<script type=\"text/javascript\">\n(function() {\nif (window.MathJax != null) {\nvar card = document.querySelector('.card');\nMathJax.Hub.Queue(['Typeset', MathJax.Hub, card]);\nreturn;\n}\nvar script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG';\ndocument.body.appendChild(script);\n})();\n</script>",
@@ -347,6 +377,59 @@
             ],
             "type": 1,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-a7180",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "\n{{FrontSide}}\n<br> \n<hr id=answer>\n<br> \n{{Back}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<br> \n{{Front}}\n<br> "
+                }
+            ],
+            "type": 0,
+            "vers": []
         }
     ],
     "notes": [
@@ -354,7 +437,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Статистика \\(\\theta^{*}=\\theta^{*}\\left(X_{1}, \\ldots, X_{n}\\right)\\) называется {{c1::состоятельной}}&nbsp;оценкой параметра \\(\\theta\\), если для любого \\(\\theta \\in \\Theta\\) имеет место&nbsp;сходимость \\(\\theta^{*} \\stackrel{\\mathrm{p}}{\\longrightarrow} \\theta\\) при \\(n \\rightarrow \\infty\\)"
+                "Статистика \\(\\theta^{*}=\\theta^{*}\\left(X_{1}, \\ldots, X_{n}\\right)\\) называется {{c1::состоятельной}} оценкой параметра \\(\\theta\\), если для любого \\(\\theta \\in \\Theta\\) имеет место&nbsp;сходимость \\(\\theta^{*} \\stackrel{\\mathrm{p}}{\\longrightarrow} \\theta\\) при \\(n \\rightarrow \\infty\\)"
             ],
             "flags": 0,
             "guid": "MDe8YYJW<w",
@@ -497,7 +580,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Лемма: если \\(\\hat{\\theta}\\)&nbsp;несмещенная и {{c1::\\(Var(\\hat{\\theta}) \\stackrel{n \\rightarrow \\infty}{\\longrightarrow} 0 \\)}}, то \\(\\hat{\\theta}\\) состоятельна."
+                "Лемма: если \\(\\hat{\\theta}\\)&nbsp;несмещенная и {{c1::\\(Var(\\hat{\\theta})&nbsp;<span style=\"background-color: rgb(250, 250, 250);\">\\underset</span><span style=\"color: rgb(32, 0, 158); background-color: rgb(250, 250, 250);\">&nbsp;</span>{n \\to \\infty}{\\longrightarrow} 0 \\)}}, то \\(\\hat{\\theta}\\) состоятельна."
             ],
             "flags": 0,
             "guid": "K:B7%;ThB-",
@@ -510,7 +593,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Лемма: если \\(\\hat{\\theta}\\)&nbsp;несмещенная и \\(Var(\\hat{\\theta}) \\stackrel{n \\rightarrow \\infty}{\\longrightarrow} 0 \\), то \\(\\hat{\\theta}\\) {{c1::состоятельна}}."
+                "Лемма: если \\(\\hat{\\theta}\\)&nbsp;несмещенная и \\(Var(\\hat{\\theta})&nbsp;\\underset<span style=\"color: rgb(32, 0, 158);\">&nbsp;</span>{n \\to \\infty}{\\longrightarrow} 0&nbsp;&nbsp;\\), то \\(\\hat{\\theta}\\) {{c1::состоятельна}}."
             ],
             "flags": 0,
             "guid": "d_XGib8VW$",
@@ -538,8 +621,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Метод максимального правдоподобия (ММП)",
-                "\\(\\vec{X}=\\left(X_{1}, \\ldots, X_{n}\\right)\\) - выборка<div><br></div><div>1) Находим функцию правдоподобия</div><div><br></div><div>Для абсолютно непрерывного распределения:&nbsp;\\(f(\\vec{X} ; \\theta)=f_{\\theta}\\left(X_{1}\\right) \\cdot f_{\\theta}\\left(X_{2}\\right) \\cdot \\ldots \\cdot f_{\\theta}\\left(X_{n}\\right)=\\prod_{i=1}^{n} f_{\\theta}\\left(X_{i}\\right)\\)</div><div><br></div><div>Для дискретного распределения: \\(f(\\vec{x} ; \\theta)=\\prod_{i=1}^{n} f_{\\theta}\\left(x_{i}\\right)&nbsp; = \\mathrm{P}_{\\theta}\\left(X_{1}=x_{1}\\right) \\cdot \\ldots \\cdot \\mathrm{P}_{\\theta}\\left(X_{n}=x_{n}\\right) = \\mathrm{P}_{\\theta}\\left(X_{1}=x_{1}, \\ldots, X_{n}=x_{n}\\right)\\)</div><div><br></div><div>2) Находим максимум функции правдоподобия (будет совпадать с максимумом <font color=\"#800080\">логарифмической функции правдоподобия</font>)</div><div><br></div><div><font color=\"#800080\">\\(L(\\vec{X} ; \\theta)=\\ln f(\\vec{X} ; \\theta)=\\sum_{i=1}^{n} \\ln f_{\\theta}\\left(X_{i}\\right)\\)</font><br></div>"
+                "Метод максимального правдоподобия (ММП)<div>(Оценка максимального правдоподобия (ОМП))</div>",
+                "<div>Ищем значение \\(\\theta\\), при котором функция правдоподобия достигает своего макисмума</div><div><br>\\(<br>\\hat{\\theta}=\\arg \\left(\\max _{\\theta} L(\\vec{X} ; \\theta)\\right)=\\arg \\left(\\max _{\\theta} \\ln L(\\vec{X} ; \\theta)\\right)<br>\\)</div>"
             ],
             "flags": 0,
             "guid": "MzWw&nmIAA",
@@ -599,7 +682,7 @@
             "data": "",
             "fields": [
                 "Неравенство Рао-Крамера-Фреше<div><br></div><div>Формула&nbsp;<font color=\"#0000ff\">для регулярного случая</font></div>",
-                "<font color=\"#0000ff\">Для регулярного случая:</font>&nbsp;\\(E\\left(\\hat{\\theta}-\\theta\\right)^{2} \\geqslant \\frac{\\left[1+b^{\\prime}(\\theta)\\right]^{2}}{I(\\theta)}\\) или&nbsp;<div>\\(D(\\hat{\\theta}) \\geqslant \\frac{\\left[1+b^{\\prime}(\\theta)\\right]^{2}}{I(\\theta)}\\)</div>"
+                "<div>Если \\(\\hat{\\theta}=T\\left(X_{1}, \\ldots, X_{n}\\right)\\) оценка со смещением \\(b(\\theta)=E(\\hat{\\theta})-\\theta\\) и функция \\(b(\\theta)\\) дифференцируема, то</div><div><br></div><div>\\(<br>D(\\hat{\\theta}) \\geq \\frac{\\left(1+b^{\\prime}(\\theta)\\right)^{2}}{I(\\theta)}\\) или \\(\\quad E(\\hat{\\theta}-\\theta)^{2} \\geq \\frac{\\left(1+b^{\\prime}(\\theta)\\right)^{2}}{I(\\theta)}+b^{2}(\\theta)<br>\\)<br></div>"
             ],
             "flags": 0,
             "guid": "z0;#o0-ru7",
@@ -621,6 +704,327 @@
             "tags": [
                 "оценки"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>\\(\\vec{X}=\\left(X_{1}, \\ldots, X_{n}\\right)\\) - выборка<br></div><div><br></div>Функция правдоподобия<div><br><div><div><div>для абсолютно непрерывного распределения:&nbsp;{{c1::\\(f(\\vec{X} ; \\theta)=f_{\\theta}\\left(X_{1}\\right) \\cdot f_{\\theta}\\left(X_{2}\\right) \\cdot \\ldots \\cdot f_{\\theta}\\left(X_{n}\\right)=\\prod_{i=1}^{n} f_{\\theta}\\left(X_{i}\\right)\\)}}</div><div><br></div><div>для дискретного распределения: {{c2::\\(f(\\vec{x} ; \\theta)=\\prod_{i=1}^{n} f_{\\theta}\\left(x_{i}\\right)&nbsp; = \\mathrm{P}_{\\theta}\\left(X_{1}=x_{1}\\right) \\cdot \\ldots \\cdot \\mathrm{P}_{\\theta}\\left(X_{n}=x_{n}\\right) = \\mathrm{P}_{\\theta}\\left(X_{1}=x_{1}, \\ldots, X_{n}=x_{n}\\right)\\)}}</div></div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "NIY1p;HYp]",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Логарифмическая функция правдоподобия</div>",
+                "<div>\\(L(\\vec{X} ; \\theta)=\\ln f(\\vec{X} ; \\theta)=\\sum_{i=1}^{n} \\ln f_{\\theta}\\left(X_{i}\\right)\\)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "r_:3]88ZF|",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>\n<div>Свойства оценки максимального правдоподобия (ОМП)</div><div><br></div><div>1) {{c1::Если эффективная оценка параметра \\(\\theta\\) существует, то она\nсовпадает с ОМП}}</div><div><br></div>\n</div>\n</div>\n</div></div>2. {{c2::Ecли \\(g(\\theta)\\) - взаимно-однозначная функция, то ОМП \\(g(\\theta)\\) совпадает с \\(g(\\hat{\\theta}): \\hat{g}(\\theta)=g(\\hat{\\theta})\\) (свойство инвариантности)}}"
+            ],
+            "flags": 0,
+            "guid": "By{W`j)##)",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6bc8e24c72a449518a540dbab6cb5e9a-oa-1",
+                "Асимптотические свойства ОМП",
+                "<img src=\"Снимок экрана 2020-06-02 в 14.19.38.png\" />",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-1-A.svg\" />",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "hNoP:9:nG@",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6bc8e24c72a449518a540dbab6cb5e9a-oa-2",
+                "Асимптотические свойства ОМП",
+                "<img src=\"Снимок экрана 2020-06-02 в 14.19.38.png\" />",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-2-A.svg\" />",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "BNiKc9}<@8",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6bc8e24c72a449518a540dbab6cb5e9a-oa-3",
+                "Асимптотические свойства ОМП",
+                "<img src=\"Снимок экрана 2020-06-02 в 14.19.38.png\" />",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-3-A.svg\" />",
+                "<img src=\"6bc8e24c72a449518a540dbab6cb5e9a-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "P|^Ez^Yh%.",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "\n<div>\n<div>\n<div>\n<div>Критерий эффективности (критерий Рао-Крамера)</div>\n</div>\n</div>\n</div>",
+                "\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Если в классе \\(K_{b}\\)<span style=\"font-style: italic;\">&nbsp;</span>оценок со смещением \\(b(\\theta)\\)&nbsp;существует оценка,\nдля которой нижняя граница неравенства Рао-Крамера достигается,\nто она является эффективной в данном классе.</div><div><br></div><div>\\(D(\\hat{\\theta})=\\frac{\\left[1+b^{\\prime}(\\theta)\\right]^{2}}{I(\\theta)} \\quad&nbsp; \\Rightarrow&nbsp;\\quad E(\\hat{\\theta}-\\theta)^{2} \\leq E(\\tilde{\\theta}-\\theta)^{2}\\),&nbsp;</div><div>\\(\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\forall \\tilde{\\theta}: E(\\tilde{\\theta})-\\theta=b(\\theta), \\quad \\forall \\theta\\)</div>\n</div>\n</div>\n</div></div>\n</div>\n</div>\n</div>"
+            ],
+            "flags": 0,
+            "guid": "caa!#wxq,y",
+            "note_model_uuid": "6012474c-3bcc-11ea-8774-f9a7690c507d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Дельта метод",
+                "<div>Пусть оценка \\(\\hat{\\theta}=T\\left(X_{1}, \\ldots, X_{n}\\right)\\)&nbsp;параметра \\(\\theta\\) состоятельна и асимптотически нормальна, то есть&nbsp;<br></div><div><div><br></div><div>\\(\\hat{\\theta} \\stackrel{P}{\\longrightarrow} \\theta, \\quad \\sqrt{n}(\\hat{\\theta}-\\theta) \\stackrel{F}{\\longrightarrow} N\\left(0, \\sigma^{2}(\\theta)\\right) \\forall \\theta\\)&nbsp; &nbsp;при&nbsp; \\(n \\rightarrow \\infty\\)<br></div><div><br></div><div><div><div><div>Пусть, далее, функция&nbsp;<span style=\"font-style: italic;\">g&nbsp;</span>дифференцируема и \\(g^{\\prime} \\neq 0\\). Тогда \\(g(\\hat{\\theta})\\)&nbsp;&nbsp;−состоятельная и асимптотически нормальная оценка:&nbsp;</div></div></div><div><br></div><div>\\(g(\\hat{\\theta}) \\stackrel{P}{\\longrightarrow} g(\\theta)\\),&nbsp;</div><div>\\(\\sqrt{n}(g(\\hat{\\theta})-g(\\theta)) \\stackrel{F}{\\longrightarrow} N\\left(0,\\left(g^{\\prime}(\\theta)\\right)^{2} \\sigma^{2}(\\theta)\\right)\\)</div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "ECF|GlB/sc",
+            "note_model_uuid": "93ddbdbf-99de-11ea-8a75-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В дельта методе, если&nbsp;\\(\\sigma^{2}(\\theta), g^{\\prime}(\\theta)-\\) непрерывны, то<div><br>\\(\\frac{g(\\hat{\\theta})-g(\\theta)}{g^{\\prime}(\\theta) \\sigma(\\theta) / \\sqrt{n}} \\stackrel{F}{\\longrightarrow}&nbsp;{{c1::N(0,1)}}\\),&nbsp; при \\(n \\rightarrow \\infty\\)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "k8`Y]oLd|*",
+            "note_model_uuid": "91b87d3c-99cf-11ea-a1ba-54e1add023fb",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "83fb0e61203a44b499c00dc2b833257f-oa-1",
+                "",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.02.19.png\" />",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-1-A.svg\" />",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "gl%^$g^^3P",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "83fb0e61203a44b499c00dc2b833257f-oa-2",
+                "",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.02.19.png\" />",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-2-A.svg\" />",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "CK-.e).>(`",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "83fb0e61203a44b499c00dc2b833257f-oa-3",
+                "",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.02.19.png\" />",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-3-A.svg\" />",
+                "<img src=\"83fb0e61203a44b499c00dc2b833257f-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "Eg+bmeiKYC",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ab932c45ac6a415a8a4c2cdef9a18c08-oa-1",
+                "<div>\n<div>\n<div>\n<div>\n<div>Асимптотические свойства оценок&nbsp;</div>\n</div>\n</div>\n</div></div>",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.08.50.png\" />",
+                "<img src=\"ab932c45ac6a415a8a4c2cdef9a18c08-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"ab932c45ac6a415a8a4c2cdef9a18c08-oa-1-A.svg\" />",
+                "<img src=\"ab932c45ac6a415a8a4c2cdef9a18c08-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "L7g04PE,os",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ab932c45ac6a415a8a4c2cdef9a18c08-oa-2",
+                "<div>\n<div>\n<div>\n<div>\n<div>Асимптотические свойства оценок&nbsp;</div>\n</div>\n</div>\n</div></div>",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.08.50.png\" />",
+                "<img src=\"ab932c45ac6a415a8a4c2cdef9a18c08-oa-2-Q.svg\">",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"ab932c45ac6a415a8a4c2cdef9a18c08-oa-2-A.svg\" />",
+                "<img src=\"ab932c45ac6a415a8a4c2cdef9a18c08-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "KzEe0&{SHK",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "baa231856e3048d19844479e4683e93a-oa-1",
+                "Асимптотические свойства оценок&nbsp;",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.09.14.png\" />",
+                "<img src=\"baa231856e3048d19844479e4683e93a-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"baa231856e3048d19844479e4683e93a-oa-1-A.svg\" />",
+                "<img src=\"baa231856e3048d19844479e4683e93a-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "z/6mG;jYm*",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "baa231856e3048d19844479e4683e93a-oa-2",
+                "Асимптотические свойства оценок&nbsp;",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.09.14.png\" />",
+                "<img src=\"baa231856e3048d19844479e4683e93a-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"baa231856e3048d19844479e4683e93a-oa-2-A.svg\" />",
+                "<img src=\"baa231856e3048d19844479e4683e93a-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "fT2Z:!<T`c",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-1",
+                "Асимптотические свойства оценок&nbsp;",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.09.55.png\" />",
+                "<img src=\"4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-1-A.svg\" />",
+                "<img src=\"4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "lWns9V][:=",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-2",
+                "Асимптотические свойства оценок&nbsp;",
+                "<img src=\"Снимок экрана 2020-06-02 в 16.09.55.png\" />",
+                "<img src=\"4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-2-A.svg\" />",
+                "<img src=\"4aeb6b8eaf3241c6a1fe6f66513feeb2-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "F*Hq5)>nDr",
+            "note_model_uuid": "4b38d7d8-a3f5-11ea-8fce-6030d4704a9e",
+            "tags": []
         }
     ]
 }
