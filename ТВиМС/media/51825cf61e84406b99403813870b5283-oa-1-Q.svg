@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="705" height="366">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <g id="51825cf61e84406b99403813870b5283-oa-1" class="qshape">
+   <rect height="25" width="161.66667" y="60.94443" x="428.88889" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" y="79.27776" x="511.38889" stroke-width="0" fill="#000000">какими?</text>
+   <rect height="16.66667" width="19.16667" y="113.44443" x="173.05556" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect stroke="#2D2D2D" height="29.16667" width="45.83333" y="115.94443" x="205.55556" fill="#FF7E7E" class="qshape"/>
+   <rect height="16.66667" width="17.5" y="113.44443" x="356.38889" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="31.66667" width="45.83333" y="114.27776" x="388.05556" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="29.16667" width="21.66667" y="115.94443" x="455.55556" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="26.66667" width="22.5" y="117.6111" x="273.05556" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+  
+  
+  
+ </g>
+</svg>

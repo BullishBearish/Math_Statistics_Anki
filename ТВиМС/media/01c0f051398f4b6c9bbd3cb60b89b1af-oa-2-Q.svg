@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="686.9999999999999" height="236.99999999999997">
+ <!-- Created with Image Occlusion Enhanced -->
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  
+  <g id="01c0f051398f4b6c9bbd3cb60b89b1af-oa-2" class="qshape">
+   <rect height="21.95122" width="115.85366" y="4.05692" x="519.91052" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="21.95122" width="196.34147" y="26.61789" x="79.05686" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="15.85366" width="153.04878" y="31.49594" x="510.76418" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <rect height="17.68293" width="36.58537" y="54.05692" x="0.39832" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+   <text xml:space="preserve" text-anchor="middle" font-family="'Arial', 'Helvetica LT Std', Arial, sans-serif" font-size="24" y="45.52033" x="586.9837" stroke-width="0" fill="#000000">чего?</text>
+   <rect height="21.34146" width="199.39025" y="54.05692" x="162.59344" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  </g>
+  
+  
+ </g>
+</svg>
